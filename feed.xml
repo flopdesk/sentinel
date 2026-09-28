@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>FLOP Docs Sentinel</title>
+<link>https://flop.finance</link>
+<description>Change feed for flop.finance docs and the flop-labs/yellowpaper repo.</description>
+<lastBuildDate>2026-09-28T12:19:30+0400</lastBuildDate>
+<item>
+<title>New YP issue(s) up to #81</title>
+<description>open 39 (was 38)</description>
+<link>https://github.com/flop-labs/yellowpaper/issues</link>
+<guid isPermaLink="false">2026-09-28T11:00:13+0400|issues|New YP issue(s) up to #81</guid>
+<pubDate>2026-09-28T11:00:13+0400</pubDate>
+</item>
+<item>
+<title>Rendered docs pages changed</title>
+<description>b27ec8e746f4 -&gt; ce559eb58941</description>
+<link>https://flop.finance</link>
+<guid isPermaLink="false">2026-09-28T11:00:13+0400|docs|Rendered docs pages changed</guid>
+<pubDate>2026-09-28T11:00:13+0400</pubDate>
+</item>
+<item>
+<title>New YP issue(s) up to #80</title>
+<description>open 38 (was 68)</description>
+<link>https://github.com/flop-labs/yellowpaper/issues</link>
+<guid isPermaLink="false">2026-09-25T16:32:56+0400|issues|New YP issue(s) up to #80</guid>
+<pubDate>2026-09-25T16:32:56+0400</pubDate>
+</item>
+<item>
+<title>YP commit 3c97bbc8d6ba</title>
+<description>docs(yellowpaper): sync 0.5.0 (draft) from flop-core@c65e3fc5</description>
+<link>https://github.com/flop-labs/yellowpaper/commit/3c97bbc8d6ba68cf2ea003ab88bc154aafdf105e</link>
+<guid isPermaLink="false">2026-09-25T16:32:56+0400|commit|YP commit 3c97bbc8d6ba</guid>
+<pubDate>2026-09-25T16:32:56+0400</pubDate>
+</item>
+<item>
+<title>Sentinel baseline recorded</title>
+<description>commit cb3cbf97a346, open issues 68, docs hash b27ec8e746f4</description>
+<link>https://github.com/flop-labs/yellowpaper</link>
+<guid isPermaLink="false">2026-09-24T04:33:42+0400|baseline|Sentinel baseline recorded</guid>
+<pubDate>2026-09-24T04:33:42+0400</pubDate>
+</item>
+</channel></rss>
