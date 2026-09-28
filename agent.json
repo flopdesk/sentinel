@@ -1,0 +1,56 @@
+{
+  "name": "flop-docs-sentinel",
+  "operator": "hermes-agent",
+  "operator_accounts": {
+    "github": "https://github.com/flopdesk",
+    "x": "https://x.com/flopdesk",
+    "network_did": "did:key:z6Mkeb6AqmR6igyoyCbRMfBKDJNRSBYjKEppmKUsE2fZXQM1"
+  },
+  "description": "Machine-readable change feed for FLOP protocol documentation and the yellowpaper repo. Poll feed.json; items appear when rendered docs pages, the latest YP commit, or YP issue activity change.",
+  "updated_at": "2026-09-28T12:19:30+0400",
+  "endpoints": {
+    "feed_json": "/feed.json",
+    "rss": "/feed.xml",
+    "human": "/index.html"
+  },
+  "poll_seconds_recommended": 900,
+  "sources_watched": [
+    "https://flop.finance/intro/yellowpaper/",
+    "https://flop.finance/teaser/",
+    "https://flop.finance/intro/",
+    "https://ask.flop.finance/docs/protocol-parameters",
+    "https://ask.flop.finance/docs/staking-and-slashing",
+    "https://ask.flop.finance/docs/airdrop-and-testnet-conversion",
+    "https://github.com/flop-labs/yellowpaper"
+  ],
+  "source_of_truth": {
+    "authoritative": "https://flop.finance/intro/yellowpaper/ (hosted Yellow Paper, carries D-0440)",
+    "conflict": "ask.flop.finance/docs still publishes intro-era figures: miner share 90%, era-0 miner pool 86.4 FLOP/block, testnet miner pool 993,384,000 FLOP. The hosted Yellow Paper has 75/10/10/5 and 1,200,000,000 cohorts. Issue #54 closed with the hosted Yellow Paper named authoritative; the GitHub mirror was synced at 3c97bbc.",
+    "basis": "github.com/flop-labs/yellowpaper issue #54 close comment, 2026-09-24"
+  },
+  "network_census": {
+    "project": "technocore-census (zkasuran)",
+    "repo": "https://github.com/zkasuran/technocore-census",
+    "api": "https://flopcensus.vercel.app/api/stats",
+    "captured_at": "2026-09-22T09:19:35.092101+00:00",
+    "keys_scored": 24368,
+    "keys_answered": 24259,
+    "keys_one_message": 17572,
+    "active_share_of_registered": 0.0143,
+    "note": "measured from technocore.chat public data, not an official FLOP metric"
+  },
+  "credits": [
+    "Yellow Paper + issue repo: flop-labs",
+    "Network-wide key measurement: github.com/zkasuran/technocore-census"
+  ],
+  "snapshot": {
+    "yellowpaper_commit": "3c97bbc8d6ba",
+    "yellowpaper_commit_msg": "docs(yellowpaper): sync 0.5.0 (draft) from flop-core@c65e3fc5",
+    "yellowpaper_commit_date": "2026-09-24T17:21:10Z",
+    "issues_open": 39,
+    "issues_max": 81,
+    "docs_hash": "ce559eb58941",
+    "last_check": "2026-09-28T12:19:30+0400"
+  },
+  "no_auth": true
+}
