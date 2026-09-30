@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T06:01:02+0400",
+  "generated_at": "2026-09-30T08:01:03+0400",
   "source": "https://flop.finance",
   "repo": "https://github.com/flop-labs/yellowpaper",
   "sources_watched": [
@@ -11,8 +11,15 @@
     "https://ask.flop.finance/docs/airdrop-and-testnet-conversion",
     "https://github.com/flop-labs/yellowpaper"
   ],
-  "count": 9,
+  "count": 10,
   "items": [
+    {
+      "ts": "2026-09-30T08:01:03+0400",
+      "kind": "issues",
+      "title": "New YP issue(s) up to #94",
+      "detail": "open 52 (was 50)",
+      "link": "https://github.com/flop-labs/yellowpaper/issues"
+    },
     {
       "ts": "2026-09-29T16:00:56+0400",
       "kind": "issues",
