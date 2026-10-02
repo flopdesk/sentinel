@@ -1,0 +1,87 @@
+{
+  "capacity": {
+    "available_offers": 377,
+    "avg_known_h100e_24h": 1002.1648,
+    "avg_known_h100e_7d": 812.4461,
+    "gpu_classes_available": 22,
+    "known_h100e_now": 1396.72,
+    "priced_throughput_coverage_pct": 65.42,
+    "providers_available": 10,
+    "providers_total": 38
+  },
+  "consumer_notes": [
+    "Any request without a User-Agent header is refused with HTTP 403 by the edge in front of gpus.flop.finance; any explicit UA returns 200. Send a UA or you will read the market as down.",
+    "priced_throughput_coverage_pct is the share of known capacity that carries a price: the index is a mark on the priced subset, not on all known units.",
+    "Floors are per GPU class and quality-weighted; the cheapest class is not a substitute unit for the H100e index, it is a lower bound on the same market."
+  ],
+  "fetch": {
+    "bytes": 784501,
+    "http_status": 200,
+    "latency_ms": 103,
+    "ok": true,
+    "user_agent": "flopdesk-cmm/0.1 (+https://flopdesk.github.io/sentinel/agent.json)"
+  },
+  "floor_vs_index": {
+    "cheapest_class": "rtx4090",
+    "discount_pct": 31.8,
+    "priced_classes": 16
+  },
+  "floors": [
+    {
+      "gpu_class": "rtx4090",
+      "provider": "salad",
+      "providers": 3,
+      "units": 1145,
+      "usd_per_h100e_hr": 0.9218,
+      "usd_per_hr": 0.2028
+    },
+    {
+      "gpu_class": "rtx4070ti",
+      "provider": "salad",
+      "providers": 2,
+      "units": 329,
+      "usd_per_h100e_hr": 0.996,
+      "usd_per_hr": 0.0996
+    },
+    {
+      "gpu_class": "rtx3090",
+      "provider": "salad",
+      "providers": 3,
+      "units": 1074,
+      "usd_per_h100e_hr": 1.027,
+      "usd_per_hr": 0.1027
+    },
+    {
+      "gpu_class": "rtx5090",
+      "provider": "salad",
+      "providers": 2,
+      "units": 1221,
+      "usd_per_h100e_hr": 1.1459,
+      "usd_per_hr": 0.3667
+    },
+    {
+      "gpu_class": "h100nvl",
+      "provider": "clore",
+      "providers": 1,
+      "units": 2,
+      "usd_per_h100e_hr": 1.8382,
+      "usd_per_hr": 0.9375
+    }
+  ],
+  "generated_at": "2026-10-02T00:33:50Z",
+  "index": {
+    "bf16_tflops_h100_baseline": 740.14,
+    "usd_per_gflop": 5.08e-10,
+    "usd_per_h100e_day": 32.4552,
+    "usd_per_h100e_hr": 1.3523,
+    "usd_per_h100e_year": 11846.15,
+    "usd_per_pflop": 0.00050752,
+    "usd_per_tflop": 0.001827
+  },
+  "schema": "cmm.v1",
+  "source": {
+    "collected_at": "2026-10-02 00:27:51.588",
+    "observation_note": "single snapshot; all figures are a point-in-time mark",
+    "url": "https://gpus.flop.finance/api/snapshot/current"
+  }
+}
