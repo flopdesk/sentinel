@@ -11,18 +11,18 @@ td,th{border-bottom:1px solid #eee;padding:8px 6px;text-align:left;font-size:14p
 code{background:#f5f5f5;padding:1px 5px;border-radius:4px}
 </style></head><body>
 <h1>Compute Market Monitor</h1>
-<div class="sub">FLOP GPU rents, marked from one live snapshot. Generated 2026-10-02T00:33:50Z.
-Source collected_at 2026-10-02 00:27:51.588.</div>
-<div class="k"><span>Blended index</span><b>$1.3523 / H100e-hour</b></div>
-<div class="k"><span>Per day</span><b>$32.4552</b></div>
-<div class="k"><span>Per year, continuous</span><b>$11846.15</b></div>
-<div class="k"><span>Derived cost</span><b>$0.001827 / TFLOP (bf16, 740.14 TFLOPS baseline)</b></div>
-<div class="k"><span>Known H100e now</span><b>1396.72</b></div>
+<div class="sub">FLOP GPU rents, marked from one live snapshot. Generated 2026-10-02T12:31:14Z.
+Source collected_at 2026-10-02 12:22:51.627.</div>
+<div class="k"><span>Blended index</span><b>$1.2851 / H100e-hour</b></div>
+<div class="k"><span>Per day</span><b>$30.8424</b></div>
+<div class="k"><span>Per year, continuous</span><b>$11257.48</b></div>
+<div class="k"><span>Derived cost</span><b>$0.001736 / TFLOP (bf16, 740.14 TFLOPS baseline)</b></div>
+<div class="k"><span>Known H100e now</span><b>1385.44</b></div>
 <div class="k"><span>Providers available</span><b>10 / 38</b></div>
-<div class="k"><span>Priced coverage</span><b>65.42%</b></div>
-<div class="k"><span>Cheapest class vs index</span><b>rtx4090 at -31.8%</b></div>
+<div class="k"><span>Priced coverage</span><b>63.35%</b></div>
+<div class="k"><span>Cheapest class vs index</span><b>rtx4090 at -31.0%</b></div>
 <h2 style="font-size:17px;margin-top:30px">Price floors by class</h2>
-<table><tr><th>class</th><th>provider</th><th>$/H100e-hr</th><th>priced units</th></tr><tr><td>rtx4090</td><td>salad</td><td>0.9218</td><td>1145</td></tr><tr><td>rtx4070ti</td><td>salad</td><td>0.9960</td><td>329</td></tr><tr><td>rtx3090</td><td>salad</td><td>1.0270</td><td>1074</td></tr><tr><td>rtx5090</td><td>salad</td><td>1.1459</td><td>1221</td></tr><tr><td>h100nvl</td><td>clore</td><td>1.8382</td><td>2</td></tr></table>
+<table><tr><th>class</th><th>provider</th><th>$/H100e-hr</th><th>priced units</th></tr><tr><td>rtx4090</td><td>salad</td><td>0.8873</td><td>1152</td></tr><tr><td>rtx4070ti</td><td>salad</td><td>0.9890</td><td>323</td></tr><tr><td>rtx3090</td><td>salad</td><td>1.0280</td><td>1064</td></tr><tr><td>rtx5090</td><td>salad</td><td>1.0897</td><td>1183</td></tr><tr><td>h100nvl</td><td>clore</td><td>1.9429</td><td>4</td></tr></table>
 <h2 style="font-size:17px;margin-top:30px">Consumer notes</h2>
 <ul><li>Any request without a User-Agent header is refused with HTTP 403 by the edge in front of gpus.flop.finance; any explicit UA returns 200. Send a UA or you will read the market as down.</li><li>priced_throughput_coverage_pct is the share of known capacity that carries a price: the index is a mark on the priced subset, not on all known units.</li><li>Floors are per GPU class and quality-weighted; the cheapest class is not a substitute unit for the H100e index, it is a lower bound on the same market.</li></ul>
 <p style="font-size:13px;color:#666">Machine-readable form: <code>cm.json</code>. Built and signed by
