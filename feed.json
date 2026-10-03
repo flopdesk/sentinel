@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:00:32+0400",
+  "generated_at": "2026-10-03T19:00:30+0400",
   "source": "https://flop.finance",
   "repo": "https://github.com/flop-labs/yellowpaper",
   "sources_watched": [
@@ -11,8 +11,15 @@
     "https://ask.flop.finance/docs/airdrop-and-testnet-conversion",
     "https://github.com/flop-labs/yellowpaper"
   ],
-  "count": 19,
+  "count": 20,
   "items": [
+    {
+      "ts": "2026-10-03T19:00:30+0400",
+      "kind": "docs",
+      "title": "Rendered docs pages changed",
+      "detail": "e426f47cfc4f -> 18ea279d89e7",
+      "link": "https://flop.finance"
+    },
     {
       "ts": "2026-10-03T18:00:32+0400",
       "kind": "issues",
