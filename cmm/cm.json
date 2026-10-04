@@ -2,8 +2,8 @@
   "benchmarked_classes": 20,
   "capacity": {
     "available_offers": 392,
-    "avg_known_h100e_24h": 961.6279,
-    "avg_known_h100e_7d": 881.8413,
+    "avg_known_h100e_24h": 960.95,
+    "avg_known_h100e_7d": 895.3862,
     "gpu_classes_available": 20,
     "known_h100e_now": 1163.55,
     "priced_throughput_coverage_pct": 77.12,
@@ -324,9 +324,9 @@
     "Session quotes are point-in-time marks multiplied by duration. They are not forward prices and carry no availability guarantee."
   ],
   "fetch": {
-    "bytes": 784784,
+    "bytes": 785160,
     "http_status": 200,
-    "latency_ms": 131,
+    "latency_ms": 102,
     "ok": true,
     "user_agent": "flopdesk-cmm/0.1 (+https://flopdesk.github.io/sentinel/agent.json)"
   },
@@ -377,7 +377,7 @@
       "usd_per_hr": 0.9897
     }
   ],
-  "generated_at": "2026-10-04T00:33:12Z",
+  "generated_at": "2026-10-04T12:31:50Z",
   "index": {
     "bf16_tflops_h100_baseline": 740.14,
     "usd_per_gflop": 4.86e-10,
