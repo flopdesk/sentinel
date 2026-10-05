@@ -1,0 +1,59 @@
+{
+ "source": "NCEI/WDS Global Tsunami Deposits Database via NOAA HaZEL API",
+ "source_url": "https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/tsunamis/deposits",
+ "fetched_rows": 1398,
+ "features": 1229,
+ "dropped": 169,
+ "bbox_wsen": [
+  -178.12,
+  -74.09,
+  178.3,
+  74.0
+ ],
+ "year_min": -5600,
+ "year_max": 7000,
+ "top_events": [
+  [
+   "2004 Indian Ocean Earthquake & Tsunami",
+   118
+  ],
+  [
+   "K/T Boundary Impact",
+   67
+  ],
+  [
+   "Storm versus tsunami",
+   50
+  ],
+  [
+   "Tsunami deposits",
+   46
+  ],
+  [
+   "Cascadia Earthquake",
+   44
+  ]
+ ],
+ "top_countries": [
+  [
+   "USA",
+   221
+  ],
+  [
+   "JAPAN",
+   121
+  ],
+  [
+   "INDONESIA",
+   58
+  ],
+  [
+   "INDIA",
+   54
+  ],
+  [
+   "AUSTRALIA",
+   47
+  ]
+ ]
+}
