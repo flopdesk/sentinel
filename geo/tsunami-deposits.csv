@@ -1,0 +1,1230 @@
+id,event,yearBegin,locationName,country,latitude,longitude
+1,2004 Indian Ocean Earthquake & Tsunami,2004,"Nam Khem and Khao Lak, W. Thailand",THAILAND,8.8,98.25
+2,Storm versus tsunami,,"Ionian coast, southeast Sicily between Augusta and Siracusa",ITALY,37.25,15.25
+3,1667 and 1743 Earthquake Tsunami,1667,"SE Salento (Apulia region, Italy)",ITALY,40.0,17.0
+4,Hawaii uplift,,"Kaena Point, Oahu, Hawaii",USA,21.6,-16.3
+5,K/T Boundary Impact,,Mexico (northeast),MEXICO,22.0,-98.5
+6,K/T Boundary Impact,,"South Dakota, USA",USA,43.0,-100.0
+7,K/T Boundary Impact,,ODP Hole 1049C,USA,30.0,-76.0
+8,K/T Boundary Impact,,"El Tecolote, NE Mexico",MEXICO,25.0,-100.0
+10,K/T Boundary Impact,,"Brazos River, Texas, USA",USA,32.0,-97.0
+11,K/T Boundary Impact,,"Gulf of Mexico,ODP 537,538",MEXICO,23.8,-85.4
+12,K/T Boundary Impact,,Gulf of Mexico,MEXICO,20.0,-73.0
+13,Bosumtwi Impact Structure,,Ghana,GHANA,6.5,-1.0
+14,1883 Krakatau Eruption,1883,"Krakatau, Indonesia",INDONESIA,-6.0,105.25
+15,1853 Christmas Eve Earthquake,1853,"Tongatapu Island (northwest), Tonga",TONGA,-20.0,-176.0
+16,K/T Boundary Impact,,"South Dakota, USA",USA,43.0,-100.0
+17,Megatsunami,,"Lanai (south flank), Hawaii",USA,20.8,-157.0
+18,K/T Boundary Impact,,Mexico (northeast),MEXICO,22.0,-95.0
+19,K/T Boundary Impact,,"Brazos River, Texas, USA",USA,31.25,-97.0
+20,Landslide tsunami,,"Basta Voe, Isle of Yell, Shetland Islands, England",UK,60.5,-1.2
+21,Boulders,1996,"Aorangi Island, Poor Knights Islands, north New Zealand",NEW ZEALAND,-35.5,174.8
+22,Earthquake and tsunami,,Iberia (southwest),PORTUGAL,38.0,-9.5
+23,Turbidites,,"Agadir Basin, Gulf of Cadiz southeast Spain, northwest African Margin",SPAIN,36.5,-7.0
+24,Trapped sediments in harbor,,"Alexandria's Eastern Harbor, Egypt",EGYPT,31.5,30.0
+25,2004 Indian Ocean Earthquake & Tsunami,2004,"Simelue Island, Medan coast West Sumatra",INDONESIA,2.5,96.0
+26,Island uplift versus megatsunami,,Canary Islands,SPAIN,28.0,-16.0
+27,Hokkaido recurrence rate,,"Akkeshi estuary, E. Hokkaido",JAPAN,43.0,144.8
+28,Kuril Subduction Zone,,"Onnetoh, SE Hokkaido, N. Japan",JAPAN,43.25,145.5
+29,K/T Boundary Impact,,Gulf of Mexico,MEXICO,22.0,-85.0
+31,Storm versus tsunami,,"Kachchh coast, Gujarat Province, northwest India",INDIA,21.0,-70.0
+32,Tempestite (storm waves) previously interpreted as seismites,,"Betic Cordillera, SE Spain",SPAIN,37.0,1.0
+33,K/T Boundary Impact,,"DSDP sites 386 and 387, Bermuda Rise",USA,31.0,-64.0
+35,2001 Peru Earthquake & Tsunami,2001,Peru (south),PERU,-16.0,-73.5
+36,Chicxulub Impact,,K/T Boundary,UNKNOWN,-3.0,40.0
+37,Bolide Impact tsunami,,Bering Sea,RUSSIA,56.0,163.0
+38,K/T Boundary Impact,,Mexico (northeast),MEXICO,22.0,-98.3
+39,2004 Indian Ocean Earthquake & Tsunami,2004,"Kollam, Alleppey, Ernakulam (southwest coast)",INDIA,9.0,76.0
+40,Shift from coral to sand,,"S.  Upolu Island, Samoa",SAMOA,-14.0,-170.0
+41,1908 Messina Earthquake & Tsunami,1908,"Messina Strait, South Italy",ITALY,38.0,15.0
+42,Tsunami deposits,,"Kynos, Gulf Euboea, Central Greece",GREECE,39.0,24.0
+43,Tsunami deposits,,"Washington, USA",USA,46.0,-124.0
+46,15th Century eruption of Mt Healy caldera,1343,"Henderson Bay, New Zealand",NEW ZEALAND,-37.0,175.7
+47,1826 South Westland Tsunami,1826,"Milford Sound, New Zealand",NEW ZEALAND,-44.6,168.0
+48,Coral/Boulder Conglomerate 110  <u>+</U>10 ka,,"Kohala, Hawaii",USA,20.1,-157.7
+50,K/T Boundary Impact,,Yaxcopoil-1 borehole,MEXICO,20.2,-89.0
+51,1998 Papua New Guinea Earthquake & Tsunami,1998,"Sissano Lagoon, Aitape, Papua New Guinea",PAPUA NEW GUINEA,-3.0,140.5
+52,1999 Fatu Hiva Landslide & Tsunami,1999,Marquesas Islands,FRENCH POLYNESIA,-10.0,-140.0
+53,2002 Stromboli Eruption & Tsunami,2002,Italy,ITALY,38.0,15.0
+54,2002 Stromboli Eruption & Tsunami,2002,"North of Sicily, Italy",ITALY,38.0,15.0
+55,1998 Papua New Guinea Earthquake & Tsunami,1998,"Sissano Lagoon, Aitape, Papua New Guinea",PAPUA NEW GUINEA,-3.0,140.5
+56,2004 Indian Ocean Earthquake & Tsunami,2004,Madagascar,MADAGASCAR,-19.0,48.0
+57,1923 & 1703 Earthquake and Tsunami Events,1703,"Boso Peninsula, Japan",JAPAN,35.0,140.0
+59,Submarine landslide,,"Southern California margin, USA",USA,33.2,-117.0
+61,Inundation Limits,1600,Hokkaido (east),JAPAN,44.0,145.0
+62,Emergence events,,Hokkaido (east),JAPAN,44.0,145.0
+63,Tsunami markers,,"Guerrero coast, Mexico",MEXICO,17.0,-101.0
+64,1960 Chile Earthquake & Tsunami,1960,Chile (south-central),CHILE,-35.0,-74.0
+65,Coseismic uplift/subsidence,,"Washington, USA (north)",USA,46.0,-124.0
+67,1755 Lisbon Earthquake & Tsunami,1755,"Martinal, southwest Portugal",PORTUGAL,37.5,-8.5
+68,1992 Nicaragua Earthquake & Tsunami,1992,Playa de Popoyo,NICARAGUA,11.4,-86.0
+72,K/T Boundary Impact,,"La Popa Basin, Mexico",MEXICO,26.0,-100.75
+75,Cascadia Earthquake,1700,"Oregon and Washington, USA",USA,43.0,-124.0
+77,Earthquake or impact,,"Purbeckian Facies, France",FRANCE,50.75,1.5
+78,Lanai conglomerates,,"Lanai, Hawaii",USA,20.7,-157.0
+79,2002 Stromboli Eruption & Tsunami,2002,Italy,ITALY,38.0,15.0
+80,15th Century eruption of Mt Healy caldera,1343,"Great Barrier Island, New Zealand",NEW ZEALAND,-36.2,175.5
+81,Gravel Beach Ridge,,Tierra del Fuego,ARGENTINA,-54.0,-68.0
+82,Storm versus tsunami,,"Beecroft Peninsula (Jervis Bay), Australia",AUSTRALIA,-35.0,150.5
+83,Tsunami backflows,,"Chilean coast, Maullin estuary",CHILE,-41.6,-73.5
+86,Uplift,,Mauritania & Senegal,SENEGAL,15.0,-17.5
+87,Transgressive Regressive Sequences,,East and North Timor,INDONESIA,-8.0,127.0
+88,Subsidence,,Bahamas,BAHAMAS,24.0,-74.5
+90,"Transgressive, Non Tsunami",,"North Eleuthera Island, Bahamas",BAHAMAS,24.0,-74.5
+91,Subsidence,,"Huon Peninsula, Papua New Guinea",PAPUA NEW GUINEA,-7.0,147.0
+92,1995 Antofagasta Earthquake,1995,Chile (north),CHILE,-23.0,-70.0
+93,Shoreline change,,"Kihei coast, Maui, Hawaii",USA,20.75,-156.4
+94,Seismites,,"Bihar, India",INDIA,22.5,86.3
+95,1914 Sakurajima Eruption,1914,"Kagoshima, Japan",JAPAN,31.5,130.7
+96,1930 Stromboli Eruption & Tsunami,1930,"Stromboli Volcano, Italy",ITALY,38.0,15.0
+97,Tsunamis,,"Aegean Sea, Greece",GREECE,38.0,25.0
+98,Paleoearthquakes,,Puerto Rico,USA TERRITORY,18.0,-66.0
+99,Sea level change,,"Perachora Peninsula, central Greece",GREECE,38.0,23.0
+100,Transgressive Regressive Sequences,,"Eel River, California, USA",USA,39.8,-124.0
+101,Megatsunami,,"Lanai, Hawaii",USA,20.7,-157.0
+102,1883 Krakatau Eruption,1883,"Java, Indonesia (northwest)",INDONESIA,-6.0,105.25
+103,Uplift/Subsidence,,India (east coast),INDIA,10.0,78.0
+104,Megatsunami,,"Lanai, Hawaii",USA,20.7,-157.0
+105,Terraces,,"San Clemente Island, California, USA",USA,33.0,-118.5
+106,Marine terraces,,"Lobito-Benguela and Mossamedes, Angola (south coast)",ANGOLA,-15.0,12.0
+107,Uplift,,S. Sinai (Red Sea),ISRAEL,30.0,35.0
+108,Shoreline change,,"Lanai, Hawaii",USA,20.7,-157.0
+109,Island Subsidence,,"Samoa, southwest Pacific",SAMOA,-14.0,-170.0
+111,Megatsunami,,"La Palma, Canary Islands, Spain",SPAIN,28.0,-16.0
+114,Landslide tsunami,,Canary Islands,SPAIN,28.0,-16.0
+116,Tsunami uncertainty,,"Southern & Central Virginia, USA",USA,37.0,-76.7
+117,Coseismic Uplift/Subsidence ~300yrs BP,,"Willapa Bay, Washington, USA",USA,46.0,-124.0
+119,Maximum probable tsunami,,"New South Wales, Australia",AUSTRALIA,-32.0,152.0
+120,Historic and prehistoric tsunamis,,"Kronotsky Bay, Kamchatka, Russia",RUSSIA,54.0,160.5
+121,K/T Boundary Impact,,"Pernambueo, Brazil",BRAZIL,-8.0,-40.0
+122,Coast geomorphology,,"Tulum & Playa del Carmen, Mexico",MEXICO,20.0,-88.0
+123,K/T Boundary Impact,,"Brazos River, Texas, USA",USA,32.0,-97.0
+124,K/T Boundary Impact,,Gulf of Mexico,MEXICO,19.5,-92.0
+125,K/T Boundary Impact,,"Bass River borehole,  ODP Leg 174AV, New Jersey (coastal drilling), USA",USA,39.6,-74.4
+126,K/T Boundary Impact,,"Arroyo el Mimbral, Mexico",MEXICO,22.0,-98.5
+127,K/T Boundary Impact,,"La Popa Basin, Nuevo Leon, Mexico",MEXICO,26.0,-100.7
+128,Impact,,"Nevada, USA",USA,37.0,-115.0
+129,K/T Boundary Impact,,Brazil (northeast),BRAZIL,-4.0,-44.0
+130,Storm versus tsunami,1662,Grand Cayman,CAYMAN ISLANDS,19.0,-81.0
+131,Tidal surges,,"L. Strathearn, Scotland",UK,56.5,-3.5
+133,High stand?,,"Kaena Point, Oahu, Hawaii",USA,21.6,-158.15
+134,K/T Boundary Impact,,"La Sierrita (north), Mexico (northeast)",MEXICO,24.0,-99.0
+135,1988 Winter Storm,1988,"San Diego, California, USA",USA,32.0,-118.0
+136,Submarine landslide,,Ruatoria,NEW ZEALAND,-37.95,178.3
+137,Tsunamis,,"Oahu, Hawaii",USA,21.5,-158.0
+139,1912 Winter Storm,1912,Bondi Beach,AUSTRALIA,-34.0,151.0
+140,Kuril Subduction Zone,,"Kunashir Island, Kuril Subduction Zone, Izmena Bay",RUSSIA,44.35,146.25
+142,Tsunamis,1531,"Tagus Estuary, Portugal; Boca de Rio, Portugal",PORTUGAL,37.0,-9.0
+143,Stratigraphic sequence,1030,"Wainiha Beach Site, Kauai, Hawaii",USA,22.25,-159.6
+144,1969 Kamchatka Earthquake & Tsunami,1969,"Kamchatka, Russia",RUSSIA,55.0,160.0
+145,Submarine landslide,,"Kona, Hawaii",USA,19.7,-156.0
+146,Landslide tsunami,,"Rapuhia, North Hikurangi, New Zealand",NEW ZEALAND,-35.0,174.0
+147,Gas Discharge,,"Placentia Bay, Newfoundland, Canada",CANADA,47.0,-54.0
+148,Sea level change,,"Lord Howe Island, Australia (Tasman Sea)",AUSTRALIA,-32.0,160.0
+149,Cascadia Earthquake,,"Oregon and Washington, USA",USA,44.5,-124.0
+150,Tsunami erosion,,"New South Wales, Australia",AUSTRALIA,-35.0,150.0
+151,1918 Earthquake & Tsunami,1918,"Mona Passage, northwest Puerto Rico",USA TERRITORY,16.5,-67.0
+152,1933 Severgin Volcano,1933,Kuril Islands,RUSSIA,45.0,150.0
+153,1878 Yasur Eruption,1878,New Hebrides,VANUATU,-15.0,170.0
+154,Landslide tsunami,,Canary Islands,SPAIN,28.0,-16.0
+156,Sea level change,,Gran Canaria Island,SPAIN,28.0,-16.0
+157,Landslide tsunami,,"Gulf of Mexico, shelf & rise?",MEXICO,27.0,-91.15
+158,Augustine Eruption,1883,"South Cook Inlet, Alaska, USA",USA,61.0,-150.0
+159,1993 SW Hokkaido Earthquake & Tsunami,1993,"Okushiri Island (southwest coast), Hokkaido",JAPAN,42.5,140.83
+162,1878 Yasur Eruption,1878,Vanuatu,VANUATU,-15.0,170.0
+163,1741 Oshima-Osima Eruption & Tsunami,1741,Japan,JAPAN,-19.52,169.42
+164,1640 Komagatake Eruption & Tsunami,1640,Japan,JAPAN,42.061,140.681
+165,Santorini Eruption & Tsunami,1650,Italy,ITALY,36.4,25.4
+166,1693 Hekla Eruption & Tsunami,1693,Iceland,ICELAND,63.9,-19.7
+167,1827 Avachinsky Eruption & Tsunami,1827,Kamchatka,RUSSIA,53.2,158.8
+168,1845 Soputan Indonesia,1845,"Soputan Volcano, Indonesia",INDONESIA,1.0,125.0
+169,1971 Tinakula (Solomon Islands) Eruption & Tsunami,1971,Solomon Islands,SOLOMON ISLANDS,-9.5,160.0
+170,"1878 Okmok (Aleutian Islands, Alaska)",1878,"Alaska, USA",USA,41.5,-139.37
+171,1889 Banua Wuhu Sangihe Islands,1889,"Sangihe Island, Indonesia",INDONESIA,2.78,125.48
+173,1937 Rabaul Seiches,1937,"Rabual, Papua New Guinea",PAPUA NEW GUINEA,-4.3,152.0
+174,1883 and 1928 Krakatau Eruptions & Tsunamis,1883,Indonesia,INDONESIA,-8.0,105.0
+175,1929 Submarine Eruption,1929,Anak Krakatoa,INDONESIA,-8.0,105.0
+177,1952 Bayonnaise Rocks SME,1952,"Myojin-sho, Japan",JAPAN,35.2,139.9
+178,1952-1953 Myojin Submarine Volcanic Eruption & Tsunami,1952,,JAPAN,32.1,139.85
+181,1953 Tuluman PNG,1953,"Volcana Tuluman, Papua New Guinea",PAPUA NEW GUINEA,-2.38,147.35
+182,1780 Sakurajima Eruption,1780,Japan,JAPAN,31.58,130.65
+183,1781 Sakurajima Eruption,1781,Japan,JAPAN,31.58,130.65
+184,1781 Sakurajima Eruption,1781,Japan,JAPAN,31.58,130.65
+185,1878 Vulcan Volcano Eruption & Tsunami,1878,Italy,ITALY,38.4,15.0
+186,1969 East Luzon Eruption & Tsunami,1969,Elidices Island,PHILIPPINES,13.3,123.68
+187,1883 Krakatau Eruption,1883,Indonesia,INDONESIA,-8.0,105.0
+188,1902 Soufriere Eruption & Tsunami,1902,St. Vincent & St. Pierre,SAINT VINCENT AND THE GRENADINES,13.0,-61.2
+189,1856 Awu Volcano,1856,"Sangihe Island, Indonesia",INDONESIA,3.67,125.5
+190,1871 Ruang Eruption & Tsunami,1871,Celebes,INDONESIA,-8.1,144.3
+192,Augustine Eruption,,"Alaska, USA",USA,61.0,-150.0
+193,1888 Ritter Island Eruption & Tsunami,1888,"Bismarck Sea, Papua New Guinea",PAPUA NEW GUINEA,-3.0,140.0
+194,1972 Ritter Island Eruption & Tsunami,1972,"Bismarck Sea, Papua New Guinea",PAPUA NEW GUINEA,-3.0,140.0
+195,1974 Ritter Island Eruption & Tsunami,1974,"Bismarck Sea, Papua New Guinea",PAPUA NEW GUINEA,-3.0,140.0
+196,79 AD Vesuvius Eruption & Tsunami,79,Vesuvius,ITALY,40.8,14.0
+197,1815 Tambora Volcano,1815,"Java, Indonesia",INDONESIA,-8.25,118.0
+198,1883 Krakatau Eruption,1883,Indonesia,INDONESIA,-6.0,105.4
+199,1902 Martinique,1902,Riviere Blanche,MARTINIQUE,14.7,-61.0
+200,1792 Shimabara Earthquake,1792,"Unzen Volcano, Japan",JAPAN,-7.43,120.3
+203,Ili Werung Volcano,1979,Indonesia,INDONESIA,-8.54,123.6
+204,1965 Lake Taal Eruption & Tsunami,1965,Philippines,PHILIPPINES,14.0,121.0
+209,1911 Lake Taal Eruption & Tsunami,1911,Philippines,PHILIPPINES,14.0,121.0
+211,1868 Hawaii,1868,Hawaii,USA,20.0,-156.0
+212,79 AD Vesuvius Eruption & Tsunami,79,Italy,ITALY,40.8,14.0
+213,1883 Krakatau Eruption,1883,Tandjong Priok,INDONESIA,-5.0,105.0
+214,1956 Bezymianny Eruption & Tsunami,1956,"Attu Island, Kamchatka, Russia",RUSSIA,56.0,161.0
+233,1914 Sakurajima Eruption,1914,Japan,JAPAN,32.0,132.5
+235,79 and 1631 AD Vesuvius Eruption & Tsunami,79,Tyrrhenian coast,ITALY,40.8,14.4
+236,Historic tsunami,,Japan (north),JAPAN,43.0,144.5
+237,Impact tsunami,,"Hamersley Basin, Australia (west)",AUSTRALIA,-21.0,23.0
+238,Rock record,,Bermuda,BERMUDA,32.3,-64.75
+239,Boulders,,"North Eleuthera Island, Bahamas",BAHAMAS,24.0,-74.5
+240,1755 Lisbon Earthquake & Tsunami,1755,"Boca do Rio, Algarve, Portugal",PORTUGAL,37.0,-9.0
+245,Megatsunami versus island uplift,,"Lanai, Hawaii",USA,20.7,-157.0
+250,7 uplift events in Japan,,Hokkaido (east),JAPAN,43.0,144.0
+251,Estuary deposits,,"Donana National Park, Iberia",PORTUGAL,37.0,-7.5
+253,"1692 Port Royal, Jamaica Earthquake & Tsunami",1692,Port Royal,JAMAICA,18.0,-77.0
+255,1026 Earthquake & Tsunami,1026,"Masuda Plain, Japan",JAPAN,35.0,133.0
+257,Local tsunami phenomena,,Japan,JAPAN,36.0,138.0
+258,Discharge of Lake Agassiz (hypothetical),,Glacial Lake Agassiz (Northern Canada),CANADA,60.0,-65.0
+259,Cascadia Earthquake,,Central Cascadia Subduction zone,USA,45.0,-124.0
+260,Earthquake,,"Bradley Lake, Oregon, USA",USA,43.0,-124.4
+261,1755 Lisbon Earthquake & Tsunami,1755,"Lisbon, Portugal",PORTUGAL,39.0,-9.0
+262,2004 Indian Ocean Earthquake & Tsunami,2004,"Pakarang, Thailand",THAILAND,8.5,98.0
+263,Uplifted Terraces,,"Curacao, Netherlands Antilles",NETHERLANDS ANTILLES,12.0,-69.0
+264,Baltic Shield,,Gran Canaria Island,SPAIN,27.0,-16.0
+266,Kick 'em Jenny Landslides,1766,Kick-em- Jenny seamount,NETHERLANDS ANTILLES,12.2,-69.06
+267,1994 Philippines Earthquake & Tsunami,1994,"Mindoro, Philippines",PHILIPPINES,13.5,121.1
+271,"1896 Sanriku, Japan Earthquake & Tsunami",1896,"Attari coast, Japan",JAPAN,39.033,141.767
+272,1993 SW Hokkaido Earthquake & Tsunami,1993,"Okushira Island, West Coast Hokkaido",JAPAN,42.2,139.5
+273,Study and prediction,,French Polynesia,FRENCH POLYNESIA,-17.7,-149.4
+275,Santorini Eruption & Tsunami,-1650,East Mediterranean,GREECE,36.4,25.4
+276,Santorini Eruption & Tsunami,-1650,East Mediterranean,GREECE,36.4,25.4
+277,Santorini Eruption & Tsunami,-1650,"East Mediterranean, Tyro & Krethen basins",GREECE,34.0,25.0
+278,High energy event,,"Kauai (south coast), Hawaii",USA,21.9,-159.4
+279,"Queen's Beach, Oahu tsunami events",1946,"Queen's Beach, Oahu, Hawaii",USA,21.2,-157.6
+280,Tsunamis,,"Curacao, Bonaire & Aruba Netherlands Antilles",NETHERLANDS ANTILLES,12.0,-69.0
+281,K/T Boundary Impact,,"Sugarite Coal, New Mexico, USA",USA,37.0,-105.0
+282,Tsunamis,,"Stockholm, Southern Malaren, Narke area, Sweden",SWEDEN,59.25,18.0
+283,Swedish Varve 9663 landslide event 2,,"Boda Cave, Sweden",SWEDEN,60.0,15.0
+284,Chicxulub Impact,,Yucatan/Belize/Gulf of Mexico cores,MEXICO,35.0,-133.0
+285,Tsunami deposits,,Kuril Trench,RUSSIA,42.0,145.0
+288,Manson Impact,,"Iowa, South Dakota, Nebraska, USA",USA,42.0,-94.0
+289,Storegga landslide,,"Litjvatnet, Norway (central coast)",NORWAY,63.5,8.4
+290,Komoatake and Oshima Eruptions & Tsunamis,1640,"Hokkaido, Japan",JAPAN,42.0,145.0
+291,Kardla Impact Crater,,"Hiiumaa Island, Estonia",ESTONIA,59.0,22.75
+292,Chicxulub Impact,,"Arroyo el Mimbral, Mexico",MEXICO,23.0,-90.0
+293,Maastrichtian Penalver Formation,,Cuba (northwest),CUBA,22.5,-81.5
+294,Storegga landslide,,"Harog, Norway (west)",NORWAY,62.75,6.5
+295,Storegga landslide,,"Suduroy, Faroe Islands",FAROE ISLANDS,62.0,-7.0
+296,Storegga landslide,,Norway (west),NORWAY,62.5,7.0
+297,1998 Papua New Guinea Earthquake & Tsunami,1998,"Sissano and nearby coastline, Papua New Guinea",PAPUA NEW GUINEA,-3.0,140.5
+298,Storegga landslide,,Scotland (northeast),UK,57.4,-2.0
+299,Norwegian Coastline tsunami,,Norwegian Continental slope,NORWAY,62.0,5.5
+300,Alika 2 landslide,,"Kohala Volcano, Big Island, Hawaii",USA,20.1,-155.7
+302,Historical and Paleotsunami catalogs compared,-1628,"Aegean Sea, Greece",GREECE,37.0,25.0
+305,Cascadia Earthquake,,"Willapa Bay, Washington, USA",USA,46.4,-124.0
+306,"Seismite, tsunamiite",,"Makinohara Upland, Shizuoka, Japan",JAPAN,35.0,138.2
+307,Kuril Subduction Zone,1739,"Nemuro and Tokachi coast, North Japan, Kiritappu marsh",JAPAN,43.2,145.7
+308,Tsunami deposits,1710,"Sanriku coast, Japan (southwest)",JAPAN,41.0,141.0
+309,1998 Papua New Guinea Earthquake & Tsunami,1998,Papua New Guinea (north coast),PAPUA NEW GUINEA,-2.0,138.0
+310,Santorini Eruption & Tsunami,-1650,Santorini Volcano,GREECE,36.4,25.4
+311,1855 Wellington Earthquake,,"Cook Strait, New Zealand",NEW ZEALAND,-41.4,174.5
+312,K/T Boundary Impact,,No specific site,UNKNOWN,31.5,-97.0
+313,Tsunami wave action,,"New South Wales, Australia",AUSTRALIA,-34.0,150.0
+314,Iggesund event,,"Iggesund, Sweden",SWEDEN,62.0,18.0
+315,Earthquake and tsunami,,"Owens Lake, California (southeast), USA",USA,36.6,-118.0
+316,"Morokweng Impact, Landslide tsunami",,"Mandawa Basin, Tanzania (southeast)",TANZANIA,-9.75,39.4
+317,Tempestite Beds,,Tanzania,TANZANIA,-9.75,39.4
+318,Tsunami deposits,,"Tendagura, Tanzania",TANZANIA,-9.75,39.4
+319,1867 Virgin Islands Earthquake & Tsunami,1867,Caribbean,UK TERRITORY,18.5,-65.0
+320,Megablocks,,"Dominica, Lesser Antillies",DOMINICA,14.5,-61.5
+321,Global impact events,,"Barberton Greenstone Belt, South Africa",SOUTH AFRICA,-21.2,22.5
+322,Global impact events,,"Pilbara Craton, Australia (west)",AUSTRALIA,-21.2,119.0
+323,Cascadia Margin Deformation,,"Deserted Lake, British Columbia, Canada",CANADA,49.75,-126.5
+324,Cascadia Earthquake,,Cascadia (northeast),USA,47.0,-124.5
+325,Vancouver Island Earthquake,,"Vancouver Island (west), British Columbia, Canada",CANADA,49.2,-125.8
+326,1755 Lisbon Earthquake & Tsunami,1755,Scilly Isles - 5 coastal lagoons,UK,37.0,14.0
+327,1755 Lisbon Earthquake & Tsunami,1755,Pool & marsh England,UK,50.3,-5.2
+328,Tsunami,1019,"Big Pool, St. Agnes, Scilly Isles",UK,50.0,-6.0
+329,1992 Flores Earthquake & Tsunami,1992,"Flores Island, Indonesia",INDONESIA,-8.5,122.5
+330,Tsunami deposits,,"Caithness (north), Scotland, Lower Wick River Valley",UK,58.1,-3.6
+331,1929 Grand Banks Earthquake & Tsunami,1929,"Burin Peninsula, Newfoundland, Taylors Bay",CANADA,47.0,-56.5
+333,Cascadia Earthquake,,"Netarts Bay, Oregon, USA",USA,45.0,-124.0
+334,Subduction zone deposits,,"Oregon (north), USA",USA,44.5,-124.0
+335,Cascadia Earthquake,,"Euchre Creek, Oregon, USA",USA,46.0,-124.0
+336,1964 Alaskan Earthquake & Tsunami,1964,"Port Alberni, British Columbia, Canada",CANADA,49.0,-126.0
+337,Cascadia Earthquake,1700,"Tofino, British Columbia, Canada",CANADA,49.0,-126.0
+338,Cascadia Earthquake,1700,Canada (west),CANADA,49.0,-126.0
+339,Cascadia Earthquake,1700,"Vancouver Island (west), British Columbia, Canada",CANADA,49.0,-126.0
+340,Cascadia Earthquake,1755,"Catala Lake, Catala Island, Vancouver Island, British Columbia, Canada",CANADA,49.9,-127.5
+343,Earthquake and tsunami,,Cascadia,USA,46.0,-124.0
+344,Cascadia Earthquake,,Cascadia,USA,48.0,-123.0
+345,Cascadia Earthquake,1700,Cascadia,USA,46.0,-124.0
+346,Cascadia Earthquake,1700,"Vancouver Island, British Columbia, Canada",CANADA,49.25,-124.8
+347,1964 Alaskan Earthquake & Tsunami,1964,"Vancouver Island, British Columbia, Canada",CANADA,49.25,-124.8
+348,Coseismic event,,"Pt Alberni, British Columbia, Canada",CANADA,49.25,-124.8
+349,Cascadia Earthquake,1700,"Oregon (south coast), USA",USA,43.0,-124.0
+350,Bedrock sculpturing,,"New South Wales, Australia",AUSTRALIA,-35.0,150.0
+351,Storm versus tsunami,,Australia,AUSTRALIA,-16.0,124.0
+352,Storm versus tsunami,,"Gulf of Carpentaria, Australia (north)",AUSTRALIA,-15.0,140.0
+353,Tsunami uncertainty,,"New South Wales, Australia",AUSTRALIA,-35.0,150.0
+354,Impact tsunami,,"Jervis Bay, Australia",AUSTRALIA,-35.0,150.0
+355,Submarine landslide,,Lanai and Australia,AUSTRALIA,-20.7,157.0
+356,Tsunami,,"Gippsland Lakes region, Australia",AUSTRALIA,-38.0,147.6
+357,Megatsunami,,"Molokai, Hawaii",USA,21.1,-157.0
+358,1964 Alaskan Earthquake & Tsunami,1964,"Seward, Alaska, USA",USA,60.0,-149.6
+359,1964 Alaskan Earthquake & Tsunami,1964,"Homer, Alaska",USA,59.5,-153.0
+360,Aniakchak caldera-forming event,,"Aniakchak Volcano, Alaska, USA eruption",USA,58.5,-159.0
+361,Sea level change,,"Vancouver Island, British Columbia, Canada",CANADA,49.0,-125.0
+362,Cascadia Earthquake,,Cascadia,USA,45.0,-124.0
+363,Turbidites,,"Washington (south coast), USA",USA,47.0,-124.1
+365,Earthquake and tsunami,,"Washington coast, USA",USA,47.0,-124.3
+366,1964 Alaskan Earthquake & Tsunami,,"Vancouver Island, British Columbia, Canada",CANADA,49.0,-126.0
+367,Cascadia Earthquake,,"Lower Sixes River Valley, Southern Oregon, USA",USA,42.7,-124.4
+368,2004 Indian Ocean Earthquake & Tsunami,2004,"North Malindi, Kenya",KENYA,-3.0,40.0
+369,2004 Indian Ocean Earthquake & Tsunami,2004,"Pondicherry,Tamil Nadu, India",INDIA,12.0,81.0
+370,Cascadia Earthquake,,"Alsea Bay, Oregon, USA",USA,44.4,-123.5
+371,1992 Nicaragua Earthquake & Tsunami,1992,Playa de Popoyo,NICARAGUA,11.43,-86.0
+374,1755 Lisbon Earthquake & Tsunami,,"Big Pool, St. Agnes, Scilly Isles",UK,50.3,-5.2
+375,K/T Boundary Impact,,"Mantanzas and Santa Isabel, northwest Cuba",CUBA,23.0,-82.2
+376,Tidal marsh deposit,1700,"Vancouver Island, British Columbia, Canada",CANADA,47.0,-125.0
+377,Island Uplift,,"Lanai, Hawaii",USA,20.8,-157.0
+378,Scar-fill structures,,"Grajau Basin, Northern Brazil",BRAZIL,-6.0,-42.0
+379,Tsunamis,,"Newport, Oregon, USA",USA,44.6,-124.0
+380,Tempesite or transgressive deposit,,"La Salle, near Marseilles, Illinois",USA,41.5,-89.0
+381,Sediment deformation event beds,,"Cameta Basin, Brazil",BRAZIL,-2.0,-48.0
+382,1960 Chile Earthquake & Tsunami,,"Rio Maullín, Chile",CHILE,-41.0,-73.3
+383,Turbidites,,Peru,PERU,-5.0,-82.0
+384,Tsunami deposits,,"Tokachi coast, Hokkaido, Japan",JAPAN,43.2,145.7
+385,Boulders,,"Coquimbo, Chile",CHILE,-30.0,-72.0
+386,Tsunami deposits,,"Hornitos, Northern Chile",CHILE,-22.0,-70.0
+387,Augias Megatsunamian and the Santorini eruption,-1650,Central Ionian Sea (central Mediterranean),UNKNOWN,36.4,25.4
+388,1962 Makarsha Earthquake,1962,Central Adriatic Archipelgo,GREECE,36.0,25.0
+389,Santorini Eruption & Tsunami,-1650,"Thera, Crete, Aegean Sea",GREECE,36.4,25.4
+390,1894 Gulf of Atalanti Earthquake,1894,"Greece, Gulf of Atalanti",GREECE,38.75,23.0
+391,1956 Aegean Sea Earthquake & Tsunami,1956,"Astypalaea Island, Greece",GREECE,37.0,26.0
+392,Santorini Eruption & Tsunami,-1650,East Mediterranean,GREECE,36.0,20.0
+393,Megaturbidites,,Mediterranean (east and west),UNKNOWN,35.0,15.0
+394,Submarine slump,,"Crowleys Ridge, Missouri",USA,38.6,-92.1
+395,K/T Boundary Impact,,"Crowleys Ridge, Missouri",USA,38.6,-92.1
+396,Santorini Eruption & Tsunami,-1650,Ionian Sea,GREECE,35.0,23.0
+397,1993 SW Hokkaido Earthquake & Tsunami,1993,"Okushi Island, Hokkaido, Japan",JAPAN,42.05,139.5
+398,Tsunami record,,"Discovery Bay, Washington, USA",USA,48.0,-123.0
+399,Santorini Eruption & Tsunami,-1650,Mediterranean (west),GREECE,35.0,20.0
+400,Sciara del Fuoco Tsunami,,"Stromboli Volcano, Italy",ITALY,38.0,15.0
+401,Kamchatka Tsunami,1600,"Lake Tokotan, Hokkaido, Japan",JAPAN,55.0,160.0
+402,Tsunamiite tectonic subsidence/uplift,,"Aliki Lagoon, Egion, North Peloponnesus, Greece",GREECE,38.0,22.0
+403,K/T Boundary Impact,,"Shell Creek Alabama, USA",USA,32.1,-87.0
+404,Storm versus tsunami - washover deposit,,"Gulf Coast, Florida, USA (west-central)",USA,28.5,-81.5
+405,1456 Earthquake,1421,Ionian coast of Apulia (southern Italy),ITALY,40.0,17.5
+406,Lacustrine turbidites,,"Gulf of Corinth, Central Greece",GREECE,38.0,22.0
+407,K/T Boundary Impact,,"Guayal, Mexico",MEXICO,18.0,-93.0
+408,1956 Aegean Sea Earthquake & Tsunami,1956,"Amorgos Basin, Southern Aegean",GREECE,36.0,25.0
+409,Shoreline change,1938,"Stromboli Volcano, Italy",ITALY,38.7,15.25
+410,Storm versus tsunami,1410,"Ao Nang Krabi, South Thailand, west coast of Thailand",THAILAND,13.25,100.0
+411,2004 Indian Ocean Earthquake & Tsunami,2004,"Sumatra (north), Indonesia",INDONESIA,5.0,96.0
+413,Tsunamis,,"Snohomish Delta, Everett, Washington, USA",USA,47.9,-122.1
+414,1883 Krakatau Eruption,1883,"Krakatau, Indonesia",INDONESIA,-8.0,105.0
+416,1992 Flores Earthquake & Tsunami,1992,"Flores, Babi Island, East Nusa Tenggara region",INDONESIA,-8.5,122.5
+417,1994 Java Earthquake & Tsunami,1994,"Rajequesi, Java",INDONESIA,-8.0,114.0
+418,"Tokai Earthquakes: 1707 Hoei tsunami, 1605 Keicho Tsunami",1605,"Osatsu, Central Toba, Kii Peninsula, Japan (southwest)",JAPAN,34.3,137.75
+419,K/T Boundary Impact,,Australia,AUSTRALIA,-25.0,135.0
+420,1994 Java Earthquake & Tsunami,1994,"East Java, Bali Island",INDONESIA,-8.0,115.0
+421,1998 Papua New Guinea Earthquake & Tsunami,1998,Papua New Guinea,PAPUA NEW GUINEA,-3.0,140.5
+423,Tsunami deposits,1498,"Hamana Lake, central Japan (Pacific coast)",JAPAN,34.55,137.5
+425,1934 Tafjord Fjord Tsunami,,"Otz Valley, Austria",AUSTRIA,47.2,10.8
+427,1883 Krakatau Eruption,1883,"Sunda Straits, Indonesia",INDONESIA,-6.0,105.0
+428,1994 Philippines Earthquake & Tsunami,1994,"Mindoro Island, Philippines",PHILIPPINES,13.5,121.1
+429,Storegga landslide,,"Storegga offshore Norway, Shetland Islands",NORWAY,62.0,-7.0
+430,Tsunami deposits,,"Norway (west) and Svalbard, Denmark",NORWAY,55.5,12.0
+431,Impact tsunami,,"Pilbara Craton, Australia (west)",AUSTRALIA,-21.0,119.0
+432,K/T Boundary Impact,,"Quarry Albion Island, Belize",BELIZE,18.5,-89.3
+433,K/T Boundary Impact,,"Dogie Creek, Wyoming, USA",USA,41.0,-104.2
+434,K/T Boundary Impact,,"Braggs, Alabama, USA",USA,32.1,-87.0
+435,Paleotsunami & 2004 Indian Ocean tsunami,2004,"Kargan, Lunama, Rekawa lagoons, Sri Lanka (southeast)",SRI LANKA,8.0,80.0
+436,Boulders,1771,"Southern Ryukyus, Japan",JAPAN,24.2,124.0
+438,K/T Boundary Impact,,"Bass River, New Jersey, USA",USA,39.6,-74.4
+439,Japan Sea Earthquake,1983,"Tsugaru, Sendai Plains, Japan",JAPAN,38.0,141.0
+440,Tsunamis,,Chita Peninsula Japan,JAPAN,35.0,140.0
+441,Volcanogenic deposit,,"Kagoshima Bay, South Kyushu Japan",JAPAN,31.0,131.0
+442,"1993 SW Hokkaido and 1983 Japan Sea Earthquake (mags. 7.7, 7.8)",1983,"Hokkaido, Japan",JAPAN,42.0,140.0
+443,High energy event,,"Donana National Park, Spain (southwest)",SPAIN,37.0,-7.5
+444,Lagoon deposit,,"Donana National Park, Spain (southwest)",SPAIN,37.0,-7.5
+445,Marine deposit,,"Donana National Park, Spain (southwest)",SPAIN,37.0,-7.5
+446,Storm versus tsunami,,"Donana National Park, Spain (southwest)",SPAIN,37.0,-7.5
+447,Paleotsunami,,"Donana National Park, Spain (southwest)",SPAIN,37.0,-7.5
+448,Emergence of marine terraces,,"Boso and Miura peninsulas, Philippine Sea",JAPAN,35.0,140.5
+449,Paleotsunami,,New Zealand,NEW ZEALAND,-41.0,177.0
+450,Earthquake and tsunami,,"Ming Tomb District, Bejing, China",CHINA,40.0,116.5
+451,1923 Kamchatka Earthquake,1923,"Kamchatka, Russia",RUSSIA,55.0,32.0
+452,Storegga landslide,,"Norway (coastal lakes, west coast)",NORWAY,62.0,5.0
+453,Storegga landslide (2nd),,Scotland (east),UK,56.0,-6.0
+455,Asteroid Impact,,"Barberton Greenstone Belt, South Africa",SOUTH AFRICA,-28.5,22.5
+457,Asteroid Impact,,"Pilbara Craton, Australia (west)",AUSTRALIA,-20.5,118.5
+458,Asteroid Impact,,"Hamersley Basin, Australia (west)",AUSTRALIA,-21.0,23.0
+460,Storegga landslide (2nd),,"Sutherland (north), Scotland",UK,58.52,-4.27
+461,Storegga landslide (2nd),,Scotland (east),UK,56.5,-2.5
+462,Storegga Collapse,,"Inverness, Scotland",UK,57.0,-4.0
+463,Tsunamiites,,"Salento, southeast Italy",ITALY,40.2,15.2
+464,Sea level change,,"Sandon Point, New South Wales, Australia",AUSTRALIA,-36.0,150.0
+465,Tsunami,,Australia (southeast coast),AUSTRALIA,-36.0,150.0
+466,Tsunami,,"Jervis Bay, Australia",AUSTRALIA,-35.0,150.0
+467,Turbidites,,New Zealand (east),NEW ZEALAND,-38.0,178.0
+468,Earthquake and tsunami,,New Zealand,NEW ZEALAND,-41.0,174.0
+469,Hawkes Bay Earthquake,,New Zealand,NEW ZEALAND,-39.3,176.52
+470,Collapse of Gran Canaria Volcano,,Gran Canaria Island,SPAIN,27.0,-16.0
+471,Earthquake or impact,,"Lilstock Fm., UK",UK,52.0,-4.0
+472,1855 Wellington Earthquake,1855,"North Island, New Zealand",NEW ZEALAND,-38.0,177.0
+473,Tsunamis,,"Abel Tasman National Park, New Zealand",NEW ZEALAND,-40.5,172.5
+474,"Okoropunga Earthquake and tsunami, Easter 2002 storm",1400,"North Island, New Zealand",NEW ZEALAND,-41.0,175.0
+475,Storm versus tsunami,,"Cairns, Australia",AUSTRALIA,-17.03,146.4
+476,1998 Papua New Guinea Earthquake & Tsunami,1998,Papua New Guinea,PAPUA NEW GUINEA,-3.0,142.0
+478,Storegga landslide,,"Shetland Islands, Norway",NORWAY,60.0,-2.0
+479,Kaluga Impact tsunami,,Russia (west),RUSSIA,54.3,36.12
+480,K/T Boundary Impact,,"Penambuco, NE Brazil",BRAZIL,-8.0,-40.0
+482,Paleoseismic,,"Dead Sea Basin, Lake Titicaca",ISRAEL,31.5,35.5
+483,Coseismic uplift/subsidence,,Cascadia Subduction Zone,USA,45.0,-124.0
+484,1755 Lisbon Earthquake & Tsunami,1755,"Lisbon, Portugal",PORTUGAL,39.0,-9.0
+485,1755 Lisbon Earthquake & Tsunami,1755,"Big Pool, St. Agnes, Scilly Isles",UK,50.0,-6.0
+486,Earthquake and tsunami,,"Montana, USA",USA,48.5,-110.0
+487,Megatsunami,,"Eleuthera Islands, Bahamas",BAHAMAS,25.0,-76.5
+489,2004 Indian Ocean Earthquake & Tsunami,2004,Malay-Thai Peninsulas (5 sites),MALAYSIA,6.0,101.0
+490,1975 Kalapana Landslide/Earthquake (7.2) tsunami,1975,"Halape-Apua Point, Hawaii (south flank of Kilauea)",USA,19.2,-155.2
+491,2001 Peru Earthquake & Tsunami,2001,Camana Peru,PERU,-17.0,-73.0
+492,1994 Java Earthquake & Tsunami,1994,"Java, Indonesia",INDONESIA,-8.0,114.0
+494,Megaturbidites,,Ionian and Sirte Abyssal Plains,UNKNOWN,36.0,15.0
+495,Seismites,,SE Spain,SPAIN,37.0,1.0
+496,Aptian Codo Formation,,"Grajau Basin, Northern Brazil",BRAZIL,-6.0,-45.0
+497,Seismites,,"Torre San Gennaro, southern Italy",ITALY,40.5,18.1
+498,Seismites and tsunamiites,,Japan (central),JAPAN,35.0,138.0
+499,1993 SW Hokkaido Earthquake & Tsunami versus 1959 typhoon,1993,"Taisei, Hokkaido (southwest), northern Japan",JAPAN,42.0,140.0
+500,Impact,,"Hamersley Basin, Australia (west)",AUSTRALIA,-21.0,23.0
+501,1755 Lisbon Earthquake & Tsunami,1755,"Boca do Rio, Algarve, Portugal",PORTUGAL,37.5,-8.5
+502,Fjords & Lakes change/turbidites/climate change,,Norway (west),NORWAY,62.1,5.8
+504,1755 Lisbon Earthquake & Tsunami,1755,"Lisbon, Portugal",PORTUGAL,38.0,-9.0
+505,Taupo Eruption & 1883 Krakatau Eruption,200,"Abel Tasman National Park, New Zealand & Kaptai Island SW North Island",NEW ZEALAND,-39.0,178.0
+506,Tsunamis,,"Lake Kohangapiripiri, Wellington, New Zealand",NEW ZEALAND,-41.0,175.5
+507,Review,,"New South Wales, Australia; British Columbia, Canada; Washington, Vancouver, Japan, Storegga",CANADA,49.0,-126.0
+508,1627 Gargano Earthquake & Tsunami,1627,Southeast Italy,ITALY,40.5,18.1
+509,Santorini Eruption & Tsunami,-1650,East Mediterranean,GREECE,36.4,25.5
+510,Asteroid Impact,,"Pilbara Craton, Australia (west)",AUSTRALIA,-21.0,119.0
+511,Cascadia Earthquake,1700,"Tofino, British Columbia, Canada",CANADA,49.0,-126.0
+512,Tsunami deposits,,"Long and Eleuthera Islands, Bahamas",BAHAMAS,26.0,-75.0
+513,Chicxulub Impact,,Mexico,MEXICO,24.0,-99.0
+514,1755 Lisbon Earthquake & Tsunami,,"Gulf of Cadiz, Spain",SPAIN,37.0,-7.0
+515,Santorini Eruption & Tsunami,-1650,"Santorini, Greece",GREECE,36.4,25.5
+517,Sciara del Fuoco Tsunami,,"Stromboli Volcano, Italy",ITALY,38.75,15.25
+518,Storegga landslide,,"Cocklemill Burn, Fife, Scotland, UK",UK,56.4,-3.0
+519,Turbidity currents,,Gulf of Mexico (northwest),MEXICO,22.0,-98.5
+520,"1929 Grand Banks Tsunami, 1991 Halloween storm",1929,Grand Banks,CANADA,46.5,-52.5
+521,Tsunami record,,"Discovery Bay, Washington, USA",USA,48.0,-123.0
+522,Impact earthquake and tsunami,,Cascadia,USA,45.0,-124.0
+523,"1993 SW Hokkaido Earthquake & Tsunami, 1640 Hokkaido Eruption",1640,"Oshima Peninsula, Japan (north)",JAPAN,43.0,140.0
+525,K/T Boundary Impact,,"Cantrell oil field, west margin of Yucatan Peninsula",MEXICO,20.0,-90.0
+526,1992 Flores Earthquake & Tsunami,1992,"Flores Island, Indonesia",INDONESIA,-8.5,122.5
+527,Sea level change,,Hawaii,USA,20.7,-157.0
+528,Changes in coastal environment,,Ireland (west),IRELAND,53.6,-9.7
+529,Tsunamigenic Area,,"Gargano, Italy. Southern Adriatic",ITALY,42.0,16.0
+530,Sea surface fluxuation,,England (southwest),UK,50.75,-4.5
+531,Seismites,,"Lake Mauyas, Turkey (southwest), Marmara Sea",TURKEY,39.0,43.0
+532,1956 Aegean Sea Earthquake & Tsunami,1956,"Astypalaea Island, Greece",GREECE,37.0,26.0
+533,1999 Turkey Earthquake & Tsunami,1999,"Sea of Marmara, Izmit Bay, Istanbul",TURKEY,41.0,29.0
+534,Seismites and turbidites,,"Carnic Alps, Italy (northeast)",ITALY,46.0,12.0
+536,Seismites,1975,"Tethys Himalaya, Himachal Pradesh, India",INDIA,33.0,77.5
+537,Hawkes Bay Tsunami,,"Hawke's Bay, New Zealand",NEW ZEALAND,-39.5,176.7
+539,Seismites,,"Katrol Formation, Kutch, India",INDIA,23.0,70.0
+540,Seismites and turbidites,,"Tabernas basin, Province Almeria, SE Spain",SPAIN,38.0,-9.0
+541,Seismites,,"Lake Issyk-kul, Kyrgyzstan",KYRGYZSTAN,42.5,77.0
+542,Seismites,,"Lustitanian Basin, Portugal",PORTUGAL,38.5,-9.0
+543,Paleoseismites,,"Spain, Betic Chain",SPAIN,38.5,-1.5
+545,K/T Boundary Impact,,"Brazos River, Texas, USA",USA,31.25,-97.0
+546,Seismites and turbidites,1983,Japan Sea,JAPAN,38.0,138.0
+547,Seismites and turbidites,,"Alfonso Basin & Santa Monica, Gulf of California, USA",USA,30.0,-114.5
+548,Seismites and turbidites,,"Lake Biwa, Japan",JAPAN,35.0,136.0
+549,K/T Boundary Impact,,Agost (SE Spain),SPAIN,37.5,-8.5
+550,K/T Boundary Impact,,"ODP Site 1049C, Blake Nose NW Atlantic",USA,30.0,-76.0
+551,Megaturbidites,,East Mediterranean,GREECE,40.0,27.0
+552,Paleotsunami,,"Grenada, St. Lucia, Guadaloupe, Antilles Island Arc",UNKNOWN,14.0,-61.0
+553,Paleotsunami,,"St. Lucia Island, Antilles Island Arc",SAINT LUCIA,14.0,-61.0
+554,Paleotsunami,,Grenada-1)Victoria 2) Halifax Harbor Antilles Island Arc,UNKNOWN,12.0,-61.75
+555,Paleotsunami,,"Guadeloupe Island, Antilles Island Arc",GUADELOUPE,16.0,-62.0
+558,K/T Boundary Impact,,"Stoddard County, SE Missouri, USA",USA,37.0,-90.0
+560,Hypothetical landslide tsunami,,"Lanai, Hawaii",USA,20.7,-156.9
+561,Chesapeake Bay Impact Crater,,"New Jersey Continental Margin, USA",USA,38.0,-76.0
+562,Mega-Landslide,,"Lake Tahoe, McKinney Bay, California, USA",USA,39.1,-119.1
+563,Impact tsunami,,"White Canyon, Utah (east-central), USA",USA,37.7,-110.5
+565,Sediments in river estuaries,,"William Bay, Grays Harbour, Columbia River Estuary, Washington, USA",USA,46.0,-124.0
+566,Storm versus tsunami,,"La Laja Formation, Argentina (west)",ARGENTINA,-29.0,-69.0
+568,Cascadia Earthquake,,"Alsea Bay, Oregon, USA",USA,44.0,-124.0
+569,Mega surge & retreat,,"Cape Rodney to Kawau Island, New Zealand (north)",NEW ZEALAND,-36.5,174.8
+573,Alamo Impact Event,,"Nye County, S. Central Nevada, USA",USA,38.0,-115.0
+575,1992 Philippine Earthquake & Tsunami,1992,"Mindanao Islands, Philippines",PHILIPPINES,7.239,126.64
+577,Augustine Eruption,1883,"Burr Point and West Island, Alaska, USA",USA,59.0,-153.5
+578,Earthquake and tsunami,1995,"Mexico between Jalisco and Colima, Manzanillo",MEXICO,19.0,-104.0
+579,3 events in past 1700 yrs,,"Cascadia: Washington, Oregon and British Columbia, Canada",USA,43.0,-124.0
+580,Uplift,-662,"Falasarna Harbour, Crete, Greece",GREECE,35.0,25.0
+581,Earthquake Liquefaction along recurrent faults,,"Normandy Coast, France",FRANCE,49.5,-0.5
+582,2004 Indian Ocean Earthquake & Tsunami,2004,Malaysia Coast,MALAYSIA,5.0,100.0
+583,Volcano Montserrat Lava Dome Collapse,2003,"Soufriere Hills, West Indies",MONTSERRAT,16.5,-62.0
+584,17 events,,"Bradley Lake, 30 km North Cape Blanco, Oregon, USA",USA,43.0,-124.3
+585,Cascadia Earthquake,1700,"Washington and Oregon, USA",USA,43.0,-124.0
+586,1992 Nicaragua Earthquake & Tsunami,1993,Nicaragua,NICARAGUA,11.0,-87.0
+588,Tsunamis,,"Puget Sound, Washington, USA",USA,47.55,-122.25
+589,Cascadia Earthquake,,"Puget Sound, Washington, USA",USA,48.0,-123.0
+590,Earthquake,,"Lake Washington, Washington, USA",USA,47.4,-122.15
+591,Tectonic earthquake,,Himalayan-Andaman Arc,INDIA,30.0,78.0
+592,1755 Lisbon Earthquake & Tsunami,1755,"Algarve Barrier Islands, South Portugal",PORTUGAL,37.5,-8.5
+595,Cascadia Earthquake,1700,"Humboldt Bay, Northern California, USA",USA,40.75,-124.75
+596,1700 Earthquake & Tsunami,1700,Japan,JAPAN,36.0,140.0
+597,Mjolnir Impact; Landslide with debris flow and turbidites,,Barents Sea,RUSSIA,71.0,43.0
+600,"1979 Tumaco, Columbia Earthquake & Tsunami",1979,"Tumaco, Colombia",COLOMBIA,2.0,-78.0
+601,Prehistoric submarine landslides & tsunami,,"Georgia Strait, Fraser Delta, Alaska, USA",USA,48.0,-124.0
+602,1994 Shikotan Earthquake,1994,"Shikotan Island, Japan",JAPAN,43.5,147.35
+603,Impact,,"Pilbara Craton, Australia (west)",AUSTRALIA,-21.0,119.0
+604,K/T Boundary Impact,,"Sumbar, Turkmenistan",TURKMENISTAN,38.5,56.0
+605,Storm versus tsunami,,Australia (west coast),AUSTRALIA,-16.4,122.8
+606,2004 Indian Ocean Earthquake & Tsunami,2004,"Banda Aceh, Sumatra",INDONESIA,5.2,96.0
+607,1993 SW Hokkaido Earthquake & Tsunami,1993,"Okushiri Island (southwest coast), Hokkaido",JAPAN,42.0,140.0
+608,2004 Indian Ocean Earthquake & Tsunami,2004,"Andaman Sea, Thailand (west)",THAILAND,10.0,94.0
+609,Santorini Eruption & Tsunami,-1650,"Tyro & Kretheus Basins, Crete (southeast)",GREECE,34.0,25.0
+610,1994 Java Earthquake & Tsunami,1994,Bali & East Java,INDONESIA,-7.0,115.0
+611,Cascadia Earthquake,1700,"Tillamook Bay, Oregon, USA",USA,45.5,-124.0
+612,Storm versus tsunami,1839,"Aran Island, Ireland (west)",UK,53.0,-10.0
+613,Storm versus tsunami,,Australia (west),AUSTRALIA,-22.0,118.0
+614,Earthquake,,"Puget Sound, Washington, USA",USA,47.5,-122.5
+615,2001 Peru Earthquake & Tsunami,2001,"Camana, Peru; Pacific",PERU,-16.64,-72.73
+616,1946 Aleutian Earthquake & Tsunami,1946,"Marquesas, Easter, Juan Fernandez Islands",FRENCH POLYNESIA,-10.0,-140.0
+618,Earthquake and tsunami,,Cascadia,USA,46.0,-124.0
+619,Submarine earthquake,,"Southern Oregon, Northern California, USA",USA,42.0,-123.5
+620,Submarine landslide,,"Carrizalillo, Chile",CHILE,-29.01,-71.3
+621,Cascadia Earthquake,1700,"Oregon, USA",USA,43.0,-124.5
+622,Red Sea Rifting Earthquake,,Red Sea,UNKNOWN,3.0,32.5
+623,Earthquake and landslide,,Sweden,SWEDEN,59.25,18.0
+624,Cascadia Earthquake,,"Netarts Bay, Oregon, USA",USA,45.5,-124.0
+625,Cascadia Earthquake,,"Whidbey Island, Washington, USA",USA,48.5,-122.8
+626,1929 Grand Banks Earthquake & Tsunami,1929,"Newfoundland Harbors, Burin, Canada",CANADA,47.0,-55.0
+627,Storm versus tsunami,,"Meseta Region, Central Morocco",MOROCCO,34.0,-7.0
+628,K/T Boundary Impact,,"Mexico (northeast), Gulf of Mexico",MEXICO,23.8,-98.8
+629,1899 Alaskan Earthquake,1899,"Icy Cape, Alaska, USA",USA,60.0,-142.0
+630,"1601 Earthquake, 5 events in past 15ky",1601,"Lake Lucerne, Switzerland",SWITZERLAND,47.0,8.2
+631,Landslide & seiche,,"Lake Lucerne, Switzerland",SWITZERLAND,47.0,8.2
+632,Sea level change,,Mediterranean (west),SPAIN,40.0,5.0
+633,Seismites,,"Kawachi lowland plain, Osaka, Japan",JAPAN,35.0,135.0
+634,K/T Boundary Impact,,"Alabama, USA",USA,32.0,-86.0
+635,1999 Turkey Earthquake & Tsunami,1999,Turkey (west),TURKEY,40.75,30.0
+636,K/T Boundary Impact,,Mexico (northeast),MEXICO,25.0,-99.0
+637,Storegga landslide,,Scotland,UK,63.0,-8.0
+638,Seismites,,Chile (north),CHILE,-23.0,-70.0
+639,Chicxulub Impact,,"La Popa Basin, Mexico (northeast)",MEXICO,26.0,-100.75
+640,Giant wave deposit,,"Molokai, Hawaii",USA,21.0,-157.0
+641,Giant wave deposit (multiple events),,"Lanai, Hawaii",USA,20.0,-157.0
+642,Giant wave deposit,,"Lanai, Hawaii",USA,20.0,-157.0
+643,Seismites,,"Kentucky, Ohio, Virginia, USA",USA,38.0,-82.0
+644,Turbidites,,Madeira Abyssal Plain (Canary Plain),SPAIN,27.0,-16.0
+645,Seismites,,"Low Segura Basin, Spain",SPAIN,38.0,-1.0
+646,Seismites,,"Upper Benue, Nigeria (northeast)",NIGERIA,6.0,7.5
+648,Santorini Caldera Collapse,-1650,Eastern Mediterranean Sea,GREECE,36.0,18.0
+649,Submarine turbidite,,East Sumba (Indonesia),INDONESIA,-10.5,120.2
+650,Terrace deposit,,"Netarts Bay, Oregon, USA",USA,45.3,-124.45
+652,Aniakchak & Augustine eruptions,,"Upper Bristol Bay, Dillingham, Alaska, lower Cook Inlet, USA",USA,55.5,-159.0
+655,1998 Papua New Guinea Earthquake & Tsunami,1998,"Sissano Lagoon, Talwayat Island",PAPUA NEW GUINEA,-3.0,140.5
+659,1953 Suva Earthquake & Tsunami,1953,"Suva, Fiji",FIJI,-18.9,178.0
+660,Seismites,,Red Sea rift (northwest),EGYPT,30.0,35.0
+661,Seismites,,"Thuringia, Germany",GERMANY,52.0,11.0
+664,1969 Kamchatka Earthquake & Tsunami,1969,"Ozernoi Peninsula, Kamchatka, Russia",RUSSIA,58.0,163.7
+666,1918 Earthquake & Tsunami,1918,"Aguada, Puerto Rico (northwest)",USA TERRITORY,18.4,-67.2
+669,2004 Indian Ocean Earthquake & Tsunami,2004,"South Male Atoll, Maldives",MALDIVES,4.0,74.8
+671,1618 Tsunami & El Nino event,1618,Peru (north coast),PERU,-10.0,-78.0
+672,Paleoliquefaction and tsunamis,,"Carlsbad Area, San Diego, California, USA",USA,33.2,-117.0
+673,1919 Earthquake & Tsunami,1919,"Tongan Islands, E. of Ha'alaufuli Vava'u",TONGA,-20.0,-176.0
+675,K/T Boundary Impact,,"Neuquen Province, Argentina",ARGENTINA,-38.1,-68.3
+677,Megalandslides,,"Lake Tahoe, California, USA",USA,39.1,-119.1
+678,Eltanin bolide (Km),,Bellingshausen Sea,ANTARCTICA,-71.31,-85.16
+679,Cascadia Earthquake,,"Neskowin and Rockaway, Oregon, Long Beach Peninsula and Grayland Plains, Washington",USA,46.0,-124.0
+680,Storm versus tsunami,,"Euchre Creek, Oregon (3 sites), USA",USA,48.0,-122.0
+682,1995 Antofagasta Earthquake,1995,"Antofagasta, Northern Chile",CHILE,-23.0,-70.5
+683,1995 Antofagasta Earthquake,1995,"Taha Uku Bay, Hiva Oa, Marquesas Islands",FRENCH POLYNESIA,-10.0,-140.0
+684,1960 Chile Earthquake & Tsunami,1960,"Puerto Saavedra, Chile, City of Valdivia",CHILE,-38.0,-73.5
+685,1994 Jokulhlaup/Outburst Goddard Glacier flood,1994,"Farrow Creek, British Columbia, Canada",CANADA,51.0,-124.1
+686,1929 Grand Banks Earthquake & Tsunami,1929,"Burin Peninsula, Newfoundland, Canada",CANADA,47.0,-55.5
+687,Seismites,,Morocco,MOROCCO,34.0,-5.0
+688,1727 & 1999 Earthquakes,1727,"Newburyport, Massachusetts, USA",USA,43.0,-71.7
+689,1964 Alaskan Earthquake & Tsunami,1700,"Seaside, Oregon, USA",USA,46.0,-124.0
+690,1854 Ansei-Tokai Earthquake & Tsunami,1854,"Suruga Bay, central Japan, Iruma",JAPAN,35.0,139.0
+691,1755 Lisbon Earthquake & Tsunami,1755,"Boca do Rio, Algarve, Portugal",PORTUGAL,37.5,-8.5
+692,"Tsunami deposits, submarine slides, offshore Earthquakes",,Playa de Popoyo,NICARAGUA,11.4,-86.07
+693,Tsunami deposits,,Spanish Coast,SPAIN,37.0,-7.0
+694,Earthquake and landslide,,"Puget Sound, Washington, USA",USA,47.5,-124.0
+695,Earthquake,,"Puget Sound, Washington, USA",USA,47.5,-124.0
+696,Impact injecta - distal,,"SE South Dakota, USA",USA,44.0,-97.0
+697,Landslide slumping,,"Alps, France Trieves (South of Grenoble)",FRANCE,45.0,57.0
+698,Earthquake,,"Wellington, New Zealand",NEW ZEALAND,-41.0,175.5
+699,1998 Papua New Guinea Earthquake & Tsunami,1998,"Quobba Point, Cape Leveque, La Crosse Island, Roche Reef, Gulf of Carpentaria (northwest coast)",AUSTRALIA,-12.0,134.0
+700,Tsunamis,1530,Cyprus (southwest and southeast),CYPRUS,35.0,33.0
+701,Uplifted Islands,,"Aruba, Curacao, Bonaire, Leeward Netherlands Antilles",NETHERLANDS ANTILLES,12.5,-70.0
+703,Tsunamis,,"Waikato Bay and Bay of Plenty, New Zealand (north)",NEW ZEALAND,-37.0,176.0
+706,1755 Lisbon Earthquake & tsunami & older tsunamis,1755,"Lisbon, Portugal, Algarve Coast",PORTUGAL,38.6,-0.5
+707,1960 Chile Earthquake & Tsunami,1960,"Hilo Bay, Hawaii",USA,19.75,-155.0
+708,Earthquake,,"Central Yunnan Province, China",CHINA,25.5,102.0
+709,Volcanic earthquake,,"Central Yunnan Province, China",CHINA,25.5,102.0
+710,Earthquake,,"Hanxia, Yumen, China",CHINA,40.0,98.5
+711,2003 Montserrat Eruption & Tsunami,2003,"Soufriere Hills, Volcano, Montserrat, Lesser Antilles",MONTSERRAT,17.0,-62.0
+712,Tsunami deposits,1946,"Queen's Beach, Oahu, Hawaii",USA,21.0,-157.6
+713,Storm versus tsunami,,"Sharks Cove, Oahu, Hawaii",USA,21.0,-157.0
+714,1998 Papua New Guinea Earthquake & Tsunami,1998,"Aitape, Papua New Guinea",PAPUA NEW GUINEA,-3.0,143.0
+715,Chesapeake Bay Impact Crater,,"Chesapeake Bay, SE Virginia, South of James River",USA,38.0,-76.0
+716,1998 Papua New Guinea Earthquake & Tsunami,1998,"Sissano Lagoon, Aitape, Papua New Guinea",PAPUA NEW GUINEA,-3.0,140.5
+717,K/T Boundary Impact,,"Moscow Landing, Alabama, USA",USA,33.0,-87.0
+718,K/T Boundary Impact,,"Moscow Landing, Alabama, USA, Gulf coastal plain",USA,33.0,-87.0
+719,Seismites,,"Anambra Basin, SE Nigeria",NIGERIA,5.0,7.0
+720,Earthquake landslide and tsunami,1995,"Aegion Gulf of Corinth, Greece",GREECE,38.3,22.1
+721,Storm versus tsunami,2000,"Capbreton Canyon, Bay of Biscay, France (southwest)",FRANCE,43.6,-1.65
+722,Coastal Evolution,,"Morar, Scotland (northwest)",UK,56.9,-5.75
+723,"2003 Tokachi-Oki, Japan Earthquake & Tsunami",2003,"Ootsu Harbor, Hokkaido, Japan",JAPAN,42.5,143.0
+724,1964 Alaskan Earthquake & Tsunami,1964,"Crescent City, California, USA",USA,41.75,-124.15
+725,1993 SW Hokkaido Earthquake & Tsunami,1993,"Monai, Japan Pt. Okushiri, Japan",JAPAN,42.0,139.5
+726,Scouring of tsunami deposits,1960,Chile,CHILE,-23.0,-70.0
+727,Paleotsunami,,"Kobe, Japan",JAPAN,35.0,135.0
+728,Native American legend,1800,"Neah Bay, Washington",USA,47.0,-125.0
+729,Tsunamiites,,"Caleta Herradura, N. Chile",CHILE,-28.5,-72.0
+730,Tsunami deposits,,"Boulonnais area, Northern France",FRANCE,50.75,1.5
+732,Cascadia Earthquake,,"Vancouver Island, British Columbia, Canada; Naiwiakum River, Washington, USA",CANADA,48.0,-126.0
+733,Paleotsunami,,"Kunashir Island and Izena Bay Coast, Japan (Pacific side)",JAPAN,44.0,147.0
+735,1929 Grand Banks Earthquake & Tsunami,1929,"Taylor's Bay, Newfoundland, Canada",CANADA,47.0,-55.5
+739,1843 Tokachi-oki Earthquake & Tsunami,1843,"Kiritappu Marsh, Eastern Hokkaido, Japan",JAPAN,43.082,145.105
+740,1992 Nicaragua Earthquake & Tsunami,1992,Playa de Popoyo,NICARAGUA,11.43,-86.07
+743,1929 Grand Banks Earthquake & Tsunami,1929,"Taylor's Bay, Newfoundland, Canada",CANADA,47.0,-55.5
+745,Earthquake,,"Samos Island, Aegean Sea, Greece",GREECE,37.6,27.0
+746,Deposit,,"Sagami, Japan",JAPAN,35.0,139.0
+747,Paleotsunami,,Japan,JAPAN,35.0,140.0
+748,Komagatake Volcanic eruption,,"SE Hokkaido, Japan",JAPAN,43.0,144.0
+749,Tsunamis,,"Bay of Plenty & East Coromandel Peninsula, New Zealand",NEW ZEALAND,-38.0,177.0
+751,Nabukelevu Volcanic tsunami,,"Suva, Fiji",FIJI,-18.9,178.0
+753,1960 Chile Earthquake & Tsunami,1960,"Conception, Chile",CHILE,-34.0,-73.0
+754,Mjolnir Impact,,Paleo-Barents Sea,RUSSIA,74.0,30.0
+756,Earthquake,,"Siuslaw, Umpqua and Coo River systems, Oregon (south-central), USA",USA,43.3,-124.0
+757,1964 Alaskan Earthquake & Tsunami,1964,"Copper River Delta, Alaska, USA",USA,60.5,-145.5
+758,1993 SW Hokkaido Earthquake & Tsunami,1993,"Taisei Oshima Peninsula, Hokkaido (southwest), Japan (north)",JAPAN,42.3,140.0
+759,Tsunami deposits,,"Tuamotu, southeast Pacific",FRENCH POLYNESIA,-20.0,-140.0
+761,2004 Indian Ocean Earthquake & Tsunami,2004,Thailand & Indonesia,INDONESIA,5.6,95.0
+762,Tsunami deposits,,"Miyako Group, N. of Miyako, Japan",JAPAN,39.5,142.0
+763,Multiple events (tectonic & sea-level low stands),,"Peten (southwest), Guatemala",GUATEMALA,14.2,-92.0
+765,Submarine landslide,,"San Pedro Escarpment, southwest of Long Beach, California, USA",USA,34.0,-118.0
+766,2004 Indian Ocean Earthquake & Tsunami,2004,"Banda Aceh, Sumatra",INDONESIA,5.6,95.0
+767,K/T Boundary Impact,,"Bochil & Guayal, SE Mexico",MEXICO,17.0,-92.9
+768,Tectonogenic tsunami,,"Jurassic Guwayza Fm. Of Oman, Arabian Peninsula",OMAN,26.0,57.0
+769,Asteroid Impact,,"Hamersley Basin, Australia (west)",AUSTRALIA,-21.0,116.0
+770,K/T Boundary Impact,,"La Sierrita & Lajilla, Mexico",MEXICO,25.0,-104.0
+773,Cascadia Earthquake,,"Port Alberni, British Columbia, Canada",CANADA,49.0,-126.0
+774,K/T Boundary Impact,,"Arroyo el Mimbral, Mexico",MEXICO,22.0,-98.5
+775,Storegga landslide,,Norway (west),NORWAY,67.0,14.0
+777,Santorini Eruption & Tsunami,,"Aegean Islands, Greece",GREECE,36.4,25.4
+778,Bolide Impact tsunami,,"Hatch Hills Fm., N. Appalachians, USA",USA,40.0,-81.0
+781,Storm versus tsunami,,"Lanai, Hawaii",USA,20.7,-157.0
+785,Cascadia Earthquake,1700,"Bradley Lake and Euchre Creek, Oregon and Niawaikum Washington, USA",USA,46.0,-124.0
+787,K/T Boundary Impact,,"Penalver Formation, Cuba (northwest)",CUBA,23.0,-82.2
+789,Uplift,,"Lanai, Hawaii",USA,20.7,-157.0
+790,115 AD Israel Earthquake & Tsunami,115,"Herod the Grea'ts Harbor at Caesarea Maritime, Israel",ISRAEL,36.0,32.3
+791,McKinney Bay Landslide Tsunami,,"Lake Tahoe, California-Nevada, USA",USA,39.5,-120.0
+792,K/T Boundary Impact,,"El Tecolote, NE Mexico",MEXICO,25.0,-100.0
+793,K/T Boundary Impact,,"El Tecolote, NE Mexico",MEXICO,25.0,-100.0
+794,1964 Alaskan Earthquake & Tsunami,1964,"Turnagain Arm, Alaska, USA",USA,61.0,-150.0
+795,1964 Alaskan Earthquake & Tsunami & 3000 BP,,"Netarts Bay, Oregon, USA",USA,45.5,-124.0
+796,Earthquake and tsunami and sudden subsidence,,"North Island (east), New Zealand",NEW ZEALAND,-39.5,176.9
+797,Cascadia Earthquake,,"Snohomish Delta, Everett, Washington, USA",USA,48.0,-122.0
+798,1969 Kamchatka Earthquake & Tsunami,1969,"Kamchatka, Russia",RUSSIA,56.0,163.0
+799,Submarine landslide,,"Lake Washington, Washington, USA",USA,47.5,-122.0
+800,Tahoe Glaciation Landslide,,"Lake Tahoe, California-Nevada, USA",USA,39.5,-120.0
+801,Earthquake,,"McAllister Creek and Nisqually River, Puget Sound (south), Washington, USA",USA,47.0,-122.5
+802,Cascadia Earthquake,,"Bradley Lake, Oregon, USA",USA,43.0,-124.5
+803,1755 Lisbon Earthquake & Tsunami,1755,"Cabo de Trafalgar, Southern Spain",SPAIN,36.2,-6.0
+804,K/T Boundary Impact,,"Neuquen Basin, Argentina",ARGENTINA,-37.5,-70.0
+805,Storm versus tsunami,,Bahamas,BAHAMAS,24.0,-74.5
+806,Tectonic earthquake,,"Montana (north-central), USA",USA,48.5,-110.0
+807,1995-2004 Montserrat Eruption & Tsunami,1995,"Soufriere Hills, Montserrat, Guadeloupe 48km SE",MONTSERRAT,16.72,-62.2
+808,Chicxulub Impact,,Campeche marine platform (west Yucatan platform),MEXICO,19.5,-92.0
+811,K/T Boundary Impact,,"North Unit of Badlands National Park, USA",USA,44.0,-102.0
+813,1979 Nice Landslide Tsunami,1979,"UAR Deep Sea Fan, off Nice, France",FRANCE,44.75,7.3
+814,Turbidity currents,,"Deep Sea Fan, Nice, France",FRANCE,44.75,7.3
+816,K/T Boundary Impact,,Mexico,MEXICO,21.0,-98.0
+818,Storm versus tsunami,,"Killalea Lagoon, New South Wales, Australia",AUSTRALIA,-34.6,150.8
+820,K/T Boundary Impact,,Gulf of Mexico Margin,MEXICO,19.5,-92.0
+822,1927 Jericho Earthquake & Tsunami,1927,"Jordan River, Dead Sea",JORDAN,32.0,35.0
+824,Tsunami deposits,,"Brook Pond (west), Gros Morne National Park, Newfoundland",CANADA,47.0,-55.5
+826,Prehistoric tsunamis,,"Kamchatka, Russia (east coast)",RUSSIA,55.0,160.0
+829,Uplift,,"San Pedro, California, USA",USA,33.5,-118.2
+832,1993 SW Hokkaido Earthquake & Tsunami,1993,"Lower Yubetsu River, Hokkaido (southwest), Japan",JAPAN,42.44,140.0
+833,1946 Aleutian Tsunami & Storm comparison,1946,"Sunset Beach, Oahu, Hawaii",USA,21.7,-158.0
+834,Stromboli landslide debris avalanche,1938,"Stromboli , Italy",ITALY,38.8,15.3
+835,79 AD Vesuvius Eruption & Tsunami,79,"Sarno prodelta system, SE Naples Bay, Italy",ITALY,40.6,14.4
+836,Earthquake,,"San Diego County (northern), California, USA; Northern coastal California",USA,33.2,-117.0
+837,K/T Boundary Impact,,"La Ceiba section, Mexico",MEXICO,17.0,-94.0
+839,K/T Boundary Impact,,"Chicxulub crater, Mexico",MEXICO,21.0,-90.0
+840,K/T Boundary Impact,,"Coxquihui, state of Veracruz, Mexico",MEXICO,20.0,-96.7
+841,Chicxulub Impact,,"Brazos River, Texas, USA",USA,31.5,-97.6
+842,Storm versus tsunami,,"Minnamurra, New South Wales, Australia",AUSTRALIA,-34.6,150.9
+843,Volcanogenic tsunami,,"Burr Point, Cook Inlet, Alaska, USA",USA,59.3,-154.0
+844,"2003 Colima, Mexico Earthquake & Tsunami",2003,"Colima, Mexico",MEXICO,19.0,-104.0
+845,1969 Kamchatka Earthquake & Tsunami,1969,"Ozernoi Peninsula, Kamchatka, Russia",RUSSIA,58.0,163.7
+846,Earthquake and tsunami,,"Alsea Bay, Oregon, USA",USA,44.4,-124.0
+847,Tsunami deposits,,"Agaete Valley, Gran Caneria, NW Canary Islands",SPAIN,27.0,-16.0
+848,1993 SW Hokkaido Earthquake & Tsunami,1993,South Margin of Japan Sea North Basin,JAPAN,42.0,139.0
+849,Coseismic uplift/subsidence,,"Yaquina Bay and other Oregon coast river estuaries & bays, USA",USA,46.0,-124.0
+850,1960 Chile Earthquake & Tsunami,1960,"Sanriku coast, Japan (southwest)",JAPAN,41.0,141.0
+851,1908 Messina Earthquake & Tsunami,1908,"Messina Strait, South Italy",ITALY,38.0,15.0
+853,"1996 Iranian Jaya, Indonesia Earthquake & Tsunami",1996,Biak Island (epicenter location) Indonesia (northeast coast),INDONESIA,-0.6,137.5
+854,Cascadia Earthquake,,"California (northeast), USA",USA,41.0,-124.0
+855,Subduction earthquake,,Cascadia Margin,USA,46.0,-124.0
+856,Storm versus tsunami,,"Hergla and Chebba, Tunisia",TUNISIA,36.0,10.5
+859,Tsunami deposits,,"Boso and Miura peninsulas, Japan",JAPAN,35.0,140.0
+861,Earthquakes of Sagami Trough & Uplift,,"Boso and Miura peninsulas, Central Japan",JAPAN,35.0,140.0
+862,Great Earthquakes of Sagami Trough & Uplift,,"Sagami Trough, Japan",JAPAN,35.0,140.0
+863,Uplift/Subsidence,,"Boso Peninsula, Central Japan",JAPAN,35.0,140.5
+864,Storm versus tsunami,,"S. Boso Peninsula, E. Japan",JAPAN,35.0,140.5
+865,Coseismic,,"Boso Peninsula, Central Japan",JAPAN,35.0,140.5
+866,1960 Chile Earthquake & Tsunami,1960,"Sanriku coast, Japan (southwest)",JAPAN,41.0,141.0
+867,1998 Papua New Guinea Earthquake & Tsunami,1998,Papua New Guinea (northwest),PAPUA NEW GUINEA,-3.0,140.5
+870,Earthquake uplift and anthropogenic activity,,"Cook Strait (south), New Zealand",NEW ZEALAND,-41.0,172.0
+871,Sea and tide levels,,Mexico (west),MEXICO,20.0,-104.0
+873,1843 Tokachi-oki Earthquake & Tsunami,1843,"Kokutaiji Temple, Akkeshi Town, Hokkaido (east), Japan",JAPAN,43.0,145.0
+874,Kuril Subduction Zone,,"Lake Harutori-ko, Kushiro City, E. Hokkaido Japan",JAPAN,43.0,144.8
+875,"1707 Hoei Earthquake/Nankai Trough, 1605 Tokai Earthquake",690,"Enshu-nada, Kosai City, Shizuoka, Japan",JAPAN,34.4,138.0
+876,Sand deposit,,"Makinohara Upland, Shizuoka, Japan",JAPAN,34.7,137.5
+880,Tsunami deposits,,"Cabo de Trafalgar, Spain",SPAIN,36.182,-6.0
+883,1993 SW Hokkaido Earthquake & Tsunami,1993,Hokkaido Coast (west) and Okushiri Island,JAPAN,42.0,140.0
+884,K/T Boundary Impact,,Mexico (northeast),MEXICO,22.0,-98.5
+886,Storm versus tsunami,,Japan,JAPAN,36.0,138.0
+887,Coseismic,,"Vancouver Island, British Columbia, Canada",CANADA,49.0,-126.0
+889,Tsunami record,,"Kanim Lake, Vancouver Island (west), British Columbia, Canada",CANADA,49.0,-125.0
+891,1908 Messina Earthquake & Tsunami,1908,"Messina Strait, South Italy",ITALY,38.0,15.0
+892,1993 SW Hokkaido Earthquake & Tsunami,1993,Korea (east coast),KOREA,37.0,129.0
+896,1992 Nicaragua Earthquake & Tsunami,1992,"San Martin, Nicaragua (west)",NICARAGUA,12.0,-87.0
+898,Santorini Eruption & Tsunami,1650,"Kamari and Perissa, Greece",GREECE,36.4,25.4
+900,Sea level change,,Bermuda,BERMUDA,32.3,-64.75
+901,Arbuckle Dolomite Marker=Ames County Impact,,"Wilburton Field, Oklahoma, USA",USA,34.0,-95.0
+902,Tsunami,,"Cook Strait (south), New Zealand",NEW ZEALAND,-41.4,174.5
+903,Magnetic susceptibility methods,,"Tagus Estuary, Portugal",PORTUGAL,38.0,9.5
+906,Uplift/subsidence,,"Vancouver Island (west), British Columbia, Canada",CANADA,49.2,-125.8
+912,Uplift/Subsidence,,under sea off islands of Japan,JAPAN,36.0,138.0
+914,Santorini Eruption & Tsunami,-1600,"Thera (Santorini Island), Crete and Turkey (west)",GREECE,36.4,25.4
+915,1st Century BC tsunami,,"Black Sea, North Bulgarian coast",BULGARIA,43.3,28.3
+916,1908 Messina Earthquake & Tsunami,1908,"Messina Strait, South Italy",ITALY,38.0,15.0
+917,Effects of Coastal Forest on Tsunami Hazard Mitigation,,Japan,JAPAN,36.0,138.0
+919,1992 Flores Earthquake & Tsunami,1992,"Flores Island, Indonesia",INDONESIA,8.5,122.5
+922,1792 Shimabara Earthquake,1792,"Unzen Volcanic Area, Kyushu (west), Japan",JAPAN,33.0,131.0
+923,Tsunami deposits,,"Lagoon Creek, Northern California, USA",USA,38.9,-123.7
+924,"Earthquake triggered debris flow, Guilmette Formation",,"Schell Creek Range, SE Nevada, USA",USA,38.0,-115.0
+925,Uplift/Subsidence,,"Washington (south coast), USA",USA,46.0,-124.0
+926,Sand dune stratigraphy,,"Humboldt Bay, Northern California, USA",USA,46.0,-124.0
+930,Uplift/Subsidence,,"Eel River Valley (lower), Humboldt county, California (north), USA",USA,46.0,-124.0
+933,Paleoseismic,,"Oregon coast (north), USA",USA,45.0,-124.0
+934,Cascadia Earthquake,,"Deserted Lake, British Columbia, Canada",CANADA,49.75,-126.5
+936,Storm versus tsunami,,"Tuamoto Archipelago, French Polynesia",FRENCH POLYNESIA,-20.0,-140.0
+937,1762 Bay of Bengal Earthquake & Tsunami,-1395,"Cheduba and Myengun Islands, Rakhine coast, Myanmar",MYANMAR,18.85,93.733
+938,Cascadia Earthquake,1700,Japan,JAPAN,35.0,140.0
+939,Uplift/Subsidence,,"Washington (west), USA",USA,46.4,-124.0
+940,K/T Boundary Impact,,Mexico (northeast),MEXICO,22.0,-98.5
+945,1998 Papua New Guinea Earthquake & Tsunami,1998,Papua New Guinea,PAPUA NEW GUINEA,-3.0,140.5
+946,1960 Chile Earthquake & Tsunami,1960,"Rio Lingue Estuary, South Central Chile",CHILE,-39.5,-73.5
+949,1992 Nicaragua Earthquake & Tsunami,1992,Nicaragua,NICARAGUA,11.4,-86.0
+951,1996 Peru Earthquake & Tsunami,1996,"Chimbote, Northern Peru",PERU,-9.0,-79.6
+953,Giant Landslide,,"Molokai and Lanai Islands, Hawaii",USA,21.1,-157.0
+956,1755 Lisbon Earthquake & Tsunami,1755,Rhone Delta versus Mesotidal Portugal,PORTUGAL,37.5,-8.5
+961,Tsunami potential,,Hawaii,USA,20.0,-157.0
+962,Cascadia Earthquake,,"Alsea Bay, Oregon, USA",USA,44.0,-124.0
+967,1960 Chile Earthquake & Tsunami,1960,"Imperial River, Chile",CHILE,-38.0,-73.0
+969,Storegga landslide,,Shetland Islands,UK,60.0,-2.0
+971,Santorini Eruption & Tsunami,-1650,"Palaikastro, Crete",GREECE,35.2,26.3
+973,1960 Chile Earthquake & Tsunami,1960,"Maullín, Chile",CHILE,-41.6,-73.6
+978,1835 Chile Earthquake and Tsunami,1835,Chile,CHILE,-36.8,-73.0
+980,15th Century eruption of Mt Healy caldera,1343,"Tawharanui Regional Park, Tawharanui Peninsula",NEW ZEALAND,-36.4,174.8
+981,Earthquake,-320,"Lake Tadoussac, Charlevoix region, Canada",CANADA,48.1,-69.7
+983,Paleotsunami,,"Minnamurra Point, Australia",AUSTRALIA,-34.6,150.9
+987,1960 Chile Earthquake & Tsunami,1960,"Hilo, Hawaii",USA,19.7,-155.0
+988,1964 Alaskan Earthquake & Tsunami,1700,"Seaside, Oregon, USA",USA,46.0,-124.0
+991,1998 Papua New Guinea Earthquake & Tsunami,1998,"Mutnaya Bay, Papua New Guinea",PAPUA NEW GUINEA,-3.0,142.0
+992,20 events,-5190,"Lake Biwa, Japan",JAPAN,35.0,136.0
+994,Historic tsunami,1896,Japan,JAPAN,36.0,138.0
+995,2004 Indian Ocean Earthquake & Tsunami,2004,Maldives,MALDIVES,3.2,73.0
+998,2004 Indian Ocean Earthquake & Tsunami,2004,Car Nicobar Island,INDIA,9.17,92.78
+999,2004 Indian Ocean Earthquake & Tsunami,2004,Kerala coast,INDIA,10.0,76.5
+1007,1911 Lake Taal Eruption & Tsunami,1911,Philippines,PHILIPPINES,14.0,121.0
+1047,2004 Indian Ocean Earthquake & Tsunami,2004,"Aceh, Indonesia",INDONESIA,5.29,95.4
+1067,Historic and prehistoric tsunamis,,"Kamchatka, Russia",RUSSIA,55.0,160.0
+1087,1945 Earthquake & Tsunami,1945,Sur Lagoon,OMAN,22.57,59.53
+1089,Storm versus tsunami,1030,"Yongshu reef, South China Sea",CHINA,9.4,112.4
+1090,Great-earthquake subsidence during Holocene emergence,,"Valdivia Estuary, south central Chile",CHILE,-39.8,-73.4
+1091,Boulders,,Fahefa,TONGA,-21.147,-175.338
+1092,Sea level change,,Boso Peninsula (southeast coast),JAPAN,35.0,140.0
+1107,Volcanogenic deposit,,Soufriere volcano,SAINT VINCENT AND THE GRENADINES,13.367,-61.198
+1108,Tsunami deposits,,"Kiritappu, Hokkaido",JAPAN,43.082,145.105
+1109,2004 Indian Ocean Earthquake & Tsunami,2004,Patong Bay and Phang Nga,THAILAND,7.9,98.0
+1110,2004 Indian Ocean Earthquake & Tsunami,2004,Bang Sak,THAILAND,8.8,98.0
+1111,Tsunami deposits,1498,"Shizuoka, Tokai",JAPAN,34.989,138.367
+1112,Tsunami deposits,,"Aceh, Sumatra",INDONESIA,5.6,95.0
+1127,2002 Stromboli Eruption & Tsunami,2002,"Stromboli Volcano, Italy",ITALY,38.8,15.3
+1129,1522 Almeria earthquake,1522,"Cabo de Gata, Spain",SPAIN,36.78,-2.25
+1147,2004 Indian Ocean Earthquake & Tsunami,2004,Baa Atoll,MALDIVES,5.13,72.95
+1167,1856 Earthquake,1856,"Roatan, Honduras",GUATEMALA,16.45,-86.4
+1187,2004 Indian Ocean Earthquake & Tsunami,2004,Peraliya,SRI LANKA,6.171,80.087
+1188,1918 Earthquake & Tsunami,1918,Puerto Rico,USA TERRITORY,18.5,-67.5
+1207,2002 Stromboli Eruption & Tsunami,2002,"Stromboli Volcano, Italy",ITALY,38.8,15.3
+1208,2004 Indian Ocean Earthquake & Tsunami,2004,"Nagapattinam, Tamil Nadu, India",INDIA,10.788,79.842
+1209,2004 Indian Ocean Earthquake & Tsunami,2004,Pichavaram mangrove ecosystem,INDIA,11.431,79.79
+1227,79 AD Vesuvius Eruption & Tsunami,79,Bay of Naples,ITALY,40.8,14.4
+1248,2004 Indian Ocean Earthquake & Tsunami,2004,Sri Lanka (southeast),SRI LANKA,6.6,81.6
+1267,2004 Indian Ocean Earthquake & Tsunami,2004,"Aceh, Sumatra",INDONESIA,5.2,96.0
+1268,2004 Indian Ocean Earthquake & Tsunami,2004,Khao Lak and Phuket Island,THAILAND,7.984,98.331
+1269,1969 Earthquake & Tsunami,1969,Portuguese Shelf,PORTUGAL,36.0,-10.6
+1270,1755 Lisbon Earthquake & Tsunami,1755,Portuguese Shelf,PORTUGAL,36.0,-10.6
+1271,2004 Indian Ocean Earthquake & Tsunami,2004,Gulf of Mannar and Palk Bay,INDIA,9.166,79.443
+1287,Santorini Eruption & Tsunami,-1500,"Amnisos, Northern Crete",GREECE,35.2,24.9
+1307,Earthquake and tsunami,,"Kintradwell, Scotland",UK,58.0,-3.9
+1347,1996 Karymsky Eruption & Tsunami,1996,"Karymskoye Lake, Kamchatka",RUSSIA,54.0,159.5
+1467,Seiche oscillations observed under quiet sea conditions,2001,"36 bays in the Sanriku district, Japan",JAPAN,41.0,141.0
+1487,1960 Chile Earthquake & Tsunami,1960,Chile (south-central),CHILE,-35.0,-74.0
+1509,"2006 Java, Indonesia Earthquake & Tsunami",2006,"Cimerak district, West Java to Gunung Kidul district, Central Java",INDONESIA,-7.7,108.4
+1511,1969 and 1971 Kamchatka Earthquakes & Tsunamis,1969,Bering Sea coast of Kamchatka from North of the Uka River to the Kamchatskii Peninsula and Bering Is,RUSSIA,59.0,163.0
+1527,2004 Indian Ocean Earthquake & Tsunami,2004,"Aceh coast, Indonesia",INDONESIA,4.8,96.0
+1528,Archaeological record,,"Wairau, South Island, New Zealand",NEW ZEALAND,-41.0,174.0
+1547,1958 Earthquake Landslide Tsunami,1958,"Lituya Bay, Alaska, USA",USA,58.672,-137.526
+1548,11th Century Marmara Sea tsunami,1000,"Sarkoy, northern coast of the Marmara Sea, northwestern Turkey",TURKEY,40.617,27.1
+1587,1929 Grand Banks Earthquake & Tsunami,1929,"Taylor's Bay, Newfoundland, Canada",CANADA,46.883,-54.267
+1588,Submarine landslide,,"Lanai, Hawaii (south: sea scarp)",USA,20.7,-156.9
+1607,Submarine landslide,,"Hawaiian Ridge, Hawaii",USA,24.5,-165.0
+1608,Storm versus tsunami,,"Bonaire, Puerto Rico",USA TERRITORY,12.2,-68.26
+1609,Storm versus tsunami,,Guadeloupe,GUADELOUPE,16.2,-61.5
+1627,2004 Indian Ocean Earthquake & Tsunami,2004,"Pichavaram - Chennai transect, India",INDIA,12.0,80.0
+1648,Kuril Subduction Zone,,"Kiritappu Marsh, Eastern Hokkaido, Japan",JAPAN,43.082,145.105
+1649,Earthquake,,"Salmon River estuary, central Oregon coast, USA",USA,45.0,-124.0
+1667,1946 Aleutian Tsunami & Storm comparison,1946,"Sunset Beach, Oahu, Hawaii",USA,21.7,-158.0
+1668,2004 Indian Ocean Earthquake & Tsunami,2004,Africa (East coast),NONE,2.5,44.0
+1687,Cascadia Earthquake,,Cascadia,USA,45.0,-124.0
+1688,Boulder beds,,Scotland (northeast),UK,58.03,-3.85
+1690,1929 Grand Banks Earthquake & Tsunami,1929,Grand Banks,CANADA,44.5,-56.0
+1707,1964 Alaskan Earthquake & Tsunami,1964,"Kodiak and nearby islands, Alaska, USA",USA,57.5,-153.0
+1708,Chesapeake Bay Impact Crater,,Virginia segment of the Atlantic Coastal Plain,USA,38.0,-76.0
+1727,Impact,,"DSDP site 612, New Jersey continental slope",USA,38.7,-72.0
+1728,"Chesapeake Bay Impact Crater, Toms Canyon, Montagnais Impact Craters",,"Southeastern Virginia, New Jersey Outer Continental Shelf, Nova Scotia",NONE,38.0,-76.0
+1747,Seismites,,"Kentucky, southwest Ohio, and Virginia",USA,38.0,-82.0
+1748,Subsidence,,Western North America,NONE,45.0,-120.0
+1768,2004 Indian Ocean Earthquake & Tsunami,2004,"Tamil Nadu, India",INDIA,11.0,78.0
+1769,2004 Indian Ocean Earthquake & Tsunami,2004,"Tamil Nadu, India",INDIA,11.0,78.0
+1771,1999 Turkey Earthquake & Tsunami,1999,"Golcuk area, Turkey",TURKEY,40.7,29.8
+1787,Tsunami record,,Kuril Trench,JAPAN,47.1,155.0
+1807,Tsunami deposits,,"Sound of Lefkada, NW Greece",GREECE,38.717,20.65
+1808,K/T Boundary Impact,,Mexico (northeast),MEXICO,22.0,-98.5
+1810,Storegga landslide,,"Montrose, Scotland (east)",UK,56.7,-2.45
+1812,2004 Indian Ocean Earthquake & Tsunami,2004,"Kalpakkam, Tamil Nadu, India",INDIA,12.567,80.167
+1813,2004 Indian Ocean Earthquake & Tsunami,2004,Maldives & Sri Lanka,SRI LANKA,-0.6,73.0
+1814,Manson Impact,,"White River near Chamberlain and Yankton, South Dakota",USA,42.9,-97.4
+1827,1883 Krakatau Eruption,1883,"Krakatau, Indonesia",NONE,-6.0,105.0
+1828,2004 Indian Ocean Earthquake & Tsunami,2004,"Phang Nga, Thailand",THAILAND,8.6,98.0
+1829,2004 Indian Ocean Earthquake & Tsunami,2004,Khao Lak and Kho Khao Island (coastline between),THAILAND,8.8,98.3
+1831,2004 Indian Ocean Earthquake & Tsunami,2004,"Banda Aceh, Indonesia, and Nam Khem, Thailand",NONE,5.0,95.0
+1847,Storegga landslide or Meteorite Impact,,"Parnu, Estonia",ESTONIA,58.375,24.514
+1848,Lagoon deposit,,"Killalea Lagoon, New South Wales, Australia",AUSTRALIA,-34.6,150.8
+1867,Kuril Subduction Zone,,Shikotan Island,RUSSIA,43.78,146.7
+1888,Alamo Impact Event,,Southern Nevada,USA,38.0,-115.0
+1889,Augustine Eruption,,"Burr Point and West Island, Alaska, USA",USA,59.0,-153.5
+1907,Paleotsunami,,Australia (west),AUSTRALIA,-25.0,116.0
+1908,Cascadia Earthquake,,"Oregon, USA",USA,45.89,-123.96
+1909,869 Sanriku Earthquake and Tsunami,,"Suijin-numa, Japan Trench",JAPAN,38.0,141.0
+1928,Sea and tide levels,,Bahamas,BAHAMAS,24.0,-74.5
+1929,Storm versus tsunami,,"Laguna Playa Grande, Vieques, Puerto Rico",USA TERRITORY,18.09,-65.72
+1930,Paleotsunami,17,"Torre degli Inglesi, Sicily",ITALY,38.3,15.6
+1931,Impact tsunami,,"Bay of Aghios Nikolaos, northwest Greece",GREECE,37.648,21.305
+1932,2004 Indian Ocean Earthquake & Tsunami,2004,Andaman coast,THAILAND,11.7,92.7
+1947,Deep sea deposit,,"Penalver Formation, Cuba (northwest)",CUBA,22.5,-81.0
+1967,Historic tsunami,,"Huelva Estuary, Gulf of Cadiz, Spain",SPAIN,37.0,-7.0
+1969,2004 Indian Ocean Earthquake & Tsunami,2004,Maldives,MALDIVES,3.2,73.0
+1970,1945 Earthquake & Tsunami,1945,Sur Lagoon,OMAN,22.57,59.53
+1987,Paleotsunami,,"Donana National Park, Spain (southwest)",SPAIN,37.0,-7.5
+1988,Coastal Evolution,,Falkland Archipelago,UK TERRITORY,-51.7,-57.85
+2007,2004 Indian Ocean Earthquake & Tsunami,2004,Phuket,THAILAND,7.98,98.33
+2008,2004 Indian Ocean Earthquake & Tsunami,2004,India (southeast coast),INDIA,10.8,79.9
+2009,Megatsunami,,"Ranquil Formation, southern Chile",CHILE,-37.5,-73.6
+2027,Megatsunami,,"Crowleys Ridge, Missouri",USA,38.2,-90.0
+2047,Volcanogenic deposit,,,NONE,7.6,93.6
+2067,2004 Indian Ocean Earthquake & Tsunami,2003,East India: Poompuhar; Karaikkal; Nagoor,INDIA,10.9,79.8
+2087,2004 Caribbean Earthquake & Tsunami,2004,Les Saintes (Lesser Antilles),FRANCE,17.8,-62.85
+2088,2004 Indian Ocean Earthquake & Tsunami,2004,Kanyakumari,INDIA,8.08,77.5
+2127,2004 Indian Ocean Earthquake & Tsunami,2004,Peraliya and Denuwala villages,SRI LANKA,6.17,80.09
+2128,1755 Lisbon Earthquake & Tsunami,1755,Rabat coast,MOROCCO,34.02,-6.86
+2147,2004 Indian Ocean Earthquake & Tsunami,2004,Phuket Island,THAILAND,7.98,98.43
+2148,1755 Lisbon Earthquake & Tsunami,1755,"Gulf of Cadiz, Spain",SPAIN,37.0,-7.0
+2167,Sediments in river estuaries,,Blijdorp (Rotterdam); Rhine,NETHERLANDS,51.55,4.3
+2168,Paleotsunami,,Scandinavia,SWEDEN,59.0,15.0
+2188,Norwegian Coastline tsunami,,Norwegian Continental slope; Andoya Canyon system; Norwegian Sea,NORWAY,68.7,15.3
+2207,Deformation in mud deposits,,Adriatic Sea,NONE,43.0,15.0
+2208,Alamo Impact Event,,"Nevada, USA",USA,38.0,-115.0
+2227,Tsunami deposits,,Shima Peninsula,JAPAN,42.0,140.5
+2228,2004 Dead Sea Earthquake-triggered Landslide and Tsunami,2004,Dead Sea (northwest coast),ISRAEL,31.7,35.4
+2247,2004 Indian Ocean Earthquake & Tsunami,2004,"Tamil Nadu, India (north coast)",INDIA,11.0,78.0
+2248,2004 Indian Ocean Earthquake & Tsunami,2004,"Tamil Nadu, India",INDIA,11.0,78.0
+2287,2004 Indian Ocean Earthquake & Tsunami,2004,"Ennore, Chennai, Tamil Nadu, India",INDIA,13.2,80.3
+2307,Storm versus tsunami,,"Hawke's Bay, New Zealand",NEW ZEALAND,-39.5,176.7
+2308,Paleoliquefaction and tsunamis,,Sweden,SWEDEN,59.0,15.0
+2327,Volcanogenic deposit,,Lake Managua,NICARAGUA,12.4,-86.3
+2328,2004 Indian Ocean Earthquake & Tsunami,2004,Kerala coast,INDIA,10.0,76.5
+2347,Storm versus tsunami,2004,Bonaire,NETHERLANDS ANTILLES,12.2,-68.26
+2348,Tsunami deposits,,Shandong; Huimin Depression,CHINA,36.7,117.0
+2349,Volcanogenic tsunami,,Sri Lanka and India,INDIA,9.5,79.0
+2350,2004 Indian Ocean Earthquake & Tsunami,2004,Patong Bay and Phang Nga,THAILAND,12.0,101.05
+2351,Storegga landslide,,"Loon Lake, East Greenland",DENMARK,72.9,-22.1
+2367,Earthquake,,"Siuslaw, Umpqua and Coo River systems, Oregon (south-central), USA",USA,43.3,-124.0
+2387,Cascadia Earthquake,,Pacific Northwest coast,NONE,45.0,-125.0
+2407,Cascadia Earthquake,,Cascadia Channel cores off Oregon-Washington,USA,46.0,-125.0
+2427,Storm versus tsunami,,"Jervis Bay, Australia",AUSTRALIA,-35.05,150.68
+2447,Storm versus tsunami,,Reykjanes Peninsula,ICELAND,66.0,-21.35
+2467,Storegga landslide,,Nordfjord system on the west coast of Norway,NORWAY,61.91,5.49
+2487,2004 Indian Ocean Earthquake & Tsunami,2004,"Tamil Nadu, India",INDIA,10.8,79.9
+2507,Gravel Sheet,,"Attari coast, Japan",JAPAN,39.033,141.767
+2508,1999 Turkey Earthquake & Tsunami,1999,"Sea of Marmara, Izmit Bay, Istanbul",TURKEY,41.0,29.0
+2511,2003 Algerian Earthquake & Tsunami,2003,Algiers and Dellys,ALGERIA,36.77,3.58
+2512,1964 Alaskan Earthquake & Tsunami,1964,"Port Valdez, Alaska",USA,61.11,-146.48
+2513,2004 Indian Ocean Earthquake & Tsunami,2004,Vedaranniyam to Vodarevu (southeast Indian coast),INDIA,12.5,80.1
+2514,2004 Indian Ocean Earthquake & Tsunami,2004,"Banda Aceh, Sumatra",INDONESIA,5.5,95.0
+2515,2004 Indian Ocean Earthquake & Tsunami,2004,Mombasa and the Ngomeni Peninsula coasts,KENYA,-5.0,39.0
+2516,2004 Indian Ocean Earthquake & Tsunami,2004,"Kajhu Perumnas District, Banda Aceh, Sumatra",INDONESIA,5.0,95.0
+2517,Alamo Impact Event,,"Nevada, USA",USA,38.0,-115.0
+2527,2002 Stromboli Eruption & Tsunami,2002,"Stromboli Volcano, Italy",ITALY,39.9,15.2
+2547,2002 Stromboli Eruption & Tsunami,2002,"Stromboli Volcano, Italy",ITALY,38.8,15.3
+2548,2004 Indian Ocean Earthquake & Tsunami,2004,"Aceh, Sumatra",INDONESIA,5.2,96.0
+2549,1755 Lisbon Earthquake & Tsunami,,"Lisbon, Portugal",PORTUGAL,36.0,-10.6
+2550,Historic tsunami,,Turkey,TURKEY,40.7,29.0
+2551,Historic tsunami,,"Gulf of Corinth, Central Greece",GREECE,38.0,22.0
+2552,2004 Indian Ocean Earthquake & Tsunami,2004,"Kalpakkam, Tamil Nadu, India",INDIA,12.6,80.2
+2553,Santorini Eruption & Tsunami,,"Cretan Basin, Aegean Sea, Greece",GREECE,36.4,25.4
+2554,Storegga landslide,,Baltic Sea,NONE,58.0,20.5
+2567,Chesapeake Bay Impact Crater,,"Chesapeake Bay Impact Crater, SE Virginia",USA,38.0,-76.0
+2568,Paleotsunami,,"Red Sea coast, North Marsa Alam City",EGYPT,25.0,34.9
+2570,2004 Indian Ocean Earthquake & Tsunami,2004,"Nanggroe Aceh Darussalam, Indonesia (north)",INDONESIA,5.35,95.56
+2571,Landslide,,Puerto Rico,USA TERRITORY,18.5,-66.0
+2572,1960 Chile Earthquake & Tsunami,1575,Chuyaquen site and Chamiza,CHILE,-41.6,-73.6
+2574,2004 Indian Ocean Earthquake & Tsunami,2004,South of Phuket Island up to the border of Myanmar including four islands,THAILAND,7.9,98.0
+2575,2004 Indian Ocean Earthquake & Tsunami,2004,,SRI LANKA,7.8,80.8
+2587,2002 Stromboli Eruption & Tsunami,2002,"Stromboli Volcano, Italy",ITALY,38.0,15.0
+2588,K/T Boundary Impact,,,CUBA,22.5,-81.5
+2589,K/T Boundary Impact,,Moncada Formation in western Cuba,CUBA,22.6,-83.7
+2607,K/T Boundary Impact,,"Brazos River, Texas, USA",USA,31.25,-97.0
+2608,2006 Kuril Islands Earthquake & Tsunami,2006,Kuril Islands,RUSSIA,46.6,153.3
+2627,2004 Indian Ocean Earthquake & Tsunami,2004,India (east coast) and others,INDIA,14.5,80.2
+2628,2004 Indian Ocean Earthquake & Tsunami,2004,Andaman coast,THAILAND,11.7,92.7
+2649,Tsunami deposits,,"Boulonnais, Northern France",FRANCE,50.75,1.5
+2650,1755 Lisbon Earthquake & Tsunami,1755,"Boca do Rio, Algarve, Portugal",PORTUGAL,37.0,-7.93
+2652,2004 Indian Ocean Earthquake & Tsunami,2004,Mu Ko Similan Marine National Park,THAILAND,8.65,97.64
+2653,Volcano Montserrat Lava Dome Collapse,2003,"Soufriere Hills, West Indies",MONTSERRAT,16.72,-62.18
+2654,Boulders,,Ireland and Scotland (west coasts),UK,55.0,-8.5
+2655,Paleotsunami,,Andaman coast,INDIA,12.7,92.9
+2656,1994 Shikotan Earthquake,1994,Shikotan Island,RUSSIA,43.5,147.35
+2657,Landslide tsunami,,"Rennesoy, SW Norway",NORWAY,59.1,5.7
+2658,"10,000-year history of Cascadia great earthquakes",,"Cannon Beach, Oregon, USA",USA,45.883,-123.95
+2659,Storegga landslide,,"Harris, Outer Hebrides, Scotland",UK,56.97,-6.38
+2660,Tsunami uncertainty,,"Kavak Delta (Saros Gulf, NW Turkey)",TURKEY,40.6,26.8
+2661,1998 Papua New Guinea Earthquake & Tsunami,1998,"Sissano Lagoon, Aitape, Papua New Guinea",PAPUA NEW GUINEA,-3.0,142.0
+2663,2004 Indian Ocean Earthquake & Tsunami,2004,Kerala coast,INDIA,10.0,76.5
+2664,2004 Indian Ocean Earthquake & Tsunami,2004,Thailand-Malaysia coast,THAILAND,9.2,98.0
+2665,Boulders,,Otago coast and Shag Point,NEW ZEALAND,-45.5,170.8
+2666,Tsunami potential,1200,"Tokachi coast, Hokkaido, Japan",JAPAN,42.0,140.0
+2667,Tsunami deposits,1600,"Iburi coast, Hokkaido, Japan",JAPAN,42.0,141.0
+2668,1771 Meiwa Earthquake & Tsunami,1771,Ishigaki Island,JAPAN,24.4,124.2
+2669,2004 Indian Ocean Earthquake & Tsunami,2004,"Andaman Islands, Bay of Bengal",INDIA,12.7,92.85
+2670,Meteo-tsunami,1892,SW England,UK,51.4,-4.5
+2671,Storm versus tsunami,,Ishigaki Island,JAPAN,24.4,124.2
+2672,2004 Indian Ocean Earthquake & Tsunami,2004,"Banda Aceh, Sumatra",INDONESIA,5.0,95.0
+2673,Megatsunami,,Arabian peninsula,INDIA,24.0,55.0
+2674,Tsunamiites,,"Salento, southeast Italy",ITALY,40.2,15.2
+2675,Paleotsunami,,"Donana National Park, Spain (southwest)",SPAIN,37.0,-7.5
+2677,Storm versus tsunami,,"Sidi Salem Formation, Tunisia (southeast)",TUNISIA,33.6,10.8
+2678,Tsunami deposits,1700,"Seaside, Oregon, USA",USA,46.0,-124.0
+2679,Augustine Eruption,1883,"Cook Inlet, Alaska, Augustine Volcano, USA",USA,59.35,-151.92
+2680,1755 Lisbon Earthquake & Tsunami,1755,"Algarve Barrier Islands, South Portugal",PORTUGAL,37.5,-8.5
+2681,2004 Indian Ocean Earthquake & Tsunami,2004,"Tamil Nadu, India",INDIA,11.0,78.0
+2682,Tsunami uncertainty,,"Sea of Marmara, Izmit Bay, Istanbul",TURKEY,40.667,28.25
+2683,Chesapeake Bay Impact Crater,,"Chesapeake Bay Impact Crater, SE Virginia",USA,38.0,-76.0
+2684,"1707 Hoei Earthquake/Nankai Trough, 1605 Tokai Earthquake",,"Shirasuka, Shizuoka Prefecture",JAPAN,35.0,138.0
+2685,K/T Boundary Impact,,"Beloc formation, southern Haiti",HAITI,18.432,-72.64
+2686,2004 Indian Ocean Earthquake & Tsunami,2004,Somalia,SOMALIA,5.0,48.0
+2687,Storm versus tsunami,,"Shikotan Island, Japan",JAPAN,43.5,147.35
+2688,2004 Indian Ocean Earthquake & Tsunami,2004,Comoros Islands,TANZANIA,-11.58,43.37
+2689,2004 Indian Ocean Earthquake & Tsunami,2004,"Rodrigues, Mauritius and Reunion Islands",MADAGASCAR,-20.0,59.0
+2691,Paleotsunami,,"Kaituna Bay, Mimiwhangata",NEW ZEALAND,-35.43,174.43
+2692,2004 Indian Ocean Earthquake & Tsunami,2004,Sri Lanka,SRI LANKA,7.0,81.0
+2693,2004 Indian Ocean Earthquake & Tsunami,2004,"Banda Aceh, Sumatra and offshore islands",INDONESIA,5.0,95.0
+2694,2004 Indian Ocean Earthquake & Tsunami,2004,Maldives,MALDIVES,3.2,73.0
+2695,2004 Indian Ocean Earthquake & Tsunami,2004,"Phuket Island, Nham Khem, and Bang Mor",THAILAND,7.9,98.0
+2696,1743 Earthquake and tsunami,1743,"SE Salento (Apulia region, Italy)",ITALY,40.0,17.0
+2697,2004 Indian Ocean Earthquake & Tsunami,2004,"Ovari and Kanyakumari, Tamil Nadu, South India",INDIA,8.0,77.0
+2698,2004 Indian Ocean Earthquake & Tsunami,2004,"Tamil Nadu, India",INDIA,10.0,76.5
+2699,2004 Indian Ocean Earthquake & Tsunami,2004,Andaman coast,THAILAND,11.7,92.7
+2700,Sea level change,,"Batemans Bay, New South Wales",AUSTRALIA,-35.7,150.0
+2701,Tsunami uncertainty,,"Point Richie, Warrnambool, Victoria, Australia",AUSTRALIA,-38.23,142.29
+2702,1771 Meiwa Earthquake & Tsunami,1771,Ishigaki Island,JAPAN,24.4,124.2
+2703,2009 Samoa Earthquake & Tsunami,2009,Samoan Islands,SAMOA,-14.0,-171.0
+2704,Paleotsunami,,"Neskowin and Beaver Creek, Oregon, USA",USA,44.5,-124.0
+2705,2004 Indian Ocean Earthquake & Tsunami,2004,Tanintharyi coast (southern),MYANMAR,15.78,97.07
+2706,1952 North Kuril Earthquake & Tsunami,1952,Kuril Islands,RUSSIA,46.0,149.9
+2707,Tsunami deposits,,"Mahabalipuram, southeast coast",INDIA,12.614,80.198
+2708,Turbidites,1996,"Lake Brienz, Switzerland",SWITZERLAND,46.73,7.97
+2709,Tsunamis,1008,"coastlines, India",INDIA,17.0,73.0
+2711,Tsunami deposits,,"Sea of Marmara, Izmit Bay, Istanbul",TURKEY,40.756,29.927
+2712,1771 Meiwa Earthquake & Tsunami,1771,"Southern Ryukyus, Japan",JAPAN,24.2,124.0
+2713,2004 Indian Ocean Earthquake & Tsunami,2004,"Andaman Islands, Bay of Bengal",INDIA,12.35,92.59
+2714,Avellino Volcanic Eruption,,Bay of Naples,ITALY,40.8,14.4
+2715,2004 Indian Ocean Earthquake & Tsunami,2004,"Phang-nga Province, southwestern Thailand",THAILAND,9.13,98.39
+2716,2004 Indian Ocean Earthquake & Tsunami,2004,Ban Nam Kem,THAILAND,8.812,98.25
+2717,Tsunamiites,,"Spanish Coast, southern",SPAIN,36.1,-5.61
+2718,1868 Chile Earthquake and Tsunami,1868,"Chatham Island, New Zealand",NEW ZEALAND,-43.96,176.54
+2719,Tsunami deposits,,"Augusta Bay, Sicily",ITALY,37.2,15.21
+2720,2004 Indian Ocean Earthquake & Tsunami,2004,"Banda Aceh, Sumatra",INDONESIA,5.56,95.2
+2721,Storm versus tsunami,,Ionian coast of Sicily,ITALY,37.02,15.24
+2722,2005 Hurricane Rita,,"Constance Beach, Louisiana",USA,29.76,-93.58
+2723,2004 Indian Ocean Earthquake & Tsunami,2004,"SE coast of India, Tamil Nadu",INDIA,12.5,80.0
+2724,Tsunamiites,,Ionian Islands,GREECE,38.287,20.587
+2725,Storm versus tsunami,,"Siracusa, Sicily",ITALY,37.082,15.285
+2726,Coastal Evolution,,"New South Wales, Australia",AUSTRALIA,-34.63,150.86
+2727,Trench survey,,Dalaman (SW Turkey),TURKEY,36.702,28.76
+2728,Tsunami uncertainty,,Pacific Islands,FIJI,-17.89,178.01
+2729,2004 Indian Ocean Earthquake & Tsunami,2004,Dive Agar beach,INDIA,18.1,73.0
+2730,Megabeds,,"Gargano, Italy. Southern Adriatic",ITALY,41.84,16.06
+2731,Washover deposit,,Bonaire,NETHERLANDS ANTILLES,12.25,-68.47
+2732,Tsunamiites,,Thermaikos Gulf area,GREECE,40.48,22.82
+2733,2004 Indian Ocean Earthquake & Tsunami,2004,Periya Kalapuwa lagoon,SRI LANKA,7.155,81.84
+2735,Paleotsunami,,"Seaside, Oregon, USA",USA,46.01,-123.94
+2737,1992 Nicaragua Earthquake & Tsunami,1992,"Playa de Popoyo, Nicaragua",NICARAGUA,11.45,-86.08
+2738,2004 Indian Ocean Earthquake & Tsunami,,"Phra Thong Island, Ko Phra Thong Phang-nga Thailand",THAILAND,9.1,98.28
+2739,Tsunamiites,,"Gulf of Cadiz, Spain",SPAIN,37.0,-7.0
+2740,Boulders,,"New South Wales, Australia",AUSTRALIA,-35.1,150.7
+2741,1992 Flores Earthquake & Tsunami,1992,"Maumere Bay, Flores, Indonesia",INDONESIA,-8.59,122.2
+2742,2004 Indian Ocean Earthquake & Tsunami,2004,Khao Lak and Phuket Island,THAILAND,9.51,98.34
+2743,2009 Dusky Sound Earthquake & Tsunami,2009,"Dusky Sound, southwest Fiordland",NEW ZEALAND,-45.7,166.5
+2744,2005 Nias-Simeulue Earthquake & Tsunami,2005,Nias Island and vicinity,INDONESIA,1.27,97.5
+2745,Boulders,,"Chita Peninsula, Aichi Prefecture",JAPAN,34.7,136.9
+2746,2009 Samoa Earthquake & Tsunami,2009,"Niuatoputapu, Hihifo, Niuas",TONGA,-15.95,-173.78
+2747,Sand deposit,1650,"Anegada, British Virgin Islands",UK TERRITORY,18.7,-64.3
+2748,Paleotsunami,,"Kho Khao Island, Phang Nga Province",THAILAND,8.92,98.24
+2749,Overwash indicators,1650,"Anegada, British Virgin Islands",UK TERRITORY,18.7,-64.3
+2750,2006 & 2007 Kuril Islands Earthquake & Tsunami,2006,Kuril Islands,RUSSIA,46.3,154.0
+2751,2004 Indian Ocean Earthquake & Tsunami,2004,"Banda Aceh, Sumatra",INDONESIA,5.2,96.0
+2752,2004 Indian Ocean Earthquake & Tsunami,2004,India (southeast coast),INDIA,10.8,79.9
+2753,2004 Indian Ocean Earthquake & Tsunami,2004,Puntland coast,SOMALIA,10.28,50.75
+2755,2004 Indian Ocean Earthquake & Tsunami,2004,east coast,SRI LANKA,7.0,81.0
+2756,2004 Indian Ocean Earthquake & Tsunami,2004,"Kho Khao Island, Phang Nga Province",THAILAND,8.9,98.26
+2757,2004 Indian Ocean Earthquake & Tsunami,2004,,SRI LANKA,-4.646,55.43
+2758,2004 Indian Ocean Earthquake & Tsunami,2004,"Phra Thong Island, Ko Phra Thong Phang-nga Thailand",THAILAND,9.1,98.28
+2759,2004 Indian Ocean Earthquake & Tsunami,2004,"Tamil Nadu, India (north coast)",INDIA,12.56,80.09
+2760,2004 Indian Ocean Earthquake & Tsunami,2004,"Southwest coast, Laem Pakarang, Krabi",THAILAND,8.18,98.45
+2761,869 Sanriku Earthquake and Tsunami,869,"Sanriku coast, Japan (southwest)",JAPAN,41.0,141.0
+2762,Earthquake and tsunami events,869,"Sanriku coast, Japan (southwest)",JAPAN,41.0,141.0
+2763,869 Sanriku Earthquake and Tsunami,869,"Sanriku coast, Japan (southwest)",JAPAN,41.0,141.0
+2764,Earthquake and tsunami events,,Hamana Lake,JAPAN,34.74,137.58
+2766,2009 Samoa Earthquake & Tsunami,2009,Tonga and Samoa,SAMOA,-21.17,-175.19
+2767,Storegga landslide,,"Finnmark, coastal Norway, Barents Sea",NORWAY,70.67,25.97
+2768,Paleolimnological record,,"Lake Pátzcuaro, Michoacan, Mexico (southwest)",MEXICO,19.64,-101.62
+2769,Cascadia Earthquake,1700,Pacific Northwest coast,USA,45.0,-125.0
+2770,"2006 Java, Indonesia Earthquake & Tsunami",2006,"Java, Indonesia",INDONESIA,-8.0,109.0
+2771,Boulders,,"Cap Couronne, Gulf of Fos, Provence coast",FRANCE,43.33,5.03
+2772,Boulders,,Rabat coast,MOROCCO,34.02,-6.9
+2773,High energy event,,Bonaire,NETHERLANDS ANTILLES,12.2,-68.26
+2775,Paleotsunami,,Tasmania (southeast),AUSTRALIA,-42.88,147.32
+2776,Paleotsunami,,"Klong Thap Lamu, Andaman coast",THAILAND,-2.27,40.9
+2777,2009 Samoa Earthquake & Tsunami,2009,Tonga and Samoa,SAMOA,-21.17,-175.19
+2778,2009 Samoa Earthquake & Tsunami,2009,"Satitoa, east Upolu",SAMOA,-14.02,-171.43
+2779,2010 Chile Earthquake and Tsunami,2010,"Quintero to Mehuin; Islands of Santa Maria, Mocha, and Robinson Crusoe (Juan Fernandez Archipelago)",CHILE,-36.8,-73.0
+2780,Stratigraphic sequence,,"Port Blair, South Andaman Island",INDIA,11.66,92.745
+2782,High energy event,7000,"Byzantine harbor, Yenikap&#305;, Istanbul",TURKEY,41.0,28.954
+2784,2010 Chile Earthquake and Tsunami,2010,Pichilemu,CHILE,-34.392,-72.014
+2785,Boulders,,"Blue Lias formation, South Wales",UK,51.886,-4.52
+2786,Storm versus tsunami,,Northern Ireland: Giant's Causeway,UK,55.25,-6.485
+2787,Storm versus tsunami,,"Banneg Island, Brittany",FRANCE,48.426,-5.012
+2788,Storm versus tsunami,,Ireland: county Donegal,UK,54.604,-8.204
+2789,Storm versus tsunami,,"Huayanpeng Cape, Putuo Island",CHINA,29.998,122.388
+2790,Storm versus tsunami,,Okinawa Islands,JAPAN,27.55,128.54
+2791,2011 Japan Earthquake and Tsunami,2011,Pacific coast,MEXICO,16.87,-99.93
+2792,Storm versus tsunami,1800,Hawaii: southeast coast,USA,19.89,-155.58
+2793,Storm versus tsunami,1750,Scotland: East Lothian,UK,55.989,-2.754
+2794,Coseismic uplift/subsidence,987,"Sea of Marmara, Izmit Bay, Istanbul",TURKEY,40.756,29.927
+2795,High energy event,,"St. Bartholomew Island, French West Indies",FRANCE,17.901,-62.821
+2796,Field observations,2010,Cook Islands,NEW ZEALAND,-21.236,-159.777
+2797,Sea level change,,"Gulf of Cadiz, Spain",SPAIN,37.0,-7.0
+2798,Sand sheets,,"Crescent City, California, USA",USA,41.75,-124.2
+2799,Overwash indicators,,"Anegada, British Virgin Islands",UK TERRITORY,18.7,-64.3
+2800,Paleotsunami,,"Peraliya, Denuwala, Galle district",SRI LANKA,5.99,80.31
+2801,2009 Dusky Sound Earthquake & Tsunami,2009,"Dusky Sound, southwest Fiordland",NEW ZEALAND,-45.7,166.5
+2802,High energy event,,"Old Punt Bay, South-East Australia",AUSTRALIA,-45.7,166.5
+2805,Paleotsunamiite,,"Upper Bhander Sandstone, Central India",INDIA,24.26,80.75
+2806,Sand deposit,,"Puget Sound, Washington, USA",USA,47.5,-122.5
+2807,2004 Indian Ocean Earthquake & Tsunami,2004,"Vellar River to Thoothukudi, Tamil Nadu, India",INDIA,8.86,78.16
+2808,Paleotsunami,,"Futuna (Wallis and Futuna), South Pacific Islands",FRANCE,-14.29,-178.12
+2809,2004 Indian Ocean Earthquake & Tsunami,2004,"Phang-nga Province, southwestern Thailand",THAILAND,9.13,98.39
+2810,2006 Kuril Islands Earthquake & Tsunami,2006,Kuril Islands,RUSSIA,46.3,154.0
+2811,Field observations,,"Kirra, Gulf of Corinth, Central Greece",GREECE,38.419,22.443
+2812,Overwash indicators,,Oman and British Virgin Islands,OMAN,22.57,59.53
+2813,2004 Indian Ocean Earthquake & Tsunami,2004,"Andaman coast, Thailand",THAILAND,11.7,92.7
+2814,Sedimentary records,,"Augusta Bay, Sicily",ITALY,37.2,15.21
+2815,Storm versus tsunami - washover deposit,2004,"Andaman coast, Thailand",THAILAND,11.7,92.7
+2816,Tsunamiites,,"Bay of Palairos-Pogonia, northwest Greece",GREECE,38.791,20.862
+2819,Storegga landslide,,"Storegga offshore Norway, Shetland Islands",NORWAY,67.0,-5.0
+2820,Storm versus tsunami,,"Nankai, Suruga and Sagami Troughs, southwest Japan",JAPAN,33.55,133.65
+2821,Earthquake landslide and tsunami,1946,"Landslide Lake, Vancouver Island, British Columbia, Canada",CANADA,49.759,-125.847
+2822,Chenier plain geomorphology,,"Donana National Park, Spain (southwest)",SPAIN,37.0,-7.5
+2823,Tsunami sedimentation,1700,"Malay-Thai Peninsulas; Oregon, USA",THAILAND,8.69,98.415
+2824,Sand sheets,1700,"Alsea Bay, Oregon, USA",USA,44.4,-123.5
+2825,Sedimentary records,1969,"Kamchatka Peninsula, Russia",RUSSIA,54.92,161.73
+2826,Alamo Impact Event,,"Tempiute Mountain, Nevada, USA",USA,38.0,-115.0
+2827,Cascadia Earthquake,,"Cannon Beach, Oregon, USA",USA,45.883,-123.95
+2828,2004 Indian Ocean Earthquake & Tsunami,2004,"Andaman coast, Thailand",THAILAND,8.8,98.25
+2829,2004 Indian Ocean Earthquake & Tsunami,2004,"Andaman coast, Thailand",THAILAND,8.8,98.25
+2830,2004 Indian Ocean Earthquake & Tsunami,2004,"Nicobar and Andaman Islands, Bay of Bengal",INDIA,9.11,92.85
+2831,Tsunamiites,,"Sorbas Basin, Almeria, SE Spain",SPAIN,37.12,-2.12
+2832,2004 Indian Ocean Earthquake & Tsunami,2004,Phuket,THAILAND,7.98,98.33
+2833,2004 Indian Ocean Earthquake & Tsunami,2004,"Nagapattinam, Tamil Nadu",INDIA,10.788,79.842
+2834,2004 Indian Ocean Earthquake & Tsunami,2004,Maldives,MALDIVES,3.2,73.0
+2835,2004 Indian Ocean Earthquake & Tsunami,2004,"Maldives, Sri Lanka, and Thailand",MALDIVES,3.2,73.0
+2836,2004 Indian Ocean Earthquake & Tsunami,2004,"Lhok Nga, Banda Aceh, Sumatra (western), Indonesia",INDONESIA,5.56,95.2
+2837,2004 Indian Ocean Earthquake & Tsunami,2004,"Myanmar coast: Dawei, Ayeyarwaddy, Myeik, Kawthaung",MYANMAR,14.0,98.0
+2838,2004 Indian Ocean Earthquake & Tsunami,2004,"Patong Bay, Nam Khem, Bang Mor, Phang Nga, Thailand",THAILAND,9.13,98.4
+2839,2004 Indian Ocean Earthquake & Tsunami,2004,"Sumatra (north), Meulaboh, Simeulue Island, Medan, Indonesia",INDONESIA,5.0,95.0
+2840,2004 Indian Ocean Earthquake & Tsunami,2004,"Phang-nga Province, southwestern Thailand",THAILAND,9.13,98.39
+2841,Paleotsunami,,"Kakawis Lake, Vancouver Island, British Columbia, Canada",CANADA,49.188,-125.91
+2842,2004 Indian Ocean Earthquake & Tsunami,2004,"Andaman coast, Thailand",THAILAND,11.7,92.7
+2843,"2006 Java, Indonesia Earthquake & Tsunami",2006,"Steep Point, western Australia",AUSTRALIA,-26.151,113.155
+2844,Storm versus tsunami,,Gulf of Mexico (northeast),USA,30.0,-85.0
+2846,1993 SW Hokkaido Earthquake & Tsunami,,"Okushiri Basin and Shiribeshi Trough, Japan Sea",JAPAN,42.126,138.73
+2847,Overwash indicators,,Sur Lagoon,OMAN,22.57,59.53
+2850,Storegga landslide,,"Coasts of Scotland, Norway, Shetland Islands",NONE,61.8,-0.75
+2854,2004 Indian Ocean Earthquake & Tsunami,2004,"Vellar river and the M.G.R. island, Cuddalore District, Tamil Nadu, India",INDIA,8.86,78.16
+2858,Tsunami waveforms,,"Boso Peninsula, Central Japan",JAPAN,35.0,140.0
+2860,Cascadia Earthquake,100,Northwestern California,USA,41.0,-124.5
+2904,1755 Lisbon Earthquake & Tsunami,1755,Tróia Peninsula,PORTUGAL,-0.695,-90.221
+2905,2011 Japan Earthquake and Tsunami,2011,Galápagos Islands,ECUADOR,-0.695,-90.221
+2906,Collapse of Mt. Etna volcano (Italy),,Neolithic village of Atlit-Yam (Israeli coast),ISRAEL,32.711,34.935
+2908,1946 and 1957 Aleutian Islands tsunamis,1946,"Polol&#363; wetland, Hawaii",USA,20.2,-155.73
+2918,Tsunami deposits,1694,"Jinshan coastal plain, northern Taiwan",TAIWAN,25.0,121.5
+2919,Tsunami deposits,1425,"Makauwahi sinkhole, Kauai (south coast), Hawaii",USA,21.888,-159.42
+2921,,-1300,Kuril Islands,RUSSIA,48.1,153.2
+2923,1960 Chile Earthquake & Tsunami,1960,"Isla de Chiloé, south central Chile",CHILE,-42.6,-73.9
+2925,Lake landslide,2014,ICELAND: LAKE ASKJA,ICELAND,65.0,-16.7
+2926,Tsunami deposits,-3500,CHILE: LAKE HUELDE,CHILE,-42.59,-74.11
+2927,Iceberg generated tsunami,,"Innaarsuit Lake, Disko Bugt, Baffin Bay",GREENLAND,68.615,-52.076
+2928,Paatuut Landslide tsunami,2000,"Qullissat, Disko Island, Vaigat Strait, Disko Bugt, Baffin Bay",GREENLAND,70.08,-53.01
+2929,Volcanogenic tsunami,,Canary Islands,SPAIN,28.0,-16.0
+2930,Cascadia Earthquakes,,Cascadia,USA,49.0,-124.0
+2932,,1865,Lombok Island,INDONESIA,-8.7,116.3
+2933,,1100,"Hokkaido, Japan",JAPAN,42.0,145.0
+2934,1755 Lisbon Earthquake & Tsunami,1755,,PORTUGAL,37.083,-8.333
+2937,05 September 1987,1987,"La Grande River, James Bay, Quebec",CANADA,53.75,-77.93
+2942,"1993 SW Hokkaido and 1983 Japan Sea Earthquake (mags. 7.7, 7.8)",1983,"Primorye, Russia",RUSSIA,43.0,134.0
+2943,Washover deposit,1200,"St. Thomas, U.S. Virgin Islands",USA TERRITORY,18.35,-64.9
+2945,2017 Chiapas Earthquake and Tsunami,2017,Chiapas,MEXICO,15.9,-93.7
+2947,Landslide tsunami,2015,"Icy Bay, Alaska, USA",USA,60.08,-141.3
+2948,,,"Ashkelon, Israel",ISRAEL,31.66,34.55
+2949,1755 Lisbon Earthquake & Tsunami,1755,"Andalusia, Spain",SPAIN,36.03,-5.61
+2950,1996 Karymsky Eruption & Tsunami,1996,"Karymskoye Lake, Kamchatka",RUSSIA,54.0,159.5
+2951,1960 Chile Earthquake & Tsunami,898,"Isla de Chiloé, south central Chile",CHILE,-42.6,-73.9
+2954,Sediment transport,1946,"Hilo, Hawaii",USA,19.7,-155.0
+2955,1953 Suva Earthquake & Tsunami,1953,"Suva, Fiji",FIJI,-18.9,178.0
+2956,Tsunamis,-2400,"Kamchatka Peninsula, Russia (Avachinsky Bay)",RUSSIA,53.0,159.0
+2957,Tsunamis,1341,Russky Island,RUSSIA,43.0,131.85
+2959,Tsunami deposits,,"Iwate Prefecture, Japan",JAPAN,40.1,141.82
+2960,Araguainha impact,,"Parana Basin, Brazil",BRAZIL,-24.0,-49.0
+2961,Storm versus tsunami,1500,"North or Ericeira, Portugal",PORTUGAL,38.98,-9.42
+2963,Unknown Chilean event,,"Chatham Island, New Zealand",NEW ZEALAND,-44.0,175.0
+2964,1755 Lisbon Earthquake & Tsunami,,,MARTINIQUE,14.7,-61.0
+2965,Cascadia Earthquakes,,"Oregon coast (north), USA",USA,45.4,-123.9
+2966,,2016,"Banks Peninsula, New Zealand",NEW ZEALAND,-43.63,172.9
+2967,1771 Meiwa Earthquake & Tsunami,,Ishigaki Island,JAPAN,24.4,124.2
+2968,6 tsunamis impacting Chile,400,Tirua,CHILE,-38.35,-73.5
+2969,1957 Aleutian Islands tsunami,1957,"Sedanka Island, Alaska",USA,53.77,-166.2
+2972,1008 Earthquake & Tsunami,1008,"Kachchh coast, Gujarat Province, northwest India",INDIA,21.0,-70.0
+2973,Storm versus tsunami,,El Rosario Archipelago,COLOMBIA,10.16,-75.75
+2974,1076 South China Sea Tsunami,,"Nanao Island, Guangdong Province",CHINA,23.4,117.1
+2976,1755 Lisbon Earthquake & Tsunami,1755,"Larache, Morocco",MOROCCO,35.2,-6.15
+2978,Sedimentary records,-1650,"Pirgos, Crete (north)",GREECE,35.35,24.33
+2979,Archaeological record,1343,"Stromboli , Italy",ITALY,38.0,15.0
+2980,1957 Aleutian Islands tsunami,,"Aleutian Islands, Alaska",USA,53.8,-166.8
+2981,Tsunami sedimentation,551,"Kaiafa Lagoon, Greece",GREECE,37.5,21.6
+2982,Tsunami deposits,,Australia (southeast coast),AUSTRALIA,-36.0,150.0
+2983,Boulders,1200,Atacama Desert coast (northern Chile),CHILE,-27.25,-70.95
+2985,Landslide tsunami,2018,"Palu Bay, Central Sulawesi",INDONESIA,-0.178,119.84
+2987,Paleotsunami,,"Nghe An province, Vietnam",VIETNAM,19.2,104.9
+2989,,1542,"Augusta Bay, Sicily",ITALY,37.2,15.21
+2990,Tsunami deposits,,"Kahana Valley, Oahu, Hawaii",USA,21.556,-157.88
+2991,Earthquake,869,"Taro Otobeno, Miyako City, Iwate Prefecture",JAPAN,39.755,141.985
+2992,Hawkes Bay Tsunami,1931,"Hawke's Bay, New Zealand",NEW ZEALAND,-39.5,176.7
+2994,Tsunami deposits,300,"Penghu Islands, Taiwan",TAIWAN,23.5,119.6
+2995,Tsunami deposits,869,"Koyadori, Japan",JAPAN,39.43,142.0
+2997,2004 Indian Ocean Earthquake & Tsunami,2004,Khao Lak,THAILAND,8.7,98.2
+2998,1677 Japan Trench Tsunami,1677,"Choshi, Chiba",JAPAN,35.74,140.83
+2999,Paleotsunami,-3600,eastern Sicily,ITALY,37.33,15.1
+3000,Paleotsunami,,Australia (southeast coast),AUSTRALIA,-36.0,150.0
+3002,2011 Japan Earthquake and Tsunami,2011,"Sendai Plain, Ishinomaki Plain",JAPAN,38.2,140.9
+3003,1755 Lisbon Earthquake & Tsunami,1755,"Los Lances Bay, Andalusia",SPAIN,36.05,-5.6
+3004,,,"Xingcheng area, Liaoning Province",CHINA,40.63,120.66
+3005,2004 Indian Ocean Earthquake & Tsunami,,Phra Thong Island,THAILAND,9.1,98.28
+3009,2018 Anak Krakatau Tsunami,2018,"Tanjung Lesung, Banten Coast",INDONESIA,-6.5,105.7
+3010,Tsunami deposits,-5600,"Badabalu, south coast Andaman",INDIA,11.51,92.676
+3012,1755 Lisbon Earthquake & Tsunami,1755,Porto Novo (near mouth of Alcabrichel River),PORTUGAL,39.177,-9.35
+3013,Tsunami deposits,-800,"Lake Cucao, Chile",CHILE,-74.09,-42.63
+3014,Santorini Eruption & Tsunami,1650,"Santorini (Thera) Island, Greece",GREECE,36.4,25.4
+3018,,,"Java, Indonesia (northwest)",INDONESIA,-7.35,106.75
+3022,,,"Pangani Bay, Tanzania",TANZANIA,-5.436,38.96
+3023,1303 Hellenic Arc tsunami,1303,"Cape Greco, Cyprus",CYPRUS,34.957,34.085
+3024,Storm versus tsunami,,Tanzania,TANZANIA,-5.0,30.0
+3025,1537 & 1787 Mexican subduction zone,1537,"Corralero, Oaxaca, Mexico",MEXICO,16.25,-98.22
+3026,Events in southern part of the Japan Trench,234,"Choshi, Chiba",JAPAN,35.71,140.86
+3028,Nankai-Suruga Trough megathrust earthquakes,-2913,"Suruga Bay, Japan",JAPAN,34.88,138.33
+3029,1524 Konkan Coast,1410,"Kelshi, India",INDIA,17.922,73.058
+3030,Paleotsunami,1100,"Minna Is., Southern Ryukyus, Japan",JAPAN,24.757,124.69
+3032,1755 Lisbon Earthquake & Tsunami,,"Anse Meunier, Martinique",MARTINIQUE,14.414,-60.885
+3033,881 Earthquake & Tsunami,881,"Estepona, Spain",SPAIN,36.42,-5.155
+3034,Boulders,,"Tongatapu Island, Tonga",TONGA,-21.15,-175.25
+3035,,,"Gaza, Palestine",ISRAEL,31.35,34.3
+3036,Fjords & Lakes change/turbidites/climate change,2020,"Elliot Creek, BC",CANADA,50.97,-124.6
+3037,Santorini Eruption & Tsunami,-1660,"Letoon Sanctuary, Turkey",TURKEY,36.3,29.3
+3038,Paleotsunami deposits northern Japan,-700,"Noda, Iwate, Japan",JAPAN,40.1,141.82
+3039,Storegga landslide,,"Maryton, Montrose, Scotland",UK,56.7,-2.45
+3042,Santorini Eruption & Tsunami,-1744,"Malia, Crete",GREECE,35.28,25.46
+3043,reefblocks,1576,"Makin Island, Gilbert Islands, Kiribati",KIRIBATI,3.38,173.0
+3044,Paleotsunami,-1850,Atacama Desert coast (northern Chile),CHILE,-27.25,-70.95
+3047,Paleotsunami & 2004 Indian Ocean tsunami,2004,"Neil Island, South Andaman",INDIA,11.83,93.05
+3048,Paleotsunami & 2004 Indian Ocean tsunami,,"Collinpur and Wandoor, South Andaman",INDIA,11.69,92.6
+3049,"2006 Java, Indonesia Earthquake & Tsunami and paleotsunami(s)",,"Karapyak Beach, Pangandaran, Java, Indonesia",INDONESIA,-7.69,108.76
+3050,Santorini Eruption & Tsunami,-1612,"Cesme-Baglararasi, Turkey (western Anatolian/Aegean)",TURKEY,38.3,26.3
+3051,Tsunami deposits,,"Pilbara Craton, Australia (west)",AUSTRALIA,-21.155,119.437
+3052,offshore paleotsunami deposits,-400,"Gulf of Aqaba-Eilat, Northern Red Sea",ISRAEL,29.56,34.95
+3053,1960 Chile Earthquake & Tsunami,-3000,"Queule, Chile (south central)",CHILE,-39.3,-73.2
+3054,1788 Alaska earthquake and tsunami,,"Sitkinak Island, Alaska",USA,56.508,-154.14
+3055,1788 Alaska earthquake and tsunami,,"Simeonof Island, Alaska",USA,54.9,-159.31
+3057,"2018 Palu, Sulawesi, Indonesia tsunami",2018,"Palu Bay, Central Sulawesi",INDONESIA,-0.88,119.88
+3058,1755 Lisbon Earthquake & Tsunami,1755,"Pontinhas, Pernambuco",BRAZIL,-7.55,-34.83
+3059,6th Century B.C. Gulf of Cadiz,-600,"Gulf of Cadiz, Spain",SPAIN,37.0,-7.0
+3062,1855 Wellington Earthquake,,"Swamp Bay, Rangitoto ki te Tonga (D’Urville Island)",NEW ZEALAND,-40.748,173.937
+3063,1755 Lisbon Earthquake & Tsunami,1755,Gibraltar,SPAIN,36.15,-5.35
+3069,Japan Sea coast,1558,"Tsugaru Peninsula, NW Japan",JAPAN,41.04,140.32
+3070,"1983 Nihonkai Chuba, Japan Earthquake & Tsunami",1983,"Akita Prefecture, Japan",JAPAN,40.32,140.05
+3078,1662 Hyuga-nada Earthquake & Tsunami,1662,"Kyushu, Japan",JAPAN,31.57,131.38
+3079,Sedimentary records,1000,"Tutuila, American Samoa",USA TERRITORY,-14.3,-170.7
+3082,Lake landslide,,"Saqqaq, Greenland",GREENLAND,70.02,-51.92
+3084,1994 Rabaul eruption and tsunami,1994,"Rabual, Papua New Guinea",PAPUA NEW GUINEA,-4.208,152.155
+3085,Geological evidence of paleotsunami in Palu,1600,"Palu City, Central Sulawesi",INDONESIA,-0.871,119.873
+3092,,,Dongshan Bay,CHINA,23.932,117.56
+3093,"2018 Palu, Sulawesi, Indonesia tsunami",2018,"Palu Bay, Central Sulawesi",INDONESIA,-0.706,119.85
+3094,Tsunami deposits,,Williston Basin,CANADA,54.067,-100.786
+3095,Tsunami deposits,,Shetland Islands,UK,60.4,-1.3
+3096,Boulders,,Whalers Way,AUSTRALIA,-34.94,135.625
+3097,,,Kapiti Coast,NEW ZEALAND,-40.815,175.08
+3098,Megaturbidites,,Korea (east coast),KOREA,36.0,129.3
+3100,Boulders,,"Tongatapu Island, Tonga",TONGA,-21.242,-175.182
+3104,1755 Lisbon Earthquake & tsunami & older tsunamis,,"Lagoon Guichard, Saint Martin",SAINT MARTIN (FRENCH AND DUTCH TERRITORIES),18.093,-63.07
+3108,Boulders,,Yakushima Island,JAPAN,30.345,130.5
+3109,Storegga landslide,,German Bight (southeastern bight of the North Sea),GERMANY,54.3,8.75
+3112,Boulders,-500,Gran Roque Island,VENEZUELA,11.95,-66.68
+3113,Boulders,,"Tongatapu Island, Tonga",TONGA,-21.15,-175.25
+3114,Sedimentary records,,North of Trujillo (Peru),PERU,-7.94,-79.285
+3117,1755 Lisbon Earthquake & Tsunami,1755,"Timanfaya National Park, Canary Islands",SPAIN,29.0,-13.8
+3119,1815 Tambora Volcano,1815,Gulf (Bay) of Saleh,INDONESIA,-8.5,117.7
+3121,1755 Lisbon Earthquake & Tsunami,1755,"Conil de La Frontera, Iberian Peninsula",SPAIN,36.27,-6.087
+3122,,,"Nakagawa, Hokkaido (north)",JAPAN,44.828,142.113
+3124,Chesapeake Bay Impact Crater,,"North Carolina, USA",USA,35.152,-79.414
