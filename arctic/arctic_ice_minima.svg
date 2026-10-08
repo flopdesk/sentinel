@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460">
+<rect width="900" height="460" fill="#ffffff"/>
+<text x="78" y="24" font-family="Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#1c1c1c">Arctic sea-ice minimum extent by year (NSIDC Sea Ice Index v3.0)</text>
+<text x="78" y="42" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#555">2000-2023 minima, million km2, with linear regression overlay</text>
+<line x1="78" y1="398.0" x2="870" y2="398.0" stroke="#e4e4e8" stroke-width="1"/>
+<text x="68" y="402.0" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">3</text>
+<line x1="78" y1="326.4" x2="870" y2="326.4" stroke="#e4e4e8" stroke-width="1"/>
+<text x="68" y="330.4" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">4</text>
+<line x1="78" y1="254.8" x2="870" y2="254.8" stroke="#e4e4e8" stroke-width="1"/>
+<text x="68" y="258.8" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">5</text>
+<line x1="78" y1="183.2" x2="870" y2="183.2" stroke="#e4e4e8" stroke-width="1"/>
+<text x="68" y="187.2" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">6</text>
+<line x1="78" y1="111.6" x2="870" y2="111.6" stroke="#e4e4e8" stroke-width="1"/>
+<text x="68" y="115.6" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">7</text>
+<line x1="78" y1="40.0" x2="870" y2="40.0" stroke="#e4e4e8" stroke-width="1"/>
+<text x="68" y="44.0" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">8</text>
+<line x1="78.0" y1="40" x2="78.0" y2="398" stroke="#f0f0f3" stroke-width="1"/>
+<text x="78.0" y="416" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">2000</text>
+<line x1="146.9" y1="40" x2="146.9" y2="398" stroke="#f0f0f3" stroke-width="1"/>
+<text x="146.9" y="416" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">2002</text>
+<line x1="215.7" y1="40" x2="215.7" y2="398" stroke="#f0f0f3" stroke-width="1"/>
+<text x="215.7" y="416" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">2004</text>
+<line x1="284.6" y1="40" x2="284.6" y2="398" stroke="#f0f0f3" stroke-width="1"/>
+<text x="284.6" y="416" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">2006</text>
+<line x1="353.5" y1="40" x2="353.5" y2="398" stroke="#f0f0f3" stroke-width="1"/>
+<text x="353.5" y="416" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">2008</text>
+<line x1="422.3" y1="40" x2="422.3" y2="398" stroke="#f0f0f3" stroke-width="1"/>
+<text x="422.3" y="416" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">2010</text>
+<line x1="491.2" y1="40" x2="491.2" y2="398" stroke="#f0f0f3" stroke-width="1"/>
+<text x="491.2" y="416" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">2012</text>
+<line x1="560.1" y1="40" x2="560.1" y2="398" stroke="#f0f0f3" stroke-width="1"/>
+<text x="560.1" y="416" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">2014</text>
+<line x1="629.0" y1="40" x2="629.0" y2="398" stroke="#f0f0f3" stroke-width="1"/>
+<text x="629.0" y="416" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">2016</text>
+<line x1="697.8" y1="40" x2="697.8" y2="398" stroke="#f0f0f3" stroke-width="1"/>
+<text x="697.8" y="416" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">2018</text>
+<line x1="766.7" y1="40" x2="766.7" y2="398" stroke="#f0f0f3" stroke-width="1"/>
+<text x="766.7" y="416" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">2020</text>
+<line x1="835.6" y1="40" x2="835.6" y2="398" stroke="#f0f0f3" stroke-width="1"/>
+<text x="835.6" y="416" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#666">2022</text>
+<line x1="78" y1="398" x2="870" y2="398" stroke="#999" stroke-width="1"/>
+<line x1="78" y1="40" x2="78" y2="398" stroke="#999" stroke-width="1"/>
+<polyline points="78.0,187.3 112.4,142.6 146.9,210.0 181.3,185.4 215.7,199.7 250.2,232.3 284.6,201.4 319.0,315.9 353.5,287.2 387.9,251.4 422.3,284.2 456.8,302.6 491.2,373.7 525.7,251.9 560.1,255.7 594.5,298.7 629.0,316.0 663.4,280.9 697.8,281.3 732.3,314.5 766.7,341.2 801.1,272.2 835.6,276.9 870.0,308.9" fill="none" stroke="#2f4fd8" stroke-width="2.4"/>
+<circle cx="78.0" cy="187.3" r="3.1" fill="#2f4fd8"/>
+<circle cx="112.4" cy="142.6" r="3.1" fill="#2f4fd8"/>
+<circle cx="146.9" cy="210.0" r="3.1" fill="#2f4fd8"/>
+<circle cx="181.3" cy="185.4" r="3.1" fill="#2f4fd8"/>
+<circle cx="215.7" cy="199.7" r="3.1" fill="#2f4fd8"/>
+<circle cx="250.2" cy="232.3" r="3.1" fill="#2f4fd8"/>
+<circle cx="284.6" cy="201.4" r="3.1" fill="#2f4fd8"/>
+<circle cx="319.0" cy="315.9" r="3.1" fill="#2f4fd8"/>
+<circle cx="353.5" cy="287.2" r="3.1" fill="#2f4fd8"/>
+<circle cx="387.9" cy="251.4" r="3.1" fill="#2f4fd8"/>
+<circle cx="422.3" cy="284.2" r="3.1" fill="#2f4fd8"/>
+<circle cx="456.8" cy="302.6" r="3.1" fill="#2f4fd8"/>
+<circle cx="491.2" cy="373.7" r="3.1" fill="#2f4fd8"/>
+<circle cx="525.7" cy="251.9" r="3.1" fill="#2f4fd8"/>
+<circle cx="560.1" cy="255.7" r="3.1" fill="#2f4fd8"/>
+<circle cx="594.5" cy="298.7" r="3.1" fill="#2f4fd8"/>
+<circle cx="629.0" cy="316.0" r="3.1" fill="#2f4fd8"/>
+<circle cx="663.4" cy="280.9" r="3.1" fill="#2f4fd8"/>
+<circle cx="697.8" cy="281.3" r="3.1" fill="#2f4fd8"/>
+<circle cx="732.3" cy="314.5" r="3.1" fill="#2f4fd8"/>
+<circle cx="766.7" cy="341.2" r="3.1" fill="#2f4fd8"/>
+<circle cx="801.1" cy="272.2" r="3.1" fill="#2f4fd8"/>
+<circle cx="835.6" cy="276.9" r="3.1" fill="#2f4fd8"/>
+<circle cx="870.0" cy="308.9" r="3.1" fill="#2f4fd8"/>
+<line x1="78.0" y1="201.7" x2="870.0" y2="329.3" stroke="#e0563b" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="870" y="32" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#e0563b">trend -77.5 thousand km2/yr (r2=0.495)</text>
+<text x="491.2" y="363.7" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#111">2012: 3.34</text>
+<text x="450.0" y="452" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#777">source: NSIDC/NOAA Sea Ice Index G02135 daily extent (passive microwave); built by an autonomous agent</text>
+</svg>
