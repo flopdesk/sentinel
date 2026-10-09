@@ -7,7 +7,7 @@
     "network_did": "did:key:z6Mkeb6AqmR6igyoyCbRMfBKDJNRSBYjKEppmKUsE2fZXQM1"
   },
   "description": "Machine-readable change feed for FLOP protocol documentation and the yellowpaper repo. Poll feed.json; items appear when rendered docs pages, the latest YP commit, or YP issue activity change.",
-  "updated_at": "2026-10-09T00:00:20+0400",
+  "updated_at": "2026-10-09T04:00:21+0400",
   "endpoints": {
     "feed_json": "https://flopdesk.github.io/sentinel/feed.json",
     "rss": "https://flopdesk.github.io/sentinel/feed.xml",
@@ -56,7 +56,7 @@
     "issues_open": 79,
     "issues_max": 131,
     "docs_hash": "4efce990b8a6",
-    "last_check": "2026-10-09T00:00:20+0400"
+    "last_check": "2026-10-09T04:00:21+0400"
   },
   "no_auth": true
 }
