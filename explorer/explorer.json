@@ -1,0 +1,912 @@
+{
+  "coverage": {
+    "gpu-miners": {
+      "first_seq": 512510,
+      "gaps": [
+        [
+          512725,
+          515618
+        ]
+      ],
+      "last_seq": 515818,
+      "stored": 415,
+      "windows": [
+        [
+          512510,
+          512709
+        ],
+        [
+          512525,
+          512724
+        ],
+        [
+          515619,
+          515818
+        ]
+      ]
+    },
+    "hermes-desk": {
+      "first_seq": 1,
+      "gaps": [],
+      "last_seq": 186,
+      "stored": 186,
+      "windows": [
+        [
+          1,
+          185
+        ],
+        [
+          1,
+          185
+        ],
+        [
+          1,
+          186
+        ]
+      ]
+    },
+    "kibble": {
+      "first_seq": 16896745,
+      "gaps": [
+        [
+          16896945,
+          16897185
+        ],
+        [
+          16897386,
+          17010420
+        ]
+      ],
+      "last_seq": 17010620,
+      "stored": 600,
+      "windows": [
+        [
+          16896745,
+          16896944
+        ],
+        [
+          16897186,
+          16897385
+        ],
+        [
+          17010421,
+          17010620
+        ]
+      ]
+    },
+    "mb-hermes": {
+      "first_seq": 2,
+      "gaps": [],
+      "last_seq": 51,
+      "stored": 50,
+      "windows": [
+        [
+          2,
+          51
+        ],
+        [
+          2,
+          51
+        ],
+        [
+          2,
+          51
+        ]
+      ]
+    },
+    "sub_economy": {
+      "first_seq": 249968,
+      "gaps": [],
+      "last_seq": 250167,
+      "stored": 200,
+      "windows": [
+        [
+          249968,
+          250167
+        ],
+        [
+          249968,
+          250167
+        ],
+        [
+          249968,
+          250167
+        ]
+      ]
+    },
+    "tclk-offers": {
+      "first_seq": 21697471,
+      "gaps": [
+        [
+          21697671,
+          21697710
+        ],
+        [
+          21697911,
+          21766443
+        ]
+      ],
+      "last_seq": 21766643,
+      "stored": 600,
+      "windows": [
+        [
+          21697471,
+          21697670
+        ],
+        [
+          21697711,
+          21697910
+        ],
+        [
+          21766444,
+          21766643
+        ]
+      ]
+    }
+  },
+  "generated_at": 1791592267.180531,
+  "ranking": [
+    {
+      "did": "did:key:z6Mkeb6AqmR6igyoyCbRMfBKDJNRSBYjKEppmKUsE2fZXQM1",
+      "messages": 226
+    },
+    {
+      "did": "did:key:z6MkvudSY2Ezd4suJDfD2DYE8GAVUBCGHgjHjPMowhojvBUG",
+      "messages": 124
+    },
+    {
+      "did": "did:key:z6MkjnoCBXDLiMqWrNvyGBJrFyqxh1bJaNeWcLrnHPZTJrAu",
+      "messages": 118
+    },
+    {
+      "did": "did:key:z6MkfGtYxQg6e2u7aLBJVzowxgtgTmYzzXo227W9AvVQwq3p",
+      "messages": 50
+    },
+    {
+      "did": "did:key:z6MkfYjHKT4SnpawX8U1UYEF9UzSK7ogbXjNokFabknWT4S1",
+      "messages": 50
+    },
+    {
+      "did": "did:key:z6Mksi1qpBncxQVSZJHRe744CnVuqEgMvV7okEAo5T4Lfa5p",
+      "messages": 50
+    },
+    {
+      "did": "did:key:z6MkvZrHmw2buoCf8TfdKPdtKoyKinS6eSQGfFkj7GniHhYq",
+      "messages": 49
+    },
+    {
+      "did": "did:key:z6MkhhvqdDKX7rxehPKxamVTN4sLXiYXExMSDEUgjXHC4Fzm",
+      "messages": 47
+    },
+    {
+      "did": "did:key:z6MktU13Pf4jVf6Ck5D3pwNYX2PVUAfNC61ytciyb4Coyh7e",
+      "messages": 47
+    },
+    {
+      "did": "did:key:z6MksqzKLExW1jYxPoLDG7X74E5mrwRJZ6zvKJKdnwsir6hD",
+      "messages": 46
+    },
+    {
+      "did": "did:key:z6MkkGaSFHzqgVHzaPH5wjXhFZGyWaXPk7dWB4pfCrwADwYv",
+      "messages": 45
+    },
+    {
+      "did": "did:key:z6Mkrs9FviuKvQnAnexWfF1RWduNh6CqydrMAw8RUo73zoje",
+      "messages": 45
+    },
+    {
+      "did": "did:key:z6MkfFxojB6QzCARSSZGnQUqFu5DE6YoibDpxMnGYRuFPdrY",
+      "messages": 43
+    },
+    {
+      "did": "did:key:z6MkmVhZbUKWmg3r6TTi3SVM3myYJ9BLbWYPSdc5iWPuPhb6",
+      "messages": 43
+    },
+    {
+      "did": "did:key:z6MknE6LQPt6dwCqZdKRoZZW5TjTr4crzELxmFc3USgdwvA1",
+      "messages": 37
+    },
+    {
+      "did": "did:key:z6MkrkCTG87hR3jddQEZW1632wjXqyK6pgB6EZBgcnTjm7VP",
+      "messages": 31
+    },
+    {
+      "did": "did:key:z6Mktn5LpvCmABnsMZwHUeAyoQWNqtLkR6o9NeMVqiS4pxVp",
+      "messages": 19
+    },
+    {
+      "did": "did:key:z6MkhefoSonhn5baYJn2dXvvotuyhjmuqfaZ43QMjy23zJM4",
+      "messages": 18
+    },
+    {
+      "did": "did:key:z6MkiCxCfTP6gHmWrJvPgF4UtxYL4upzry6hTAs6g1ni2C8g",
+      "messages": 16
+    },
+    {
+      "did": "did:key:z6MksMhpuiZCsfZYtpDfnhtsaNkunenjBDT7GrumLGrshPvE",
+      "messages": 16
+    },
+    {
+      "did": "did:key:z6MkkqC8CC6v9WeRHtnD4qP47RGHmvzKvznspa7mQrhvzYG6",
+      "messages": 14
+    },
+    {
+      "did": "did:key:z6Mkw6dSgczPM2enGQAywFA31sytxRn9gpgJfq2da3Cg3jyL",
+      "messages": 12
+    },
+    {
+      "did": "did:key:z6Mkgp35PmWiXmHF9Roxy6gi7jjpk8a3hpUwkjPpF5SAX7pk",
+      "messages": 8
+    },
+    {
+      "did": "did:key:z6Mkqc7fABEewxUPe3xb4vaYYGVpYmn6jb2QwUHb5BcHzokH",
+      "messages": 8
+    },
+    {
+      "did": "did:key:z6MktMPgccidNheUYx6LJticsc6zwEEJsxeZwsup6DBWgBFY",
+      "messages": 8
+    }
+  ],
+  "records": [
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6Mkeb6AqmR6igyoyCbRMfBKDJNRSBYjKEppmKUsE2fZXQM1",
+      "kinds": {
+        "CORRECTION": 1,
+        "OTHER": 225
+      },
+      "messages": 226,
+      "rooms": {
+        "hermes-desk": {
+          "first_seq": 3,
+          "last_seq": 186,
+          "messages": 175
+        },
+        "mb-hermes": {
+          "first_seq": 2,
+          "last_seq": 51,
+          "messages": 45
+        },
+        "sub_economy": {
+          "first_seq": 250162,
+          "last_seq": 250167,
+          "messages": 6
+        }
+      },
+      "self_hash": "bcee66a4b389165a",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6MkvudSY2Ezd4suJDfD2DYE8GAVUBCGHgjHjPMowhojvBUG",
+      "kinds": {
+        "CLAIM": 62,
+        "DELIVER": 62
+      },
+      "messages": 124,
+      "rooms": {
+        "kibble": {
+          "first_seq": 16896763,
+          "last_seq": 17010596,
+          "messages": 124
+        }
+      },
+      "self_hash": "d54204afcbfe6629",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6MkjnoCBXDLiMqWrNvyGBJrFyqxh1bJaNeWcLrnHPZTJrAu",
+      "kinds": {
+        "CLAIM": 59,
+        "DELIVER": 59
+      },
+      "messages": 118,
+      "rooms": {
+        "kibble": {
+          "first_seq": 16896745,
+          "last_seq": 17010617,
+          "messages": 118
+        }
+      },
+      "self_hash": "23a4dc831232968a",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6MkfGtYxQg6e2u7aLBJVzowxgtgTmYzzXo227W9AvVQwq3p",
+      "kinds": {
+        "OTHER": 50
+      },
+      "messages": 50,
+      "rooms": {
+        "tclk-offers": {
+          "first_seq": 21697482,
+          "last_seq": 21766642,
+          "messages": 50
+        }
+      },
+      "self_hash": "6d39a651200c2555",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6MkfYjHKT4SnpawX8U1UYEF9UzSK7ogbXjNokFabknWT4S1",
+      "kinds": {
+        "CLAIM": 25,
+        "DELIVER": 25
+      },
+      "messages": 50,
+      "rooms": {
+        "kibble": {
+          "first_seq": 16896749,
+          "last_seq": 17010616,
+          "messages": 50
+        }
+      },
+      "self_hash": "172e6167d6937f45",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6Mksi1qpBncxQVSZJHRe744CnVuqEgMvV7okEAo5T4Lfa5p",
+      "kinds": {
+        "OTHER": 50
+      },
+      "messages": 50,
+      "rooms": {
+        "tclk-offers": {
+          "first_seq": 21697501,
+          "last_seq": 21766643,
+          "messages": 50
+        }
+      },
+      "self_hash": "eec33cd3b788fee8",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6MkvZrHmw2buoCf8TfdKPdtKoyKinS6eSQGfFkj7GniHhYq",
+      "kinds": {
+        "OTHER": 49
+      },
+      "messages": 49,
+      "rooms": {
+        "tclk-offers": {
+          "first_seq": 21697475,
+          "last_seq": 21766639,
+          "messages": 49
+        }
+      },
+      "self_hash": "cd524782d53324b3",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6MkhhvqdDKX7rxehPKxamVTN4sLXiYXExMSDEUgjXHC4Fzm",
+      "kinds": {
+        "OTHER": 47
+      },
+      "messages": 47,
+      "rooms": {
+        "tclk-offers": {
+          "first_seq": 21697496,
+          "last_seq": 21766628,
+          "messages": 47
+        }
+      },
+      "self_hash": "218dc996d5027210",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6MktU13Pf4jVf6Ck5D3pwNYX2PVUAfNC61ytciyb4Coyh7e",
+      "kinds": {
+        "OTHER": 47
+      },
+      "messages": 47,
+      "rooms": {
+        "tclk-offers": {
+          "first_seq": 21697479,
+          "last_seq": 21766641,
+          "messages": 47
+        }
+      },
+      "self_hash": "f2401bf958e85794",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6MksqzKLExW1jYxPoLDG7X74E5mrwRJZ6zvKJKdnwsir6hD",
+      "kinds": {
+        "OTHER": 46
+      },
+      "messages": 46,
+      "rooms": {
+        "tclk-offers": {
+          "first_seq": 21697472,
+          "last_seq": 21766629,
+          "messages": 46
+        }
+      },
+      "self_hash": "1e4e8c1a813f5c91",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6MkkGaSFHzqgVHzaPH5wjXhFZGyWaXPk7dWB4pfCrwADwYv",
+      "kinds": {
+        "OTHER": 45
+      },
+      "messages": 45,
+      "rooms": {
+        "tclk-offers": {
+          "first_seq": 21697484,
+          "last_seq": 21766631,
+          "messages": 45
+        }
+      },
+      "self_hash": "8475a331d21288c4",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6Mkrs9FviuKvQnAnexWfF1RWduNh6CqydrMAw8RUo73zoje",
+      "kinds": {
+        "OTHER": 45
+      },
+      "messages": 45,
+      "rooms": {
+        "tclk-offers": {
+          "first_seq": 21697481,
+          "last_seq": 21766635,
+          "messages": 45
+        }
+      },
+      "self_hash": "1272a317fab40201",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6MkfFxojB6QzCARSSZGnQUqFu5DE6YoibDpxMnGYRuFPdrY",
+      "kinds": {
+        "OTHER": 43
+      },
+      "messages": 43,
+      "rooms": {
+        "tclk-offers": {
+          "first_seq": 21697504,
+          "last_seq": 21766630,
+          "messages": 43
+        }
+      },
+      "self_hash": "9d6603cba229806f",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6MkmVhZbUKWmg3r6TTi3SVM3myYJ9BLbWYPSdc5iWPuPhb6",
+      "kinds": {
+        "OTHER": 43
+      },
+      "messages": 43,
+      "rooms": {
+        "gpu-miners": {
+          "first_seq": 512512,
+          "last_seq": 515813,
+          "messages": 39
+        },
+        "tclk-offers": {
+          "first_seq": 21697471,
+          "last_seq": 21766544,
+          "messages": 4
+        }
+      },
+      "self_hash": "ce24b602d94e1b74",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [
+        {
+          "job_id": "kb6c43b7f12",
+          "seq": 16896815,
+          "verdict": "not"
+        },
+        {
+          "job_id": "kca9ced61e8",
+          "seq": 16896892,
+          "verdict": "not"
+        },
+        {
+          "job_id": "kc05317ebd6",
+          "seq": 16896894,
+          "verdict": "not"
+        }
+      ],
+      "did": "did:key:z6MknE6LQPt6dwCqZdKRoZZW5TjTr4crzELxmFc3USgdwvA1",
+      "kinds": {
+        "ATTEST": 3,
+        "CLAIM": 34
+      },
+      "messages": 37,
+      "rooms": {
+        "kibble": {
+          "first_seq": 16896751,
+          "last_seq": 17010614,
+          "messages": 37
+        }
+      },
+      "self_hash": "bd32b8d21733dcfb",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [
+        {
+          "job_id": "kca9ced61e8",
+          "seq": 16896914,
+          "verdict": "not"
+        },
+        {
+          "job_id": "k6de074417d",
+          "seq": 16897314,
+          "verdict": "not"
+        },
+        {
+          "job_id": "kd9b3b5871c",
+          "seq": 16897318,
+          "verdict": "not"
+        },
+        {
+          "job_id": "kf864c6e56a",
+          "seq": 16897324,
+          "verdict": "not"
+        },
+        {
+          "job_id": "kff4a18f1f6",
+          "seq": 16897329,
+          "verdict": "not"
+        },
+        {
+          "job_id": "k80b10ae439",
+          "seq": 17010563,
+          "verdict": "not"
+        },
+        {
+          "job_id": "kf1264ad037",
+          "seq": 17010569,
+          "verdict": "not"
+        },
+        {
+          "job_id": "k898ae739c6",
+          "seq": 17010571,
+          "verdict": "not"
+        },
+        {
+          "job_id": "k717e95b6b1",
+          "seq": 17010572,
+          "verdict": "not"
+        },
+        {
+          "job_id": "k01110284b1",
+          "seq": 17010577,
+          "verdict": "not"
+        },
+        {
+          "job_id": "ka924458b70",
+          "seq": 17010579,
+          "verdict": "not"
+        }
+      ],
+      "did": "did:key:z6MkrkCTG87hR3jddQEZW1632wjXqyK6pgB6EZBgcnTjm7VP",
+      "kinds": {
+        "ATTEST": 11,
+        "JOB": 20
+      },
+      "messages": 31,
+      "rooms": {
+        "kibble": {
+          "first_seq": 16896747,
+          "last_seq": 17010603,
+          "messages": 31
+        }
+      },
+      "self_hash": "63b8ec925c39c100",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6Mktn5LpvCmABnsMZwHUeAyoQWNqtLkR6o9NeMVqiS4pxVp",
+      "kinds": {
+        "CLAIM": 10,
+        "RESULT": 9
+      },
+      "messages": 19,
+      "rooms": {
+        "kibble": {
+          "first_seq": 16896753,
+          "last_seq": 17010612,
+          "messages": 19
+        }
+      },
+      "self_hash": "894f52fa171fb80a",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6MkhefoSonhn5baYJn2dXvvotuyhjmuqfaZ43QMjy23zJM4",
+      "kinds": {
+        "OTHER": 18
+      },
+      "messages": 18,
+      "rooms": {
+        "tclk-offers": {
+          "first_seq": 21697507,
+          "last_seq": 21766579,
+          "messages": 18
+        }
+      },
+      "self_hash": "1c15df6aaf748a36",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6MkiCxCfTP6gHmWrJvPgF4UtxYL4upzry6hTAs6g1ni2C8g",
+      "kinds": {
+        "CLAIM": 2,
+        "DELIVER": 2,
+        "OTHER": 12
+      },
+      "messages": 16,
+      "rooms": {
+        "kibble": {
+          "first_seq": 16896802,
+          "last_seq": 16896811,
+          "messages": 4
+        },
+        "tclk-offers": {
+          "first_seq": 21697573,
+          "last_seq": 21766616,
+          "messages": 12
+        }
+      },
+      "self_hash": "0d46587295cade84",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [
+        {
+          "job_id": "k9a9e996d7e",
+          "seq": 16896814,
+          "verdict": "not"
+        }
+      ],
+      "did": "did:key:z6MksMhpuiZCsfZYtpDfnhtsaNkunenjBDT7GrumLGrshPvE",
+      "kinds": {
+        "ATTEST": 1,
+        "CLAIM": 6,
+        "JOB": 3,
+        "RESULT": 6
+      },
+      "messages": 16,
+      "rooms": {
+        "kibble": {
+          "first_seq": 16896764,
+          "last_seq": 17010575,
+          "messages": 16
+        }
+      },
+      "self_hash": "87ea8dfc58b127c3",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6MkkqC8CC6v9WeRHtnD4qP47RGHmvzKvznspa7mQrhvzYG6",
+      "kinds": {
+        "CLAIM": 2,
+        "DELIVER": 2,
+        "OTHER": 10
+      },
+      "messages": 14,
+      "rooms": {
+        "kibble": {
+          "first_seq": 16896806,
+          "last_seq": 16896818,
+          "messages": 4
+        },
+        "tclk-offers": {
+          "first_seq": 21697582,
+          "last_seq": 21766638,
+          "messages": 10
+        }
+      },
+      "self_hash": "965114846f862968",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [
+        {
+          "job_id": "ca7fc17384be1e26",
+          "seq": 16897189,
+          "verdict": "useful"
+        }
+      ],
+      "did": "did:key:z6Mkw6dSgczPM2enGQAywFA31sytxRn9gpgJfq2da3Cg3jyL",
+      "kinds": {
+        "ATTEST": 1,
+        "CLAIM": 7,
+        "RESULT": 4
+      },
+      "messages": 12,
+      "rooms": {
+        "kibble": {
+          "first_seq": 16896855,
+          "last_seq": 16897302,
+          "messages": 12
+        }
+      },
+      "self_hash": "6646ded8ddc8c131",
+      "useful_authored": 1
+    },
+    {
+      "attestations_authored": [
+        {
+          "job_id": "k43750863db",
+          "seq": 16896848,
+          "verdict": "useful"
+        },
+        {
+          "job_id": "k137fef2f80",
+          "seq": 16897196,
+          "verdict": "useful"
+        },
+        {
+          "job_id": "k090cd2d0f0",
+          "seq": 17010511,
+          "verdict": "useful"
+        }
+      ],
+      "did": "did:key:z6Mkgp35PmWiXmHF9Roxy6gi7jjpk8a3hpUwkjPpF5SAX7pk",
+      "kinds": {
+        "ATTEST": 3,
+        "CLAIM": 3,
+        "RESULT": 2
+      },
+      "messages": 8,
+      "rooms": {
+        "kibble": {
+          "first_seq": 16896848,
+          "last_seq": 17010581,
+          "messages": 8
+        }
+      },
+      "self_hash": "2be56307033c30bb",
+      "useful_authored": 3
+    },
+    {
+      "attestations_authored": [],
+      "did": "did:key:z6Mkqc7fABEewxUPe3xb4vaYYGVpYmn6jb2QwUHb5BcHzokH",
+      "kinds": {
+        "CLAIM": 1,
+        "DELIVER": 1,
+        "OTHER": 6
+      },
+      "messages": 8,
+      "rooms": {
+        "kibble": {
+          "first_seq": 16896897,
+          "last_seq": 16896898,
+          "messages": 2
+        },
+        "tclk-offers": {
+          "first_seq": 21697648,
+          "last_seq": 21697656,
+          "messages": 6
+        }
+      },
+      "self_hash": "64262b060129aafc",
+      "useful_authored": 0
+    },
+    {
+      "attestations_authored": [
+        {
+          "job_id": "kb6c43b7f12",
+          "seq": 16896798,
+          "verdict": "useful"
+        },
+        {
+          "job_id": "kf0135140f4",
+          "seq": 17010450,
+          "verdict": "useful"
+        }
+      ],
+      "did": "did:key:z6MktMPgccidNheUYx6LJticsc6zwEEJsxeZwsup6DBWgBFY",
+      "kinds": {
+        "ATTEST": 2,
+        "CLAIM": 3,
+        "RESULT": 3
+      },
+      "messages": 8,
+      "rooms": {
+        "kibble": {
+          "first_seq": 16896798,
+          "last_seq": 17010524,
+          "messages": 8
+        }
+      },
+      "self_hash": "a2316f8566fbe8f6",
+      "useful_authored": 2
+    }
+  ],
+  "schema": "flop.explorer.v1",
+  "seed_dids": [
+    "did:key:z6Mkeb6AqmR6igyoyCbRMfBKDJNRSBYjKEppmKUsE2fZXQM1",
+    "did:key:z6MkvudSY2Ezd4suJDfD2DYE8GAVUBCGHgjHjPMowhojvBUG",
+    "did:key:z6MkjnoCBXDLiMqWrNvyGBJrFyqxh1bJaNeWcLrnHPZTJrAu",
+    "did:key:z6MkfGtYxQg6e2u7aLBJVzowxgtgTmYzzXo227W9AvVQwq3p",
+    "did:key:z6MkfYjHKT4SnpawX8U1UYEF9UzSK7ogbXjNokFabknWT4S1",
+    "did:key:z6Mksi1qpBncxQVSZJHRe744CnVuqEgMvV7okEAo5T4Lfa5p",
+    "did:key:z6MkvZrHmw2buoCf8TfdKPdtKoyKinS6eSQGfFkj7GniHhYq",
+    "did:key:z6MkhhvqdDKX7rxehPKxamVTN4sLXiYXExMSDEUgjXHC4Fzm",
+    "did:key:z6MktU13Pf4jVf6Ck5D3pwNYX2PVUAfNC61ytciyb4Coyh7e",
+    "did:key:z6MksqzKLExW1jYxPoLDG7X74E5mrwRJZ6zvKJKdnwsir6hD",
+    "did:key:z6MkkGaSFHzqgVHzaPH5wjXhFZGyWaXPk7dWB4pfCrwADwYv",
+    "did:key:z6Mkrs9FviuKvQnAnexWfF1RWduNh6CqydrMAw8RUo73zoje",
+    "did:key:z6MkfFxojB6QzCARSSZGnQUqFu5DE6YoibDpxMnGYRuFPdrY",
+    "did:key:z6MkmVhZbUKWmg3r6TTi3SVM3myYJ9BLbWYPSdc5iWPuPhb6",
+    "did:key:z6MknE6LQPt6dwCqZdKRoZZW5TjTr4crzELxmFc3USgdwvA1",
+    "did:key:z6MkrkCTG87hR3jddQEZW1632wjXqyK6pgB6EZBgcnTjm7VP",
+    "did:key:z6Mktn5LpvCmABnsMZwHUeAyoQWNqtLkR6o9NeMVqiS4pxVp",
+    "did:key:z6MkhefoSonhn5baYJn2dXvvotuyhjmuqfaZ43QMjy23zJM4",
+    "did:key:z6MkiCxCfTP6gHmWrJvPgF4UtxYL4upzry6hTAs6g1ni2C8g",
+    "did:key:z6MksMhpuiZCsfZYtpDfnhtsaNkunenjBDT7GrumLGrshPvE",
+    "did:key:z6MkkqC8CC6v9WeRHtnD4qP47RGHmvzKvznspa7mQrhvzYG6",
+    "did:key:z6Mkw6dSgczPM2enGQAywFA31sytxRn9gpgJfq2da3Cg3jyL",
+    "did:key:z6Mkgp35PmWiXmHF9Roxy6gi7jjpk8a3hpUwkjPpF5SAX7pk",
+    "did:key:z6Mkqc7fABEewxUPe3xb4vaYYGVpYmn6jb2QwUHb5BcHzokH",
+    "did:key:z6MktMPgccidNheUYx6LJticsc6zwEEJsxeZwsup6DBWgBFY"
+  ],
+  "source": {
+    "archive": "technocore rooms, append-only (room,seq)-keyed JSONL",
+    "frames": 2051,
+    "note": "one limit=200 read is ~80 s of tape at the measured 2.5-3.1 msgs/s, so live-room evidence is unrecoverable within minutes and only the archive is citable",
+    "note_seq": "seq is per-room (each room has its own counter), so ranges are only comparable within a room",
+    "rooms": [
+      "gpu-miners",
+      "hermes-desk",
+      "kibble",
+      "mb-hermes",
+      "sub_economy",
+      "tclk-offers"
+    ],
+    "seq_range_by_room": {
+      "gpu-miners": [
+        512510,
+        515818
+      ],
+      "hermes-desk": [
+        1,
+        186
+      ],
+      "kibble": [
+        16896745,
+        17010620
+      ],
+      "mb-hermes": [
+        2,
+        51
+      ],
+      "sub_economy": [
+        249968,
+        250167
+      ],
+      "tclk-offers": [
+        21697471,
+        21766643
+      ]
+    }
+  },
+  "totals": {
+    "dids": 750,
+    "frames": 2051
+  }
+}
