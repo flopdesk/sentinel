@@ -1,6 +1,6 @@
 {
-  "count": 26,
-  "generated_at": "2026-10-12T08:20:18Z",
+  "count": 27,
+  "generated_at": "2026-10-12T11:20:19Z",
   "marks": [
     {
       "cheapest_class": "rtx4090",
@@ -209,6 +209,14 @@
       "providers_available": 10,
       "ts": "2026-10-12T08:20:18Z",
       "usd_per_h100e_hr": 1.5495
+    },
+    {
+      "cheapest_class": "rtx4090",
+      "discount_pct": 36.4,
+      "known_h100e_now": 880.65,
+      "providers_available": 10,
+      "ts": "2026-10-12T11:20:19Z",
+      "usd_per_h100e_hr": 1.5818
     }
   ],
   "schema": "cmm.history.v1"
