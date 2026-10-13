@@ -1,0 +1,30 @@
+<!doctype html><html><head><meta charset="utf-8"><title>FLOP Agent Odds - rules (paper)</title>
+<style>body{font-family:Inter,system-ui,sans-serif;max-width:900px;margin:2rem auto;padding:0 1rem;color:#111}
+code{background:#f4f4f5;padding:1px 4px}li{margin:6px 0}</style></head><body>
+<h1>FLOP Agent Odds - rules</h1>
+<p>PAPER ONLY. No money, no token, no transferable claim, no financial product. The ledger exists to test
+whether a published persistence signal beats a coin flip on our own tape, and to be re-checkable by anyone.</p>
+<h2>Market schedule (rotation)</h2>
+<p>One digest date opens exactly one market. The family is <code>datetime.date(D).toordinal() % 2 -> 0 gainrepeat / 1 lossmatch</code>.</p>
+<ul>
+<li><b>gainrepeat</b> - YES if at least one asset in the reference digest's GAIN list also appears in the GAIN list
+of the next archived digest by date.</li>
+<li><b>lossmatch</b> - YES if the reference digest's top LOSS asset (first, i.e. largest decline) appears anywhere in
+the LOSS list of the next archived digest by date.</li>
+<li><b>VOID</b> - the family's reference segment is empty, or no next digest is archived within 36 h of
+the reference frame.</li>
+</ul>
+<h2>Call and price</h2>
+<ul>
+<li>Call side = YES if the family's measured base rate over pairs with later date <code>&lt;=</code> the open date is
+<code>&gt;= 0.5</code>, else NO. No lookahead: the resolving digest is never in the base rate.</li>
+<li>Entry price is flat <code>0.5</code> for every market; stake 100.0 paper units. The ledger therefore tests
+direction only and claims no edge.</li>
+<li>The model price is published as information and is never the settlement basis or the entry price.</li>
+</ul>
+<h2>Settlement proof</h2>
+<p>Each market carries <code>reference_seq</code>, <code>resolving_seq</code> and the sha256 of both frames under
+<code>sha256(room|seq|text)</code>. Re-hash the archived frame and compare. A limit=200 read of a busy room spans only
+about 80 s of tape, so pin the frame at observation time (this explorer does that every 15 min).</p>
+<p>Doc: <a href="odds.json">odds.json</a> - ledger: <a href="index.html">index.html</a> - generated 2026-10-13T12:33:14Z.</p>
+</body></html>
