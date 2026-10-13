@@ -21,12 +21,14 @@ Usage: python3 odds_verify.py [--selftest]
 import hashlib
 import json
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ARCHIVE = [os.path.join(HERE, "..", "explorer", "archive", "messages.jsonl"),
            os.path.join(HERE, "..", "..", "explorer", "archive", "messages.jsonl")]
 DOC = os.path.join(HERE, "public", "odds.json")
+DIG_RE = re.compile(r"DYDX DIGEST (\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}) UTC")
 
 
 def sha(b):
@@ -68,6 +70,96 @@ def load_archive(paths=None):
             if frames:
                 return p, frames
     raise SystemExit("archive not found in %s" % (paths or ARCHIVE))
+
+
+def _seg(text, name):
+    for part in text.split(" | "):
+        part = part.strip()
+        if part.startswith(name + " ") or part == name:
+            return ASSET_RE.findall(part)
+    return []
+
+
+ASSET_RE = re.compile(r"\b([A-Z0-9]{1,12}-USD)\b")
+
+
+def _digests(frames):
+    """Independent re-parse of the digest tape from the archive (no builder import)."""
+    out = {}
+    for seq in sorted(frames):
+        f = frames[seq]
+        if f.get("room") != "hermes-desk":
+            continue
+        text = f.get("text") or ""
+        if not text.startswith("DYDX DIGEST"):
+            continue
+        m = DIG_RE.search(text)
+        if not m:
+            continue
+        out[m.group(1)] = {"date": m.group(1), "seq": seq, "text": text,
+                           "gain": _seg(text, "GAIN"), "loss": _seg(text, "LOSS")}
+    return [out[d] for d in sorted(out)]
+
+
+def check_families(doc, frames, problems):
+    """Check 5: rotation and outcome re-derived from the raw frames.
+
+    This re-implements the family semantics from the frame text only, and does not
+    import the builder, so agreement is evidence rather than restatement.
+    """
+    import datetime as _dt
+    digests = _digests(frames)
+    if not digests:
+        problems.append("no digest frames re-parsed from the archive")
+        return 0
+    by_date = {d["date"]: d for d in digests}
+    seq_date = {d["seq"]: d["date"] for d in digests}
+    dates = [d["date"] for d in digests]
+    n_checked = 0
+    for m in doc.get("markets", []):
+        ev = m.get("evidence", {})
+        ref_seq = ev.get("reference_seq")
+        ref = by_date.get(seq_date.get(ref_seq)) if ref_seq is not None else None
+        if ref is None:
+            problems.append("%s: reference_seq %s is not a digest frame" % (m["id"], ref_seq))
+            continue
+        if ref["date"] != m.get("opened_from_date"):
+            problems.append("%s: opened_from_date %s != frame date %s" % (m["id"], m.get("opened_from_date"), ref["date"]))
+        y, mo, dd = (int(x) for x in ref["date"].split("-"))
+        fam = ("gainrepeat", "lossmatch")[_dt.date(y, mo, dd).toordinal() % 2]
+        if m.get("family") != fam:
+            problems.append("%s: family %s != rotation key %s for %s" % (m["id"], m.get("family"), fam, ref["date"]))
+        if not str(m.get("id", "")).endswith(fam):
+            problems.append("%s: market id does not carry its rotated family %s" % (m["id"], fam))
+        i = dates.index(ref["date"])
+        nxt = digests[i + 1] if i + 1 < len(digests) else None
+        st = m.get("resolution", {}).get("status")
+        if nxt is None:
+            if st == "RESOLVED":
+                problems.append("%s: RESOLVED but no later digest exists" % m["id"])
+            continue
+        if st != "RESOLVED":
+            continue
+        n_checked += 1
+        if ev.get("resolving_seq") != nxt["seq"]:
+            problems.append("%s: resolving_seq %s is not the next digest by date (%s)"
+                            % (m["id"], ev.get("resolving_seq"), nxt["seq"]))
+        if fam == "gainrepeat":
+            want = "YES" if (ref["gain"] and nxt["gain"] and set(ref["gain"]) & set(nxt["gain"])) else "NO"
+            if not ref["gain"] or not nxt["gain"]:
+                want = "VOID"
+        else:
+            if not ref["loss"] or not nxt["loss"]:
+                want = "VOID"
+            else:
+                want = "YES" if ref["loss"][0] in nxt["loss"] else "NO"
+        got = m.get("resolution", {}).get("outcome")
+        if want == "VOID":
+            problems.append("%s: content resolves VOID but market says %s" % (m["id"], got))
+        elif got != want:
+            problems.append("%s: outcome %s != re-derived %s (%s vs %s)"
+                            % (m["id"], got, want, ref["loss"][:1], nxt["loss"]))
+    return n_checked
 
 
 def verify(doc, frames, expect_convention=None):
@@ -161,33 +253,52 @@ def verify(doc, frames, expect_convention=None):
         if st == "OPEN" and m.get("evidence", {}).get("resolving_sha256"):
             problems.append("%s: OPEN market carries a resolving hash" % m["id"])
 
+    # 5: rotation + outcome re-derived from the raw frames
+    fam_checked = check_families(doc, frames, problems)
+
     return {"markets": len(markets), "settled": len(settled), "called": len(called),
             "wins": len(wins), "convention": convention, "problems": problems,
+            "outcomes_re_derived": fam_checked,
             "proofs_re_derived": matched.get(convention, 0) if convention else 0}
 
 
 def selftest():
-    frames = {1: {"seq": 1, "room": "hermes-desk", "text": "GAIN: a, b | PAIN: c"},
-              2: {"seq": 2, "room": "hermes-desk", "text": "GAIN: a | PAIN: d"}}
-    h2 = sha(frames[2]["text"])
+    import datetime as _dt
+
+    def fam(date_str):
+        y, mo, dd = (int(x) for x in date_str.split("-"))
+        return ("gainrepeat", "lossmatch")[_dt.date(y, mo, dd).toordinal() % 2]
+
+    d1, d2 = "2026-01-01", "2026-01-02"
+    t1 = "DYDX DIGEST 2026-01-01 11:00 UTC | GAIN AAA-USD +1.0% | LOSS XXX-USD -1.0% | VOL ETH-USD $1M"
+    t2 = "DYDX DIGEST 2026-01-02 11:00 UTC | GAIN BBB-USD +1.0% | LOSS YYY-USD -1.0% | VOL ETH-USD $1M"
+    frames = {1: {"seq": 1, "room": "hermes-desk", "text": t1},
+              2: {"seq": 2, "room": "hermes-desk", "text": t2}}
+    h1, h2 = sha(t1), sha(t2)
+    # this pair shares neither a GAIN asset nor the top LOSS asset, so the outcome is NO
+    # under either family; fam() picks which family each date opens.
 
     def doc():
-        return {"schema": "flop.odds.v1",
+        return {"schema": "flop.odds.v2",
                 "tape": {"last_seq": 2, "last_sha256": h2},
-                "live_market": {"id": "m2", "evidence": {"reference_seq": 2, "reference_sha256": h2}},
+                "live_market": {"id": "mkt-%s-%s" % (d2, fam(d2)), "opened_from_date": d2, "family": fam(d2),
+                                "evidence": {"reference_seq": 2, "reference_sha256": h2}},
                 "accounting": {"settled": 1, "wins": 1, "losses": 0, "stake": 50, "pnl_paper_units": 50,
                                "uncalled_listed": 0, "hits_yes": 0, "base_rate_realised_yes": 0.0},
                 "markets": [
-                    {"id": "m1", "call": "NO", "called": True, "entry_price": 0.5,
-                     "evidence": {"reference_seq": 1, "reference_sha256": sha(frames[1]["text"]),
+                    {"id": "mkt-%s-%s" % (d1, fam(d1)), "family": fam(d1), "opened_from_date": d1,
+                     "call": "NO", "called": True, "entry_price": 0.5,
+                     "evidence": {"reference_seq": 1, "reference_sha256": h1,
                                   "resolving_seq": 2, "resolving_sha256": h2},
                      "resolution": {"status": "RESOLVED", "outcome": "NO"}},
-                    {"id": "m2", "call": None, "called": False,
+                    {"id": "mkt-%s-%s" % (d2, fam(d2)), "family": fam(d2), "opened_from_date": d2,
+                     "call": None, "called": False,
                      "evidence": {"reference_seq": 2, "reference_sha256": h2},
                      "resolution": {"status": "OPEN", "outcome": None}}]}
     checks = []
     r = verify(doc(), frames)
-    checks.append(("clean document verifies", not r["problems"] and r["convention"] == "sha256(text)")
+    checks.append(("clean document verifies", not r["problems"] and r["convention"] == "sha256(text)"
+                   and r["outcomes_re_derived"] == 1)
                   or (print("  clean problems:", r["problems"]) or False))
     d = doc(); d["markets"][0]["evidence"]["resolving_sha256"] = sha("tampered")
     checks.append(("tampered proof is caught", any("no convention" in p for p in verify(d, frames)["problems"])))
@@ -205,9 +316,19 @@ def selftest():
     checks.append(("pnl arithmetic is checked", bool(verify(d, frames)["problems"])))
     d = doc(); d["accounting"]["wins"] = 5
     checks.append(("win count is checked", bool(verify(d, frames)["problems"])))
+    # new in v1: rotation and outcome must survive an independent re-derivation
+    d = doc(); d["markets"][0]["family"] = fam(d2)
+    checks.append(("wrong rotation family is caught",
+                   any("rotation key" in p for p in verify(d, frames)["problems"])))
+    d = doc(); d["markets"][0]["id"] = "mkt-%s-%s" % (d1, fam(d2))
+    checks.append(("market id not carrying its family is caught",
+                   any("does not carry its rotated family" in p for p in verify(d, frames)["problems"])))
+    d = doc(); d["markets"][0]["opened_from_date"] = d2
+    checks.append(("date/frame mismatch is caught",
+                   any("opened_from_date" in p for p in verify(d, frames)["problems"])))
     bad = [n for n, ok in checks if not ok]
     for n, ok in checks:
-        print("%-40s %s" % (n, "PASS" if ok else "FAIL"))
+        print("%-46s %s" % (n, "PASS" if ok else "FAIL"))
     print("selftest %d/%d %s" % (len(checks) - len(bad), len(checks), "PASS" if not bad else "FAIL " + str(bad)))
     return not bad
 
@@ -221,6 +342,7 @@ if __name__ == "__main__":
     print("archive", path, "frames", len(frames))
     print("markets", res["markets"], "settled", res["settled"], "called", res["called"],
           "wins", res["wins"], "proofs re-derived", res["proofs_re_derived"],
+          "outcomes re-derived", res["outcomes_re_derived"],
           "convention", res["convention"])
     if res["problems"]:
         print("PROBLEMS", len(res["problems"]))
