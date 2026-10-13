@@ -2,23 +2,42 @@
   "class_count": 15,
   "classes": [
     {
-      "bf16_tflops": 165.2,
-      "gpu_class": "rtx4090",
-      "h100e_per_device_hour": 0.220006,
+      "bf16_tflops": 76.41,
+      "gpu_class": "rtx4070ti",
+      "h100e_per_device_hour": 0.1,
       "provider": "salad",
       "sessions_h100e_usd": {
-        "1h": 0.9777,
-        "24h": 23.4648,
-        "720h": 703.944
+        "1h": 0.971,
+        "24h": 23.304,
+        "720h": 699.12
       },
       "sessions_usd": {
-        "1h": 0.2151,
-        "24h": 5.1624,
-        "720h": 154.872
+        "1h": 0.0971,
+        "24h": 2.3304,
+        "720h": 69.912
       },
-      "usd_per_device_hr": 0.2151,
-      "usd_per_gflop_measured": 3.61683e-10,
-      "usd_per_h100e_hr": 0.9777
+      "usd_per_device_hr": 0.0971,
+      "usd_per_gflop_measured": 3.52993e-10,
+      "usd_per_h100e_hr": 0.971
+    },
+    {
+      "bf16_tflops": 165.2,
+      "gpu_class": "rtx4090",
+      "h100e_per_device_hour": 0.219992,
+      "provider": "salad",
+      "sessions_h100e_usd": {
+        "1h": 1.0064,
+        "24h": 24.1536,
+        "720h": 724.608
+      },
+      "sessions_usd": {
+        "1h": 0.2214,
+        "24h": 5.3136,
+        "720h": 159.408
+      },
+      "usd_per_device_hr": 0.2214,
+      "usd_per_gflop_measured": 3.72276e-10,
+      "usd_per_h100e_hr": 1.0064
     },
     {
       "bf16_tflops": 70.88,
@@ -26,56 +45,37 @@
       "h100e_per_device_hour": 0.1,
       "provider": "salad",
       "sessions_h100e_usd": {
-        "1h": 1.13,
-        "24h": 27.12,
-        "720h": 813.6
+        "1h": 1.127,
+        "24h": 27.048,
+        "720h": 811.44
       },
       "sessions_usd": {
-        "1h": 0.113,
-        "24h": 2.712,
-        "720h": 81.36
+        "1h": 0.1127,
+        "24h": 2.7048,
+        "720h": 81.144
       },
-      "usd_per_device_hr": 0.113,
-      "usd_per_gflop_measured": 4.42845e-10,
-      "usd_per_h100e_hr": 1.13
-    },
-    {
-      "bf16_tflops": 76.41,
-      "gpu_class": "rtx4070ti",
-      "h100e_per_device_hour": 0.1,
-      "provider": "salad",
-      "sessions_h100e_usd": {
-        "1h": 1.142,
-        "24h": 27.408,
-        "720h": 822.24
-      },
-      "sessions_usd": {
-        "1h": 0.1142,
-        "24h": 2.7408,
-        "720h": 82.224
-      },
-      "usd_per_device_hr": 0.1142,
-      "usd_per_gflop_measured": 4.15158e-10,
-      "usd_per_h100e_hr": 1.142
+      "usd_per_device_hr": 0.1127,
+      "usd_per_gflop_measured": 4.4167e-10,
+      "usd_per_h100e_hr": 1.127
     },
     {
       "bf16_tflops": 235.63,
       "gpu_class": "rtx5090",
-      "h100e_per_device_hour": 0.320003,
+      "h100e_per_device_hour": 0.319989,
       "provider": "salad",
       "sessions_h100e_usd": {
-        "1h": 1.5003,
-        "24h": 36.0072,
-        "720h": 1080.216
+        "1h": 1.4988,
+        "24h": 35.9712,
+        "720h": 1079.136
       },
       "sessions_usd": {
-        "1h": 0.4801,
-        "24h": 11.5224,
-        "720h": 345.672
+        "1h": 0.4796,
+        "24h": 11.5104,
+        "720h": 345.312
       },
-      "usd_per_device_hr": 0.4801,
-      "usd_per_gflop_measured": 5.65977e-10,
-      "usd_per_h100e_hr": 1.5003
+      "usd_per_device_hr": 0.4796,
+      "usd_per_gflop_measured": 5.65387e-10,
+      "usd_per_h100e_hr": 1.4988
     },
     {
       "bf16_tflops": 114.32,
@@ -83,18 +83,56 @@
       "h100e_per_device_hour": 0.149998,
       "provider": "nosana",
       "sessions_h100e_usd": {
-        "1h": 2.7347,
-        "24h": 65.6328,
-        "720h": 1968.984
+        "1h": 2.7267,
+        "24h": 65.4408,
+        "720h": 1963.224
       },
       "sessions_usd": {
-        "1h": 0.4102,
-        "24h": 9.8448,
-        "720h": 295.344
+        "1h": 0.409,
+        "24h": 9.816,
+        "720h": 294.48
       },
-      "usd_per_device_hr": 0.4102,
-      "usd_per_gflop_measured": 9.96715e-10,
-      "usd_per_h100e_hr": 2.7347
+      "usd_per_device_hr": 0.409,
+      "usd_per_gflop_measured": 9.93799e-10,
+      "usd_per_h100e_hr": 2.7267
+    },
+    {
+      "bf16_tflops": 450.73,
+      "gpu_class": "h100pcie",
+      "h100e_per_device_hour": 0.609993,
+      "provider": "yotta",
+      "sessions_h100e_usd": {
+        "1h": 3.1161,
+        "24h": 74.7864,
+        "720h": 2243.592
+      },
+      "sessions_usd": {
+        "1h": 1.9008,
+        "24h": 45.6192,
+        "720h": 1368.576
+      },
+      "usd_per_device_hr": 1.9008,
+      "usd_per_gflop_measured": 1.17143e-09,
+      "usd_per_h100e_hr": 3.1161
+    },
+    {
+      "bf16_tflops": 366.76,
+      "gpu_class": "rtxpro6000",
+      "h100e_per_device_hour": 0.5,
+      "provider": "yotta",
+      "sessions_h100e_usd": {
+        "1h": 3.121,
+        "24h": 74.904,
+        "720h": 2247.12
+      },
+      "sessions_usd": {
+        "1h": 1.5605,
+        "24h": 37.452,
+        "720h": 1123.56
+      },
+      "usd_per_device_hr": 1.5605,
+      "usd_per_gflop_measured": 1.1819e-09,
+      "usd_per_h100e_hr": 3.121
     },
     {
       "bf16_tflops": 1645.76,
@@ -135,80 +173,42 @@
       "usd_per_h100e_hr": 3.413
     },
     {
-      "bf16_tflops": 450.73,
-      "gpu_class": "h100pcie",
-      "h100e_per_device_hour": 0.609998,
-      "provider": "yotta",
-      "sessions_h100e_usd": {
-        "1h": 3.5246,
-        "24h": 84.5904,
-        "720h": 2537.712
-      },
-      "sessions_usd": {
-        "1h": 2.15,
-        "24h": 51.6,
-        "720h": 1548.0
-      },
-      "usd_per_device_hr": 2.15,
-      "usd_per_gflop_measured": 1.32501e-09,
-      "usd_per_h100e_hr": 3.5246
-    },
-    {
       "bf16_tflops": 740.14,
       "gpu_class": "h100",
       "h100e_per_device_hour": 1.0,
-      "provider": "yotta",
+      "provider": "jarvislabs",
       "sessions_h100e_usd": {
-        "1h": 3.711,
-        "24h": 89.064,
-        "720h": 2671.92
+        "1h": 3.8339,
+        "24h": 92.0136,
+        "720h": 2760.408
       },
       "sessions_usd": {
-        "1h": 3.711,
-        "24h": 89.064,
-        "720h": 2671.92
+        "1h": 3.8339,
+        "24h": 92.0136,
+        "720h": 2760.408
       },
-      "usd_per_device_hr": 3.711,
-      "usd_per_gflop_measured": 1.39275e-09,
-      "usd_per_h100e_hr": 3.711
-    },
-    {
-      "bf16_tflops": 366.76,
-      "gpu_class": "rtxpro6000",
-      "h100e_per_device_hour": 0.5,
-      "provider": "yotta",
-      "sessions_h100e_usd": {
-        "1h": 4.03,
-        "24h": 96.72,
-        "720h": 2901.6
-      },
-      "sessions_usd": {
-        "1h": 2.015,
-        "24h": 48.36,
-        "720h": 1450.8
-      },
-      "usd_per_device_hr": 2.015,
-      "usd_per_gflop_measured": 1.52613e-09,
-      "usd_per_h100e_hr": 4.03
+      "usd_per_device_hr": 3.8339,
+      "usd_per_gflop_measured": 1.43888e-09,
+      "usd_per_h100e_hr": 3.8339
     },
     {
       "bf16_tflops": 266.29,
       "gpu_class": "a100",
-      "h100e_per_device_hour": 0.36,
+      "h100e_per_device_hour": 0.360001,
       "provider": "yotta",
       "sessions_h100e_usd": {
-        "1h": 4.2225,
-        "24h": 101.34,
-        "720h": 3040.2
+        "1h": 4.3411,
+        "24h": 104.1864,
+        "720h": 3125.592
       },
       "sessions_usd": {
-        "1h": 1.5201,
-        "24h": 36.4824,
-        "720h": 1094.472
+        "1h": 1.5628,
+        "24h": 37.5072,
+        "720h": 1125.216
       },
-      "usd_per_device_hr": 1.5201,
-      "usd_per_gflop_measured": 1.58568e-09,
-      "usd_per_h100e_hr": 4.2225
+      "usd_per_device_hr": 1.5628,
+      "usd_per_gflop_measured": 1.63022e-09,
+      "usd_per_h100e_hr": 4.3411
     },
     {
       "bf16_tflops": 118.04,
@@ -235,37 +235,18 @@
       "h100e_per_device_hour": 1.0,
       "provider": "jarvislabs",
       "sessions_h100e_usd": {
-        "1h": 4.4986,
-        "24h": 107.9664,
-        "720h": 3238.992
+        "1h": 4.4967,
+        "24h": 107.9208,
+        "720h": 3237.624
       },
       "sessions_usd": {
-        "1h": 4.4986,
-        "24h": 107.9664,
-        "720h": 3238.992
+        "1h": 4.4967,
+        "24h": 107.9208,
+        "720h": 3237.624
       },
-      "usd_per_device_hr": 4.4986,
-      "usd_per_gflop_measured": 1.67025e-09,
-      "usd_per_h100e_hr": 4.4986
-    },
-    {
-      "bf16_tflops": 192.3,
-      "gpu_class": "l40s",
-      "h100e_per_device_hour": 0.26,
-      "provider": "clore",
-      "sessions_h100e_usd": {
-        "1h": 5.495,
-        "24h": 131.88,
-        "720h": 3956.4
-      },
-      "sessions_usd": {
-        "1h": 1.4287,
-        "24h": 34.2888,
-        "720h": 1028.664
-      },
-      "usd_per_device_hr": 1.4287,
-      "usd_per_gflop_measured": 2.06376e-09,
-      "usd_per_h100e_hr": 5.495
+      "usd_per_device_hr": 4.4967,
+      "usd_per_gflop_measured": 1.66954e-09,
+      "usd_per_h100e_hr": 4.4967
     },
     {
       "bf16_tflops": 58.94,
@@ -285,18 +266,37 @@
       "usd_per_device_hr": 0.44,
       "usd_per_gflop_measured": 2.07367e-09,
       "usd_per_h100e_hr": 5.5
+    },
+    {
+      "bf16_tflops": 192.3,
+      "gpu_class": "l40s",
+      "h100e_per_device_hour": 0.259999,
+      "provider": "nebius",
+      "sessions_h100e_usd": {
+        "1h": 5.9554,
+        "24h": 142.9296,
+        "720h": 4287.888
+      },
+      "sessions_usd": {
+        "1h": 1.5484,
+        "24h": 37.1616,
+        "720h": 1114.848
+      },
+      "usd_per_device_hr": 1.5484,
+      "usd_per_gflop_measured": 2.23667e-09,
+      "usd_per_h100e_hr": 5.9554
     }
   ],
-  "generated_at": "2026-10-13T14:20:19Z",
-  "index_usd_per_gflop_bf16": 5.48282e-10,
-  "index_usd_per_h100e_hr": 1.4609,
+  "generated_at": "2026-10-13T17:20:37Z",
+  "index_usd_per_gflop_bf16": 5.74553e-10,
+  "index_usd_per_h100e_hr": 1.5309,
   "notes": [
     "Any request without a User-Agent header is refused with HTTP 403 by the edge in front of gpus.flop.finance; any explicit UA returns 200. Send a UA or you will read the market as down.",
     "quotes.json carries the per-class sessions (1h/24h/720h). usd_per_device_hr is the class's own hourly price and h100e_per_device_hour is its H100e factor; usd_per_gflop_measured is null unless the snapshot carries a bf16 benchmark for that exact class, so no number is interpolated across classes. history.json is our own mark series, not the provider's.",
     "Session quotes are point-in-time marks multiplied by duration. They are not forward prices and carry no availability guarantee."
   ],
   "schema": "cmm.quotes.v1",
-  "source_collected_at": "2026-10-13 14:12:33.875",
+  "source_collected_at": "2026-10-13 17:12:33.886",
   "unit": {
     "device_hour": "one GPU of the named class for one hour",
     "duration": "US dollars per session; sessions are marks multiplied by duration",
