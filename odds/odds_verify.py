@@ -27,7 +27,10 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ARCHIVE = [os.path.join(HERE, "..", "explorer", "archive", "messages.jsonl"),
            os.path.join(HERE, "..", "..", "explorer", "archive", "messages.jsonl")]
-DOC = os.path.join(HERE, "public", "odds.json")
+DOC = next((p for p in (os.path.join(HERE, "public", "odds.json"),
+                        os.path.join(HERE, "odds.json"),
+                        os.path.join(HERE, "..", "public", "odds.json")) if os.path.exists(p)),
+           os.path.join(HERE, "public", "odds.json"))
 DIG_RE = re.compile(r"DYDX DIGEST (\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}) UTC")
 
 
