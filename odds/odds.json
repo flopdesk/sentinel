@@ -1,42 +1,79 @@
 {
  "accounting": {
-  "base_rate_realised_yes": 0.214286,
+  "base_rate_realised_yes": 0.166667,
   "entry_price": 0.5,
-  "hits_yes": 9,
-  "losses": 11,
+  "hits_yes": 7,
+  "losses": 9,
   "note": "flat 0.50 entry, no invented edge; the ledger tests direction only",
-  "pnl_paper_units": 2000.0,
+  "per_family": {
+   "gainrepeat": {
+    "called": 21,
+    "hits_yes": 5,
+    "losses": 7,
+    "pnl_paper_units": 700.0,
+    "realised_yes_rate": 0.238095,
+    "settled": 22,
+    "wins": 14
+   },
+   "lossmatch": {
+    "called": 21,
+    "hits_yes": 2,
+    "losses": 2,
+    "pnl_paper_units": 1700.0,
+    "realised_yes_rate": 0.095238,
+    "settled": 22,
+    "wins": 19
+   }
+  },
+  "pnl_paper_units": 2400.0,
   "settled": 42,
   "stake": 100.0,
-  "uncalled_listed": 1,
-  "wins": 31
+  "uncalled_listed": 2,
+  "wins": 33
  },
- "as_of": "2026-10-12T12:32:11Z",
+ "as_of": "2026-10-13T12:33:14Z",
+ "engine": {
+  "families": [
+   "gainrepeat",
+   "lossmatch"
+  ],
+  "one_live_market": true,
+  "rotation": "datetime.date(D).toordinal() % 2 -> 0 gainrepeat / 1 lossmatch",
+  "supersedes": "v0 (single gainrepeat family on every date); v1 is the authoritative series",
+  "version": "v1"
+ },
  "live_market": {
   "call": "NO",
   "called": true,
   "entry_price": 0.5,
   "evidence": {
-   "reference_seq": 195,
-   "reference_sha256": "8d26507b10baea17a51b655b34d53096470eafd739093ea76d074022842464eb",
+   "reference_seq": 198,
+   "reference_sha256": "40989b330f2da314b0ebd3c248abfa0198ff53096933d79a6744733f20b91820",
    "resolving_seq": null,
    "resolving_sha256": null
   },
-  "id": "mkt-2026-10-12-gainrepeat",
-  "model_pairs": 43,
-  "model_price_yes": 0.232558,
-  "opened_from_date": "2026-10-12",
-  "opens_at": "2026-10-12 11:00 UTC",
-  "question": "Will at least one GAIN asset of the 2026-10-12 digest also appear in the GAIN list of the next digest?",
+  "family": "gainrepeat",
+  "id": "mkt-2026-10-13-gainrepeat",
+  "model_pairs": 22,
+  "model_price_yes": 0.272727,
+  "opened_from_date": "2026-10-13",
+  "opens_at": "2026-10-13 11:00 UTC",
+  "question": "Will at least one GAIN asset of the 2026-10-13 digest also appear in the GAIN list of the next digest?",
   "reference_gain": [
-   "PYTH-USD",
-   "FIL-USD",
-   "ICP-USD"
+   "TIA-USD",
+   "XMR-USD",
+   "PAXG-USD"
+  ],
+  "reference_loss": [
+   "BLUR-USD",
+   "STRK-USD",
+   "PUMP-USD"
   ],
   "resolution": {
    "status": "OPEN"
   },
-  "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-12 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+  "rotation_index": 0,
+  "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-13 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
   "stake": 100.0
  },
  "markets": [
@@ -50,6 +87,7 @@
     "resolving_seq": 30,
     "resolving_sha256": "a931f833ebc4eff0727e09dbdf1499622d60e77d78db9cedb9b818c25d1adbc8"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-08-26-gainrepeat",
    "model_pairs": 0,
    "model_price_yes": null,
@@ -61,21 +99,34 @@
     "SPX-USD",
     "MOVE-USD"
    ],
+   "reference_loss": [
+    "ZORA-USD",
+    "JTO-USD",
+    "ZEC-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [
+      "SPX-USD"
+     ],
+     "reference_gain": [
+      "ZRO-USD",
+      "SPX-USD",
+      "MOVE-USD"
+     ]
+    },
     "outcome": "YES",
-    "overlap": [
-     "SPX-USD"
-    ],
     "pnl": 0.0,
     "resolving_date": "2026-08-27",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-08-26 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
-   "call": "YES",
-   "called": true,
+   "call": null,
+   "called": false,
    "entry_price": 0.5,
    "evidence": {
     "reference_seq": 30,
@@ -83,25 +134,44 @@
     "resolving_seq": 37,
     "resolving_sha256": "757712d642f549c22b588fc31d1daad6f873712a38120b6582b66e7904e39973"
    },
-   "id": "mkt-2026-08-27-gainrepeat",
-   "model_pairs": 1,
-   "model_price_yes": 1.0,
+   "family": "lossmatch",
+   "id": "mkt-2026-08-27-lossmatch",
+   "model_pairs": 0,
+   "model_price_yes": null,
    "opened_from_date": "2026-08-27",
    "opens_at": "2026-08-27 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-08-27 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-08-27 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "RUNE-USD",
     "SPX-USD",
     "BLAST-USD"
    ],
+   "reference_loss": [
+    "POL-USD",
+    "PYTH-USD",
+    "OP-USD"
+   ],
    "resolution": {
+    "detail": {
+     "reference_loss": [
+      "POL-USD",
+      "PYTH-USD",
+      "OP-USD"
+     ],
+     "resolving_loss": [
+      "RUNE-USD",
+      "JTO-USD",
+      "VVV-USD"
+     ],
+     "top_loss": "POL-USD"
+    },
     "outcome": "NO",
-    "overlap": [],
-    "pnl": -100.0,
+    "pnl": 0.0,
     "resolving_date": "2026-08-28",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-08-27 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-08-27 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -114,9 +184,10 @@
     "resolving_seq": 48,
     "resolving_sha256": "f98c548937210a270a0dbafa91f2d035f4247cd7519af181dd84e1a171a04e6d"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-08-28-gainrepeat",
-   "model_pairs": 2,
-   "model_price_yes": 0.5,
+   "model_pairs": 1,
+   "model_price_yes": 1.0,
    "opened_from_date": "2026-08-28",
    "opens_at": "2026-08-28 11:00 UTC",
    "question": "Will at least one GAIN asset of the 2026-08-28 digest also appear in the GAIN list of the next digest?",
@@ -125,13 +196,26 @@
     "ENA-USD",
     "ZORA-USD"
    ],
+   "reference_loss": [
+    "RUNE-USD",
+    "JTO-USD",
+    "VVV-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [],
+     "reference_gain": [
+      "TRUMP-USD",
+      "ENA-USD",
+      "ZORA-USD"
+     ]
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": -100.0,
     "resolving_date": "2026-09-02",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-08-28 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -145,29 +229,48 @@
     "resolving_seq": 52,
     "resolving_sha256": "6ca3cb914a22937c5a73301a8f5b82bbb806d47e71deb9943c5dfdb7aab2b278"
    },
-   "id": "mkt-2026-09-02-gainrepeat",
-   "model_pairs": 3,
-   "model_price_yes": 0.333333,
+   "family": "lossmatch",
+   "id": "mkt-2026-09-02-lossmatch",
+   "model_pairs": 1,
+   "model_price_yes": 0.0,
    "opened_from_date": "2026-09-02",
    "opens_at": "2026-09-02 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-09-02 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-09-02 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "FIL-USD",
     "PYTH-USD",
     "UNI-USD"
    ],
+   "reference_loss": [
+    "ZORA-USD",
+    "BONK-USD",
+    "TRUMP-USD"
+   ],
    "resolution": {
+    "detail": {
+     "reference_loss": [
+      "ZORA-USD",
+      "BONK-USD",
+      "TRUMP-USD"
+     ],
+     "resolving_loss": [
+      "MORPHO-USD",
+      "SPX-USD",
+      "WLFI-USD"
+     ],
+     "top_loss": "ZORA-USD"
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-03",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-02 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-09-02 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
-   "call": "NO",
+   "call": "YES",
    "called": true,
    "entry_price": 0.5,
    "evidence": {
@@ -176,9 +279,10 @@
     "resolving_seq": 53,
     "resolving_sha256": "a5016e9634977f5b5a2a162edcdebf69fee49cfec9eb57f2bcabcbe97e956b0b"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-09-03-gainrepeat",
-   "model_pairs": 4,
-   "model_price_yes": 0.25,
+   "model_pairs": 2,
+   "model_price_yes": 0.5,
    "opened_from_date": "2026-09-03",
    "opens_at": "2026-09-03 11:00 UTC",
    "question": "Will at least one GAIN asset of the 2026-09-03 digest also appear in the GAIN list of the next digest?",
@@ -187,13 +291,26 @@
     "APT-USD",
     "SUI-USD"
    ],
+   "reference_loss": [
+    "MORPHO-USD",
+    "SPX-USD",
+    "WLFI-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [],
+     "reference_gain": [
+      "ARB-USD",
+      "APT-USD",
+      "SUI-USD"
+     ]
+    },
     "outcome": "NO",
-    "overlap": [],
-    "pnl": 100.0,
+    "pnl": -100.0,
     "resolving_date": "2026-09-04",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-03 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -207,25 +324,44 @@
     "resolving_seq": 55,
     "resolving_sha256": "5ac2e8d7f17385b2836639b8b6b5c12efb9d1e6eb8e7b25808363b97a3a1f0c0"
    },
-   "id": "mkt-2026-09-04-gainrepeat",
-   "model_pairs": 5,
-   "model_price_yes": 0.2,
+   "family": "lossmatch",
+   "id": "mkt-2026-09-04-lossmatch",
+   "model_pairs": 2,
+   "model_price_yes": 0.0,
    "opened_from_date": "2026-09-04",
    "opens_at": "2026-09-04 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-09-04 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-09-04 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "SPX-USD",
     "ZEC-USD",
     "LIT-USD"
    ],
+   "reference_loss": [
+    "PYTH-USD",
+    "PUMP-USD",
+    "APT-USD"
+   ],
    "resolution": {
+    "detail": {
+     "reference_loss": [
+      "PYTH-USD",
+      "PUMP-USD",
+      "APT-USD"
+     ],
+     "resolving_loss": [
+      "MON-USD",
+      "SPX-USD",
+      "ZRO-USD"
+     ],
+     "top_loss": "PYTH-USD"
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-05",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-04 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-09-04 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -238,9 +374,10 @@
     "resolving_seq": 57,
     "resolving_sha256": "53570ca68ce76c5488adf8114a784b01f84b3914878dfa95d6c744a440a55f91"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-09-05-gainrepeat",
-   "model_pairs": 6,
-   "model_price_yes": 0.166667,
+   "model_pairs": 3,
+   "model_price_yes": 0.333333,
    "opened_from_date": "2026-09-05",
    "opens_at": "2026-09-05 11:00 UTC",
    "question": "Will at least one GAIN asset of the 2026-09-05 digest also appear in the GAIN list of the next digest?",
@@ -249,13 +386,26 @@
     "ZEN-USD",
     "NEAR-USD"
    ],
+   "reference_loss": [
+    "MON-USD",
+    "SPX-USD",
+    "ZRO-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [],
+     "reference_gain": [
+      "ZORA-USD",
+      "ZEN-USD",
+      "NEAR-USD"
+     ]
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-06",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-05 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -269,25 +419,44 @@
     "resolving_seq": 59,
     "resolving_sha256": "9d0b13252f4cc1f7a21a2f24dd75326807b2b5e5a0c74060e4efff3c0ce3bb93"
    },
-   "id": "mkt-2026-09-06-gainrepeat",
-   "model_pairs": 7,
-   "model_price_yes": 0.142857,
+   "family": "lossmatch",
+   "id": "mkt-2026-09-06-lossmatch",
+   "model_pairs": 3,
+   "model_price_yes": 0.0,
    "opened_from_date": "2026-09-06",
    "opens_at": "2026-09-06 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-09-06 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-09-06 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "ARB-USD",
     "JUP-USD",
     "ZEC-USD"
    ],
+   "reference_loss": [
+    "ZORA-USD",
+    "PUMP-USD",
+    "XPL-USD"
+   ],
    "resolution": {
-    "outcome": "NO",
-    "overlap": [],
-    "pnl": 100.0,
+    "detail": {
+     "reference_loss": [
+      "ZORA-USD",
+      "PUMP-USD",
+      "XPL-USD"
+     ],
+     "resolving_loss": [
+      "ARB-USD",
+      "BONK-USD",
+      "ZORA-USD"
+     ],
+     "top_loss": "ZORA-USD"
+    },
+    "outcome": "YES",
+    "pnl": -100.0,
     "resolving_date": "2026-09-07",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-06 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-09-06 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -300,9 +469,10 @@
     "resolving_seq": 64,
     "resolving_sha256": "1a3591b3a740b8f466d1fd427fa4a74fefae214e75314b1130fb547d91465439"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-09-07-gainrepeat",
-   "model_pairs": 8,
-   "model_price_yes": 0.125,
+   "model_pairs": 4,
+   "model_price_yes": 0.25,
    "opened_from_date": "2026-09-07",
    "opens_at": "2026-09-07 11:00 UTC",
    "question": "Will at least one GAIN asset of the 2026-09-07 digest also appear in the GAIN list of the next digest?",
@@ -311,15 +481,28 @@
     "ICP-USD",
     "INJ-USD"
    ],
+   "reference_loss": [
+    "ARB-USD",
+    "BONK-USD",
+    "ZORA-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [
+      "INJ-USD"
+     ],
+     "reference_gain": [
+      "TAO-USD",
+      "ICP-USD",
+      "INJ-USD"
+     ]
+    },
     "outcome": "YES",
-    "overlap": [
-     "INJ-USD"
-    ],
     "pnl": -100.0,
     "resolving_date": "2026-09-08",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-07 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -333,27 +516,44 @@
     "resolving_seq": 66,
     "resolving_sha256": "93cdbd1160afa9a7526ad8f2058c1492ca4c6fffdffba1fe5c2121987eec8ba9"
    },
-   "id": "mkt-2026-09-08-gainrepeat",
-   "model_pairs": 9,
-   "model_price_yes": 0.222222,
+   "family": "lossmatch",
+   "id": "mkt-2026-09-08-lossmatch",
+   "model_pairs": 4,
+   "model_price_yes": 0.25,
    "opened_from_date": "2026-09-08",
    "opens_at": "2026-09-08 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-09-08 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-09-08 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "INJ-USD",
     "DOT-USD",
     "ZORA-USD"
    ],
+   "reference_loss": [
+    "JUP-USD",
+    "ASTER-USD",
+    "PENGU-USD"
+   ],
    "resolution": {
-    "outcome": "YES",
-    "overlap": [
-     "DOT-USD"
-    ],
-    "pnl": -100.0,
+    "detail": {
+     "reference_loss": [
+      "JUP-USD",
+      "ASTER-USD",
+      "PENGU-USD"
+     ],
+     "resolving_loss": [
+      "PENDLE-USD",
+      "WLD-USD",
+      "OP-USD"
+     ],
+     "top_loss": "JUP-USD"
+    },
+    "outcome": "NO",
+    "pnl": 100.0,
     "resolving_date": "2026-09-09",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-08 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-09-08 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -366,9 +566,10 @@
     "resolving_seq": 67,
     "resolving_sha256": "0775c6760436cc570156799b7a07df4415059bd2e84ab2ca161817409d15733c"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-09-09-gainrepeat",
-   "model_pairs": 10,
-   "model_price_yes": 0.3,
+   "model_pairs": 5,
+   "model_price_yes": 0.4,
    "opened_from_date": "2026-09-09",
    "opens_at": "2026-09-09 11:00 UTC",
    "question": "Will at least one GAIN asset of the 2026-09-09 digest also appear in the GAIN list of the next digest?",
@@ -377,13 +578,26 @@
     "NEAR-USD",
     "DOT-USD"
    ],
+   "reference_loss": [
+    "PENDLE-USD",
+    "WLD-USD",
+    "OP-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [],
+     "reference_gain": [
+      "ATOM-USD",
+      "NEAR-USD",
+      "DOT-USD"
+     ]
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-10",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-09 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -397,25 +611,44 @@
     "resolving_seq": 69,
     "resolving_sha256": "850cf98ed85becad455d7fa061fe116ea1e9855caa9b8ab267d028d4250775b9"
    },
-   "id": "mkt-2026-09-10-gainrepeat",
-   "model_pairs": 11,
-   "model_price_yes": 0.272727,
+   "family": "lossmatch",
+   "id": "mkt-2026-09-10-lossmatch",
+   "model_pairs": 5,
+   "model_price_yes": 0.2,
    "opened_from_date": "2026-09-10",
    "opens_at": "2026-09-10 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-09-10 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-09-10 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "RUNE-USD",
     "XMR-USD",
     "WTI-USD"
    ],
+   "reference_loss": [
+    "LIT-USD",
+    "ARB-USD",
+    "TRUMP-USD"
+   ],
    "resolution": {
+    "detail": {
+     "reference_loss": [
+      "LIT-USD",
+      "ARB-USD",
+      "TRUMP-USD"
+     ],
+     "resolving_loss": [
+      "WLFI-USD",
+      "ZEC-USD",
+      "BCH-USD"
+     ],
+     "top_loss": "LIT-USD"
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-11",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-10 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-09-10 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -428,9 +661,10 @@
     "resolving_seq": 72,
     "resolving_sha256": "cc2b4cdd67b463c724eced29c84e8d1310873ab5039aa7d0554e490a999246ea"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-09-11-gainrepeat",
-   "model_pairs": 12,
-   "model_price_yes": 0.25,
+   "model_pairs": 6,
+   "model_price_yes": 0.333333,
    "opened_from_date": "2026-09-11",
    "opens_at": "2026-09-11 11:00 UTC",
    "question": "Will at least one GAIN asset of the 2026-09-11 digest also appear in the GAIN list of the next digest?",
@@ -439,13 +673,26 @@
     "NEAR-USD",
     "POL-USD"
    ],
+   "reference_loss": [
+    "WLFI-USD",
+    "ZEC-USD",
+    "BCH-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [],
+     "reference_gain": [
+      "EIGEN-USD",
+      "NEAR-USD",
+      "POL-USD"
+     ]
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-12",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-11 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -459,25 +706,44 @@
     "resolving_seq": 73,
     "resolving_sha256": "cff92a50fc8618e69d128c181397f89b1b340c6ac1d54eaf68ac00fec6b76a90"
    },
-   "id": "mkt-2026-09-12-gainrepeat",
-   "model_pairs": 13,
-   "model_price_yes": 0.230769,
+   "family": "lossmatch",
+   "id": "mkt-2026-09-12-lossmatch",
+   "model_pairs": 6,
+   "model_price_yes": 0.166667,
    "opened_from_date": "2026-09-12",
    "opens_at": "2026-09-12 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-09-12 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-09-12 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "WLFI-USD",
     "JUP-USD",
     "BONK-USD"
    ],
+   "reference_loss": [
+    "ATOM-USD",
+    "DOT-USD",
+    "LIT-USD"
+   ],
    "resolution": {
+    "detail": {
+     "reference_loss": [
+      "ATOM-USD",
+      "DOT-USD",
+      "LIT-USD"
+     ],
+     "resolving_loss": [
+      "LIT-USD",
+      "APT-USD",
+      "JUP-USD"
+     ],
+     "top_loss": "ATOM-USD"
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-13",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-12 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-09-12 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -490,9 +756,10 @@
     "resolving_seq": 74,
     "resolving_sha256": "382ef086b11533cfce5bb43f6194798e645a79f0e25ac15288f600e7cdd95662"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-09-13-gainrepeat",
-   "model_pairs": 14,
-   "model_price_yes": 0.214286,
+   "model_pairs": 7,
+   "model_price_yes": 0.285714,
    "opened_from_date": "2026-09-13",
    "opens_at": "2026-09-13 11:00 UTC",
    "question": "Will at least one GAIN asset of the 2026-09-13 digest also appear in the GAIN list of the next digest?",
@@ -501,13 +768,26 @@
     "PUMP-USD",
     "CHZ-USD"
    ],
+   "reference_loss": [
+    "LIT-USD",
+    "APT-USD",
+    "JUP-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [],
+     "reference_gain": [
+      "DYM-USD",
+      "PUMP-USD",
+      "CHZ-USD"
+     ]
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-14",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-13 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -521,25 +801,44 @@
     "resolving_seq": 75,
     "resolving_sha256": "eacbe9c26079b3a20d18a59ec2f7364d1b515949dddaf4b4cce0757e77575faa"
    },
-   "id": "mkt-2026-09-14-gainrepeat",
-   "model_pairs": 15,
-   "model_price_yes": 0.2,
+   "family": "lossmatch",
+   "id": "mkt-2026-09-14-lossmatch",
+   "model_pairs": 7,
+   "model_price_yes": 0.142857,
    "opened_from_date": "2026-09-14",
    "opens_at": "2026-09-14 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-09-14 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-09-14 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "FIL-USD",
     "PENDLE-USD",
     "LIT-USD"
    ],
+   "reference_loss": [
+    "ZORA-USD",
+    "XMR-USD",
+    "DYM-USD"
+   ],
    "resolution": {
+    "detail": {
+     "reference_loss": [
+      "ZORA-USD",
+      "XMR-USD",
+      "DYM-USD"
+     ],
+     "resolving_loss": [
+      "FIL-USD",
+      "ZRO-USD",
+      "ICP-USD"
+     ],
+     "top_loss": "ZORA-USD"
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-15",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-14 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-09-14 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -552,9 +851,10 @@
     "resolving_seq": 79,
     "resolving_sha256": "476ea83f1f21dd64f9c9ab4cae75ce150e04e666aca7968634a586086e6b4f8b"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-09-15-gainrepeat",
-   "model_pairs": 16,
-   "model_price_yes": 0.1875,
+   "model_pairs": 8,
+   "model_price_yes": 0.25,
    "opened_from_date": "2026-09-15",
    "opens_at": "2026-09-15 11:00 UTC",
    "question": "Will at least one GAIN asset of the 2026-09-15 digest also appear in the GAIN list of the next digest?",
@@ -563,13 +863,26 @@
     "OP-USD",
     "XLM-USD"
    ],
+   "reference_loss": [
+    "FIL-USD",
+    "ZRO-USD",
+    "ICP-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [],
+     "reference_gain": [
+      "UNI-USD",
+      "OP-USD",
+      "XLM-USD"
+     ]
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-16",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-15 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -583,27 +896,44 @@
     "resolving_seq": 80,
     "resolving_sha256": "a63257101c5cd3058bb463fd2c989b6e0567b71acd8d7a8318a5f7bad138788d"
    },
-   "id": "mkt-2026-09-16-gainrepeat",
-   "model_pairs": 17,
-   "model_price_yes": 0.176471,
+   "family": "lossmatch",
+   "id": "mkt-2026-09-16-lossmatch",
+   "model_pairs": 8,
+   "model_price_yes": 0.125,
    "opened_from_date": "2026-09-16",
    "opens_at": "2026-09-16 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-09-16 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-09-16 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "ARB-USD",
     "ZEC-USD",
     "ZEN-USD"
    ],
+   "reference_loss": [
+    "INJ-USD",
+    "XLM-USD",
+    "FIL-USD"
+   ],
    "resolution": {
-    "outcome": "YES",
-    "overlap": [
-     "ZEC-USD"
-    ],
-    "pnl": -100.0,
+    "detail": {
+     "reference_loss": [
+      "INJ-USD",
+      "XLM-USD",
+      "FIL-USD"
+     ],
+     "resolving_loss": [
+      "WTI-USD",
+      "XMR-USD",
+      "XAG-USD"
+     ],
+     "top_loss": "INJ-USD"
+    },
+    "outcome": "NO",
+    "pnl": 100.0,
     "resolving_date": "2026-09-17",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-16 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-09-16 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -616,8 +946,9 @@
     "resolving_seq": 82,
     "resolving_sha256": "ad81d0727ac926aaa85ccc57c9e24188d7f8d3b5aaa44dc9b64c346844ee35fe"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-09-17-gainrepeat",
-   "model_pairs": 18,
+   "model_pairs": 9,
    "model_price_yes": 0.222222,
    "opened_from_date": "2026-09-17",
    "opens_at": "2026-09-17 11:00 UTC",
@@ -627,15 +958,28 @@
     "LIT-USD",
     "ZEC-USD"
    ],
+   "reference_loss": [
+    "WTI-USD",
+    "XMR-USD",
+    "XAG-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [
+      "NEAR-USD"
+     ],
+     "reference_gain": [
+      "NEAR-USD",
+      "LIT-USD",
+      "ZEC-USD"
+     ]
+    },
     "outcome": "YES",
-    "overlap": [
-     "NEAR-USD"
-    ],
     "pnl": -100.0,
     "resolving_date": "2026-09-18",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-17 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -649,25 +993,44 @@
     "resolving_seq": 86,
     "resolving_sha256": "7ee38b97373f56203182fa0a7aff050868b303698729116ae0069f5ca32be148"
    },
-   "id": "mkt-2026-09-18-gainrepeat",
-   "model_pairs": 19,
-   "model_price_yes": 0.263158,
+   "family": "lossmatch",
+   "id": "mkt-2026-09-18-lossmatch",
+   "model_pairs": 9,
+   "model_price_yes": 0.111111,
    "opened_from_date": "2026-09-18",
    "opens_at": "2026-09-18 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-09-18 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-09-18 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "UNI-USD",
     "ARB-USD",
     "NEAR-USD"
    ],
+   "reference_loss": [
+    "WLFI-USD",
+    "WTI-USD",
+    "MATIC-USD"
+   ],
    "resolution": {
+    "detail": {
+     "reference_loss": [
+      "WLFI-USD",
+      "WTI-USD",
+      "MATIC-USD"
+     ],
+     "resolving_loss": [
+      "PUMP-USD",
+      "WLD-USD",
+      "DOT-USD"
+     ],
+     "top_loss": "WLFI-USD"
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-19",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-18 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-09-18 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -680,9 +1043,10 @@
     "resolving_seq": 92,
     "resolving_sha256": "93c08230f3d4a749308a9c16f632c675d01dae1fbbc66e72e251953e50dee729"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-09-19-gainrepeat",
-   "model_pairs": 20,
-   "model_price_yes": 0.25,
+   "model_pairs": 10,
+   "model_price_yes": 0.3,
    "opened_from_date": "2026-09-19",
    "opens_at": "2026-09-19 11:00 UTC",
    "question": "Will at least one GAIN asset of the 2026-09-19 digest also appear in the GAIN list of the next digest?",
@@ -691,16 +1055,29 @@
     "ENA-USD",
     "AVAX-USD"
    ],
+   "reference_loss": [
+    "PUMP-USD",
+    "WLD-USD",
+    "DOT-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [
+      "AVAX-USD",
+      "ENA-USD"
+     ],
+     "reference_gain": [
+      "STRK-USD",
+      "ENA-USD",
+      "AVAX-USD"
+     ]
+    },
     "outcome": "YES",
-    "overlap": [
-     "AVAX-USD",
-     "ENA-USD"
-    ],
     "pnl": -100.0,
     "resolving_date": "2026-09-20",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-19 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -714,25 +1091,44 @@
     "resolving_seq": 102,
     "resolving_sha256": "957e44751b76b73a089cf83af6b2858672b30464c95a3748b4f47700389f19cb"
    },
-   "id": "mkt-2026-09-20-gainrepeat",
-   "model_pairs": 21,
-   "model_price_yes": 0.285714,
+   "family": "lossmatch",
+   "id": "mkt-2026-09-20-lossmatch",
+   "model_pairs": 10,
+   "model_price_yes": 0.1,
    "opened_from_date": "2026-09-20",
    "opens_at": "2026-09-20 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-09-20 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-09-20 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "JTO-USD",
     "ENA-USD",
     "AVAX-USD"
    ],
+   "reference_loss": [
+    "XMR-USD",
+    "LIT-USD",
+    "TAO-USD"
+   ],
    "resolution": {
+    "detail": {
+     "reference_loss": [
+      "XMR-USD",
+      "LIT-USD",
+      "TAO-USD"
+     ],
+     "resolving_loss": [
+      "WTI-USD",
+      "XAG-USD",
+      "PAXG-USD"
+     ],
+     "top_loss": "XMR-USD"
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-21",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-20 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-09-20 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -745,9 +1141,10 @@
     "resolving_seq": 116,
     "resolving_sha256": "3f5c5af39e955a161261538a09952f3f04ce27706f5f0bf34c0bfb33ee7c21ed"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-09-21-gainrepeat",
-   "model_pairs": 22,
-   "model_price_yes": 0.272727,
+   "model_pairs": 11,
+   "model_price_yes": 0.363636,
    "opened_from_date": "2026-09-21",
    "opens_at": "2026-09-21 11:00 UTC",
    "question": "Will at least one GAIN asset of the 2026-09-21 digest also appear in the GAIN list of the next digest?",
@@ -756,13 +1153,26 @@
     "SUI-USD",
     "NEAR-USD"
    ],
+   "reference_loss": [
+    "WTI-USD",
+    "XAG-USD",
+    "PAXG-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [],
+     "reference_gain": [
+      "SEI-USD",
+      "SUI-USD",
+      "NEAR-USD"
+     ]
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-22",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-21 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -776,25 +1186,44 @@
     "resolving_seq": 123,
     "resolving_sha256": "25642be6e5d36c8f875759576eb2c44bc6835da55c65774612b02f809c6a7a66"
    },
-   "id": "mkt-2026-09-22-gainrepeat",
-   "model_pairs": 23,
-   "model_price_yes": 0.26087,
+   "family": "lossmatch",
+   "id": "mkt-2026-09-22-lossmatch",
+   "model_pairs": 11,
+   "model_price_yes": 0.090909,
    "opened_from_date": "2026-09-22",
    "opens_at": "2026-09-22 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-09-22 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-09-22 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "WIF-USD",
     "PEPE-USD",
     "TAO-USD"
    ],
+   "reference_loss": [
+    "PENDLE-USD",
+    "STRK-USD",
+    "ENA-USD"
+   ],
    "resolution": {
+    "detail": {
+     "reference_loss": [
+      "PENDLE-USD",
+      "STRK-USD",
+      "ENA-USD"
+     ],
+     "resolving_loss": [
+      "PUMP-USD",
+      "WIF-USD",
+      "PEPE-USD"
+     ],
+     "top_loss": "PENDLE-USD"
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-23",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-22 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-09-22 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -807,9 +1236,10 @@
     "resolving_seq": 125,
     "resolving_sha256": "3ebb824744363b7926678b88c678091059d991f015c1b4f4f25f2e31782aee41"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-09-23-gainrepeat",
-   "model_pairs": 24,
-   "model_price_yes": 0.25,
+   "model_pairs": 12,
+   "model_price_yes": 0.333333,
    "opened_from_date": "2026-09-23",
    "opens_at": "2026-09-23 11:00 UTC",
    "question": "Will at least one GAIN asset of the 2026-09-23 digest also appear in the GAIN list of the next digest?",
@@ -818,13 +1248,26 @@
     "ZRO-USD",
     "TIA-USD"
    ],
+   "reference_loss": [
+    "PUMP-USD",
+    "WIF-USD",
+    "PEPE-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [],
+     "reference_gain": [
+      "BCH-USD",
+      "ZRO-USD",
+      "TIA-USD"
+     ]
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-24",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-23 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -838,25 +1281,44 @@
     "resolving_seq": 130,
     "resolving_sha256": "54ee423b465df5efb0c5e0dead433b0739afd86c240023aa1b8154cd78014d53"
    },
-   "id": "mkt-2026-09-24-gainrepeat",
-   "model_pairs": 25,
-   "model_price_yes": 0.24,
+   "family": "lossmatch",
+   "id": "mkt-2026-09-24-lossmatch",
+   "model_pairs": 12,
+   "model_price_yes": 0.083333,
    "opened_from_date": "2026-09-24",
    "opens_at": "2026-09-24 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-09-24 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-09-24 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "LTC-USD",
     "WTI-USD",
     "COMP-USD"
    ],
+   "reference_loss": [
+    "TIA-USD",
+    "BONK-USD",
+    "ZEN-USD"
+   ],
    "resolution": {
+    "detail": {
+     "reference_loss": [
+      "TIA-USD",
+      "BONK-USD",
+      "ZEN-USD"
+     ],
+     "resolving_loss": [
+      "LIT-USD",
+      "TRX-USD",
+      "WTI-USD"
+     ],
+     "top_loss": "TIA-USD"
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-25",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-24 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-09-24 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -869,9 +1331,10 @@
     "resolving_seq": 135,
     "resolving_sha256": "2a366d1ce034814e02e8bf051114e2d9ace5e2532bb4887d340e3e6d88422b9d"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-09-25-gainrepeat",
-   "model_pairs": 26,
-   "model_price_yes": 0.230769,
+   "model_pairs": 13,
+   "model_price_yes": 0.307692,
    "opened_from_date": "2026-09-25",
    "opens_at": "2026-09-25 11:00 UTC",
    "question": "Will at least one GAIN asset of the 2026-09-25 digest also appear in the GAIN list of the next digest?",
@@ -880,13 +1343,26 @@
     "ONDO-USD",
     "JTO-USD"
    ],
+   "reference_loss": [
+    "LIT-USD",
+    "TRX-USD",
+    "WTI-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [],
+     "reference_gain": [
+      "XPL-USD",
+      "ONDO-USD",
+      "JTO-USD"
+     ]
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-26",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-25 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -900,25 +1376,44 @@
     "resolving_seq": 139,
     "resolving_sha256": "4b1c6acce0c2fd69574d82ab2a7534e9afeb5fa9898e09960d01c4edccb1bd7b"
    },
-   "id": "mkt-2026-09-26-gainrepeat",
-   "model_pairs": 27,
-   "model_price_yes": 0.222222,
+   "family": "lossmatch",
+   "id": "mkt-2026-09-26-lossmatch",
+   "model_pairs": 13,
+   "model_price_yes": 0.076923,
    "opened_from_date": "2026-09-26",
    "opens_at": "2026-09-26 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-09-26 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-09-26 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "ENA-USD",
     "SEI-USD",
     "SUI-USD"
    ],
+   "reference_loss": [
+    "ZEC-USD",
+    "INJ-USD",
+    "XMR-USD"
+   ],
    "resolution": {
+    "detail": {
+     "reference_loss": [
+      "ZEC-USD",
+      "INJ-USD",
+      "XMR-USD"
+     ],
+     "resolving_loss": [
+      "XPL-USD",
+      "ENA-USD",
+      "ATH-USD"
+     ],
+     "top_loss": "ZEC-USD"
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-27",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-26 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-09-26 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -931,9 +1426,10 @@
     "resolving_seq": 147,
     "resolving_sha256": "0a9b1cdf88917fd16651dd2cba5bad8415c1d29668d345989ce336f1ea17f91d"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-09-27-gainrepeat",
-   "model_pairs": 28,
-   "model_price_yes": 0.214286,
+   "model_pairs": 14,
+   "model_price_yes": 0.285714,
    "opened_from_date": "2026-09-27",
    "opens_at": "2026-09-27 11:00 UTC",
    "question": "Will at least one GAIN asset of the 2026-09-27 digest also appear in the GAIN list of the next digest?",
@@ -942,13 +1438,26 @@
     "PYTH-USD",
     "JTO-USD"
    ],
+   "reference_loss": [
+    "XPL-USD",
+    "ENA-USD",
+    "ATH-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [],
+     "reference_gain": [
+      "WLD-USD",
+      "PYTH-USD",
+      "JTO-USD"
+     ]
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-28",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-27 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -962,25 +1471,44 @@
     "resolving_seq": 155,
     "resolving_sha256": "083e30985d26a978fcb803ba322aa1d69c45495d69cce63465cca358fd872618"
    },
-   "id": "mkt-2026-09-28-gainrepeat",
-   "model_pairs": 29,
-   "model_price_yes": 0.206897,
+   "family": "lossmatch",
+   "id": "mkt-2026-09-28-lossmatch",
+   "model_pairs": 14,
+   "model_price_yes": 0.071429,
    "opened_from_date": "2026-09-28",
    "opens_at": "2026-09-28 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-09-28 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-09-28 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "HBAR-USD",
     "PUMP-USD",
     "ALGO-USD"
    ],
+   "reference_loss": [
+    "JTO-USD",
+    "UNI-USD",
+    "ZEN-USD"
+   ],
    "resolution": {
+    "detail": {
+     "reference_loss": [
+      "JTO-USD",
+      "UNI-USD",
+      "ZEN-USD"
+     ],
+     "resolving_loss": [
+      "ZEC-USD",
+      "NEAR-USD",
+      "SEI-USD"
+     ],
+     "top_loss": "JTO-USD"
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-29",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-28 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-09-28 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -993,9 +1521,10 @@
     "resolving_seq": 160,
     "resolving_sha256": "9ca8836cb4b0f73f153ea672fe9a6281c5423ebfcf5a0307a4c03851f85bd8ba"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-09-29-gainrepeat",
-   "model_pairs": 30,
-   "model_price_yes": 0.2,
+   "model_pairs": 15,
+   "model_price_yes": 0.266667,
    "opened_from_date": "2026-09-29",
    "opens_at": "2026-09-29 11:01 UTC",
    "question": "Will at least one GAIN asset of the 2026-09-29 digest also appear in the GAIN list of the next digest?",
@@ -1004,13 +1533,26 @@
     "AAVE-USD",
     "STRK-USD"
    ],
+   "reference_loss": [
+    "ZEC-USD",
+    "NEAR-USD",
+    "SEI-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [],
+     "reference_gain": [
+      "CRV-USD",
+      "AAVE-USD",
+      "STRK-USD"
+     ]
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-09-30",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-29 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -1024,25 +1566,44 @@
     "resolving_seq": 164,
     "resolving_sha256": "86db9c916aeb93ed7c0f6c7787c7a13e564907c2664094a0aeb22a9cb57afe2b"
    },
-   "id": "mkt-2026-09-30-gainrepeat",
-   "model_pairs": 31,
-   "model_price_yes": 0.193548,
+   "family": "lossmatch",
+   "id": "mkt-2026-09-30-lossmatch",
+   "model_pairs": 15,
+   "model_price_yes": 0.066667,
    "opened_from_date": "2026-09-30",
    "opens_at": "2026-09-30 11:01 UTC",
-   "question": "Will at least one GAIN asset of the 2026-09-30 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-09-30 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "PUMP-USD",
     "ZRO-USD",
     "NEAR-USD"
    ],
+   "reference_loss": [
+    "LIT-USD",
+    "HBAR-USD",
+    "LINK-USD"
+   ],
    "resolution": {
+    "detail": {
+     "reference_loss": [
+      "LIT-USD",
+      "HBAR-USD",
+      "LINK-USD"
+     ],
+     "resolving_loss": [
+      "ZRO-USD",
+      "BONK-USD",
+      "LDO-USD"
+     ],
+     "top_loss": "LIT-USD"
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-10-01",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-09-30 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-09-30 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -1055,9 +1616,10 @@
     "resolving_seq": 168,
     "resolving_sha256": "0bb6008e20ff1bbcfdbc0cee7dcc5361b7152491ec657a29e222c4370f5e84e0"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-10-01-gainrepeat",
-   "model_pairs": 32,
-   "model_price_yes": 0.1875,
+   "model_pairs": 16,
+   "model_price_yes": 0.25,
    "opened_from_date": "2026-10-01",
    "opens_at": "2026-10-01 11:01 UTC",
    "question": "Will at least one GAIN asset of the 2026-10-01 digest also appear in the GAIN list of the next digest?",
@@ -1066,15 +1628,28 @@
     "HYPE-USD",
     "AAVE-USD"
    ],
+   "reference_loss": [
+    "ZRO-USD",
+    "BONK-USD",
+    "LDO-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [
+      "AAVE-USD"
+     ],
+     "reference_gain": [
+      "MON-USD",
+      "HYPE-USD",
+      "AAVE-USD"
+     ]
+    },
     "outcome": "YES",
-    "overlap": [
-     "AAVE-USD"
-    ],
     "pnl": -100.0,
     "resolving_date": "2026-10-02",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-01 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -1088,27 +1663,44 @@
     "resolving_seq": 169,
     "resolving_sha256": "19e80686c986d8b8d55d31d75de65d499ab0d734d0d1e1a074dbdab14085c038"
    },
-   "id": "mkt-2026-10-02-gainrepeat",
-   "model_pairs": 33,
-   "model_price_yes": 0.212121,
+   "family": "lossmatch",
+   "id": "mkt-2026-10-02-lossmatch",
+   "model_pairs": 16,
+   "model_price_yes": 0.0625,
    "opened_from_date": "2026-10-02",
    "opens_at": "2026-10-02 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-10-02 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-10-02 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "AAVE-USD",
     "ZRO-USD",
     "IMX-USD"
    ],
+   "reference_loss": [
+    "NEAR-USD",
+    "LIT-USD",
+    "ENA-USD"
+   ],
    "resolution": {
-    "outcome": "YES",
-    "overlap": [
-     "IMX-USD"
-    ],
-    "pnl": -100.0,
+    "detail": {
+     "reference_loss": [
+      "NEAR-USD",
+      "LIT-USD",
+      "ENA-USD"
+     ],
+     "resolving_loss": [
+      "PENGU-USD",
+      "LIT-USD",
+      "MON-USD"
+     ],
+     "top_loss": "NEAR-USD"
+    },
+    "outcome": "NO",
+    "pnl": 100.0,
     "resolving_date": "2026-10-03",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-02 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-10-02 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -1121,9 +1713,10 @@
     "resolving_seq": 172,
     "resolving_sha256": "b54293ea75081c8de2bd0d7c53f8d6d71e0b60585e8bc2b1f67d36f188e8d6dc"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-10-03-gainrepeat",
-   "model_pairs": 34,
-   "model_price_yes": 0.235294,
+   "model_pairs": 17,
+   "model_price_yes": 0.294118,
    "opened_from_date": "2026-10-03",
    "opens_at": "2026-10-03 11:00 UTC",
    "question": "Will at least one GAIN asset of the 2026-10-03 digest also appear in the GAIN list of the next digest?",
@@ -1132,15 +1725,28 @@
     "WLD-USD",
     "IMX-USD"
    ],
+   "reference_loss": [
+    "PENGU-USD",
+    "LIT-USD",
+    "MON-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [
+      "ATH-USD"
+     ],
+     "reference_gain": [
+      "ATH-USD",
+      "WLD-USD",
+      "IMX-USD"
+     ]
+    },
     "outcome": "YES",
-    "overlap": [
-     "ATH-USD"
-    ],
     "pnl": -100.0,
     "resolving_date": "2026-10-04",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-03 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -1154,27 +1760,44 @@
     "resolving_seq": 174,
     "resolving_sha256": "8d1a279471f0d7b373851aebb492ab9aa0ee363e5b49b1a786a64b5580ad8854"
    },
-   "id": "mkt-2026-10-04-gainrepeat",
-   "model_pairs": 35,
-   "model_price_yes": 0.257143,
+   "family": "lossmatch",
+   "id": "mkt-2026-10-04-lossmatch",
+   "model_pairs": 17,
+   "model_price_yes": 0.058824,
    "opened_from_date": "2026-10-04",
    "opens_at": "2026-10-04 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-10-04 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-10-04 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "STRK-USD",
     "PUMP-USD",
     "ATH-USD"
    ],
+   "reference_loss": [
+    "WLD-USD",
+    "TRUMP-USD",
+    "LDO-USD"
+   ],
    "resolution": {
-    "outcome": "YES",
-    "overlap": [
-     "STRK-USD"
-    ],
-    "pnl": -100.0,
+    "detail": {
+     "reference_loss": [
+      "WLD-USD",
+      "TRUMP-USD",
+      "LDO-USD"
+     ],
+     "resolving_loss": [
+      "ATH-USD",
+      "MON-USD",
+      "BLUR-USD"
+     ],
+     "top_loss": "WLD-USD"
+    },
+    "outcome": "NO",
+    "pnl": 100.0,
     "resolving_date": "2026-10-05",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-04 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-10-04 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -1187,9 +1810,10 @@
     "resolving_seq": 176,
     "resolving_sha256": "e27a7433f3f78210c14906f54af10c873b34be04c2724cd8eb3ea75cc4a0ca4f"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-10-05-gainrepeat",
-   "model_pairs": 36,
-   "model_price_yes": 0.277778,
+   "model_pairs": 18,
+   "model_price_yes": 0.333333,
    "opened_from_date": "2026-10-05",
    "opens_at": "2026-10-05 11:00 UTC",
    "question": "Will at least one GAIN asset of the 2026-10-05 digest also appear in the GAIN list of the next digest?",
@@ -1198,13 +1822,26 @@
     "ENA-USD",
     "STRK-USD"
    ],
+   "reference_loss": [
+    "ATH-USD",
+    "MON-USD",
+    "BLUR-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [],
+     "reference_gain": [
+      "ADA-USD",
+      "ENA-USD",
+      "STRK-USD"
+     ]
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-10-06",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-05 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -1218,25 +1855,44 @@
     "resolving_seq": 180,
     "resolving_sha256": "f850e76b25e863829cd3405e0ab2b15be7e3dbca23ed7f0e2036d8c2b79c0cad"
    },
-   "id": "mkt-2026-10-06-gainrepeat",
-   "model_pairs": 37,
-   "model_price_yes": 0.27027,
+   "family": "lossmatch",
+   "id": "mkt-2026-10-06-lossmatch",
+   "model_pairs": 18,
+   "model_price_yes": 0.055556,
    "opened_from_date": "2026-10-06",
    "opens_at": "2026-10-06 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-10-06 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-10-06 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "FIL-USD",
     "RENDER-USD",
     "NEAR-USD"
    ],
+   "reference_loss": [
+    "STRK-USD",
+    "MON-USD",
+    "ENA-USD"
+   ],
    "resolution": {
+    "detail": {
+     "reference_loss": [
+      "STRK-USD",
+      "MON-USD",
+      "ENA-USD"
+     ],
+     "resolving_loss": [
+      "OP-USD",
+      "DYM-USD",
+      "UNI-USD"
+     ],
+     "top_loss": "STRK-USD"
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-10-07",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-06 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-10-06 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -1249,9 +1905,10 @@
     "resolving_seq": 183,
     "resolving_sha256": "f9d9cc4283034680cd4c94a2d0f020c919263e8ac8f901c6a1b86ed55158e90e"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-10-07-gainrepeat",
-   "model_pairs": 38,
-   "model_price_yes": 0.263158,
+   "model_pairs": 19,
+   "model_price_yes": 0.315789,
    "opened_from_date": "2026-10-07",
    "opens_at": "2026-10-07 11:01 UTC",
    "question": "Will at least one GAIN asset of the 2026-10-07 digest also appear in the GAIN list of the next digest?",
@@ -1260,13 +1917,26 @@
     "PUMP-USD",
     "MATIC-USD"
    ],
+   "reference_loss": [
+    "OP-USD",
+    "DYM-USD",
+    "UNI-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [],
+     "reference_gain": [
+      "WTI-USD",
+      "PUMP-USD",
+      "MATIC-USD"
+     ]
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-10-08",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-07 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -1280,25 +1950,44 @@
     "resolving_seq": 185,
     "resolving_sha256": "ed10e01090a8f8f6145047e7fd4b7b0ce16e8a9e700caad9b9b88ec302ff8e50"
    },
-   "id": "mkt-2026-10-08-gainrepeat",
-   "model_pairs": 39,
-   "model_price_yes": 0.25641,
+   "family": "lossmatch",
+   "id": "mkt-2026-10-08-lossmatch",
+   "model_pairs": 19,
+   "model_price_yes": 0.052632,
    "opened_from_date": "2026-10-08",
    "opens_at": "2026-10-08 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-10-08 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-10-08 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "JUP-USD",
     "ALGO-USD",
     "CRV-USD"
    ],
+   "reference_loss": [
+    "PUMP-USD",
+    "ZEC-USD",
+    "ENA-USD"
+   ],
    "resolution": {
+    "detail": {
+     "reference_loss": [
+      "PUMP-USD",
+      "ZEC-USD",
+      "ENA-USD"
+     ],
+     "resolving_loss": [
+      "ALGO-USD",
+      "CRV-USD",
+      "JTO-USD"
+     ],
+     "top_loss": "PUMP-USD"
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-10-09",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-08 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-10-08 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -1311,9 +2000,10 @@
     "resolving_seq": 188,
     "resolving_sha256": "12a3f84ae96654f8af5e4c9ccbb08ca44162b8ad969ea0f28aaa88536409573b"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-10-09-gainrepeat",
-   "model_pairs": 40,
-   "model_price_yes": 0.25,
+   "model_pairs": 20,
+   "model_price_yes": 0.3,
    "opened_from_date": "2026-10-09",
    "opens_at": "2026-10-09 11:00 UTC",
    "question": "Will at least one GAIN asset of the 2026-10-09 digest also appear in the GAIN list of the next digest?",
@@ -1322,13 +2012,26 @@
     "PYTH-USD",
     "ATOM-USD"
    ],
+   "reference_loss": [
+    "ALGO-USD",
+    "CRV-USD",
+    "JTO-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [],
+     "reference_gain": [
+      "STRK-USD",
+      "PYTH-USD",
+      "ATOM-USD"
+     ]
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-10-10",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-09 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -1342,25 +2045,44 @@
     "resolving_seq": 191,
     "resolving_sha256": "62e7f16afec66e89a4276cae4ac6bd520d11ce2e1ecadbdc0c62b3c621cd0156"
    },
-   "id": "mkt-2026-10-10-gainrepeat",
-   "model_pairs": 41,
-   "model_price_yes": 0.243902,
+   "family": "lossmatch",
+   "id": "mkt-2026-10-10-lossmatch",
+   "model_pairs": 20,
+   "model_price_yes": 0.05,
    "opened_from_date": "2026-10-10",
    "opens_at": "2026-10-10 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-10-10 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-10-10 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "OP-USD",
     "WLD-USD",
     "NEAR-USD"
    ],
+   "reference_loss": [
+    "PYTH-USD",
+    "STRK-USD",
+    "HYPE-USD"
+   ],
    "resolution": {
+    "detail": {
+     "reference_loss": [
+      "PYTH-USD",
+      "STRK-USD",
+      "HYPE-USD"
+     ],
+     "resolving_loss": [
+      "ADA-USD",
+      "LIT-USD",
+      "AAVE-USD"
+     ],
+     "top_loss": "PYTH-USD"
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-10-11",
     "status": "RESOLVED"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-10 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-10-10 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
   {
@@ -1373,9 +2095,10 @@
     "resolving_seq": 195,
     "resolving_sha256": "8d26507b10baea17a51b655b34d53096470eafd739093ea76d074022842464eb"
    },
+   "family": "gainrepeat",
    "id": "mkt-2026-10-11-gainrepeat",
-   "model_pairs": 42,
-   "model_price_yes": 0.238095,
+   "model_pairs": 21,
+   "model_price_yes": 0.285714,
    "opened_from_date": "2026-10-11",
    "opens_at": "2026-10-11 11:00 UTC",
    "question": "Will at least one GAIN asset of the 2026-10-11 digest also appear in the GAIN list of the next digest?",
@@ -1384,13 +2107,26 @@
     "TIA-USD",
     "EIGEN-USD"
    ],
+   "reference_loss": [
+    "ADA-USD",
+    "LIT-USD",
+    "AAVE-USD"
+   ],
    "resolution": {
+    "detail": {
+     "overlap": [],
+     "reference_gain": [
+      "STRK-USD",
+      "TIA-USD",
+      "EIGEN-USD"
+     ]
+    },
     "outcome": "NO",
-    "overlap": [],
     "pnl": 100.0,
     "resolving_date": "2026-10-12",
     "status": "RESOLVED"
    },
+   "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-11 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   },
@@ -1401,36 +2137,93 @@
    "evidence": {
     "reference_seq": 195,
     "reference_sha256": "8d26507b10baea17a51b655b34d53096470eafd739093ea76d074022842464eb",
-    "resolving_seq": null,
-    "resolving_sha256": null
+    "resolving_seq": 198,
+    "resolving_sha256": "40989b330f2da314b0ebd3c248abfa0198ff53096933d79a6744733f20b91820"
    },
-   "id": "mkt-2026-10-12-gainrepeat",
-   "model_pairs": 43,
-   "model_price_yes": 0.232558,
+   "family": "lossmatch",
+   "id": "mkt-2026-10-12-lossmatch",
+   "model_pairs": 21,
+   "model_price_yes": 0.047619,
    "opened_from_date": "2026-10-12",
    "opens_at": "2026-10-12 11:00 UTC",
-   "question": "Will at least one GAIN asset of the 2026-10-12 digest also appear in the GAIN list of the next digest?",
+   "question": "Will the top LOSS asset of the 2026-10-12 digest (largest decline) also appear in the LOSS list of the next digest?",
    "reference_gain": [
     "PYTH-USD",
     "FIL-USD",
     "ICP-USD"
    ],
+   "reference_loss": [
+    "STRK-USD",
+    "BLUR-USD",
+    "IMX-USD"
+   ],
+   "resolution": {
+    "detail": {
+     "reference_loss": [
+      "STRK-USD",
+      "BLUR-USD",
+      "IMX-USD"
+     ],
+     "resolving_loss": [
+      "BLUR-USD",
+      "STRK-USD",
+      "PUMP-USD"
+     ],
+     "top_loss": "STRK-USD"
+    },
+    "outcome": "YES",
+    "pnl": -100.0,
+    "resolving_date": "2026-10-13",
+    "status": "RESOLVED"
+   },
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-10-12 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
+   "stake": 100.0
+  },
+  {
+   "call": "NO",
+   "called": true,
+   "entry_price": 0.5,
+   "evidence": {
+    "reference_seq": 198,
+    "reference_sha256": "40989b330f2da314b0ebd3c248abfa0198ff53096933d79a6744733f20b91820",
+    "resolving_seq": null,
+    "resolving_sha256": null
+   },
+   "family": "gainrepeat",
+   "id": "mkt-2026-10-13-gainrepeat",
+   "model_pairs": 22,
+   "model_price_yes": 0.272727,
+   "opened_from_date": "2026-10-13",
+   "opens_at": "2026-10-13 11:00 UTC",
+   "question": "Will at least one GAIN asset of the 2026-10-13 digest also appear in the GAIN list of the next digest?",
+   "reference_gain": [
+    "TIA-USD",
+    "XMR-USD",
+    "PAXG-USD"
+   ],
+   "reference_loss": [
+    "BLUR-USD",
+    "STRK-USD",
+    "PUMP-USD"
+   ],
    "resolution": {
     "status": "OPEN"
    },
-   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-12 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "rotation_index": 0,
+   "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-13 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   }
  ],
  "paper_only": true,
- "schema": "flop.odds.v1",
+ "schema": "flop.odds.v2",
  "settlement_source": "our own hermes-desk digest tape as archived by explorer_collect.py",
  "tape": {
   "archive": "builds/explorer/archive/messages.jsonl",
-  "digests": 44,
+  "digests": 45,
   "first": "2026-08-26",
-  "last": "2026-10-12",
-  "last_seq": 195,
-  "last_sha256": "8d26507b10baea17a51b655b34d53096470eafd739093ea76d074022842464eb"
+  "last": "2026-10-13",
+  "last_seq": 198,
+  "last_sha256": "40989b330f2da314b0ebd3c248abfa0198ff53096933d79a6744733f20b91820"
  }
 }
