@@ -1,0 +1,78 @@
+{
+ "as_of": "2026-10-13T12:33:14Z",
+ "resolved": 44,
+ "priced": 42,
+ "called": 42,
+ "uncalled_or_null_model": 2,
+ "published": {
+  "pnl": 2400.0,
+  "wins": 33,
+  "losses": 9,
+  "realised_yes": 0.166667
+ },
+ "strategies": [
+  {
+   "strategy": "baseline_always_NO_all_called",
+   "n": 42,
+   "yes": 7,
+   "yes_rate": 0.1667,
+   "wins": 33,
+   "losses": 9,
+   "pnl_units": 2400.0
+  },
+  {
+   "strategy": "call_YES_when_model_gt_0.25",
+   "n": 17,
+   "yes": 2,
+   "yes_rate": 0.1176,
+   "wins": 13,
+   "losses": 4,
+   "pnl_units": 900.0
+  },
+  {
+   "strategy": "call_YES_when_model_gt_0.50",
+   "n": 1,
+   "yes": 0,
+   "yes_rate": 0.0,
+   "wins": 0,
+   "losses": 1,
+   "pnl_units": -100.0
+  },
+  {
+   "strategy": "NO_only_when_model_le_0.25",
+   "n": 25,
+   "yes": 5,
+   "yes_rate": 0.2,
+   "wins": 20,
+   "losses": 5,
+   "pnl_units": 1500.0
+  }
+ ],
+ "model_buckets": {
+  "0.0-0.1": {
+   "n": 14,
+   "yes": 2,
+   "realised": 0.1429,
+   "mean_model": 0.0512
+  },
+  "0.1-0.25": {
+   "n": 7,
+   "yes": 1,
+   "realised": 0.1429,
+   "mean_model": 0.1526
+  },
+  "0.25-0.5": {
+   "n": 19,
+   "yes": 4,
+   "realised": 0.2105,
+   "mean_model": 0.302
+  },
+  "0.5-1.01": {
+   "n": 2,
+   "yes": 0,
+   "realised": 0.0,
+   "mean_model": 0.75
+  }
+ },
+ "caveat": "44 settled markets, 100 paper units at flat 0.50, called markets only; model_price_yes is the family base rate over prior digest pairs, not a calibrated forecast; descriptive check, no edge claimed, no money."
+}
