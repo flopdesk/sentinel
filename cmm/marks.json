@@ -4,25 +4,9 @@
   "marks are observations at build time, not a tick or a price feed: the upstream monitor snapshot is the source, cadence is whenever cmm_build.py runs.",
   "the index is a capacity-weighted blend: per-class usd_per_h100e_hr legitimately spans several x, so quote the class you mean (see quotes.json), never the index."
  ],
- "generated_at": "2026-10-17T14:20:55Z",
+ "generated_at": "2026-10-17T20:20:55Z",
  "schema": "cmm.marks.v1",
  "series": [
-  {
-   "cheapest_class": "rtx4090",
-   "discount_pct_vs_index": 33.5,
-   "known_h100e_now": 1084.03,
-   "providers_available": 11,
-   "ts": "2026-10-12T02:20:16Z",
-   "usd_per_h100e_hr": 1.5442
-  },
-  {
-   "cheapest_class": "rtx4090",
-   "discount_pct_vs_index": 34.3,
-   "known_h100e_now": 1071.93,
-   "providers_available": 11,
-   "ts": "2026-10-12T05:20:17Z",
-   "usd_per_h100e_hr": 1.559
-  },
   {
    "cheapest_class": "rtx4090",
    "discount_pct_vs_index": 35.3,
@@ -390,19 +374,35 @@
    "providers_available": 10,
    "ts": "2026-10-17T14:20:55Z",
    "usd_per_h100e_hr": 2.1499
+  },
+  {
+   "cheapest_class": "rtx4070ti",
+   "discount_pct_vs_index": 45.7,
+   "known_h100e_now": 1095.85,
+   "providers_available": 10,
+   "ts": "2026-10-17T17:20:55Z",
+   "usd_per_h100e_hr": 2.2131
+  },
+  {
+   "cheapest_class": "rtx4070ti",
+   "discount_pct_vs_index": 46.8,
+   "known_h100e_now": 1079.75,
+   "providers_available": 9,
+   "ts": "2026-10-17T20:20:55Z",
+   "usd_per_h100e_hr": 2.2604
   }
  ],
  "source": "history.jsonl (append-only observations written by cmm_build.py)",
  "stats": {
   "count": 48,
-  "first_mark": 1.5442,
-  "first_ts": "2026-10-12T02:20:16Z",
-  "last_mark": 2.1499,
-  "last_ts": "2026-10-17T14:20:55Z",
+  "first_mark": 1.5495,
+  "first_ts": "2026-10-12T08:20:18Z",
+  "last_mark": 2.2604,
+  "last_ts": "2026-10-17T20:20:55Z",
   "max_mark": 3.2642,
-  "median_mark": 1.55415,
+  "median_mark": 1.5607,
   "min_mark": 1.4148,
-  "pct_change_first_to_last": 39.2242,
+  "pct_change_first_to_last": 45.8793,
   "providers_max": 11,
   "providers_min": 9,
   "range_pct_max_over_min": 130.7181
