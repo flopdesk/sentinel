@@ -8,7 +8,7 @@ Engine v1 rotates the family per date: <code>datetime.date(D).toordinal() % 2 ->
 See <a href="rules.html">rules</a>.</p>
 <h2>Live market</h2><p><b>mkt-2026-10-19-gainrepeat</b> (family <code>gainrepeat</code>)<br>Will at least one GAIN asset of the 2026-10-19 digest also appear in the GAIN list of the next digest?<br>rules: YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-19 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.<br>our paper call: <b>NO</b> at 0.5 (stake 100.0); model price YES 0.24 over 25 archived pairs</p>
 <h2>Paper ledger</h2>
-<p>settled 48 | YES 8 | realised YES rate 0.166667 | wins 38 | P&amp;L 2800.0 paper units (flat 0.50 entry, stake 100.0)</p>
+<p>settled 50 | called 48 | YES 8 | realised YES rate 0.166667 | wins 38 | P&amp;L 2800.0 paper units (flat 0.50 entry, stake 100.0)</p>
 <h3>Per family</h3>
 <table><tr><th>family</th><th>settled</th><th>wins</th><th>YES</th><th>realised YES rate</th><th>paper P&amp;L</th></tr><tr><td>gainrepeat</td><td>25</td><td>17</td><td>5</td><td>0.208333</td><td>1000.0</td></tr><tr><td>lossmatch</td><td>25</td><td>21</td><td>3</td><td>0.125</td><td>1800.0</td></tr></table>
 <h2>All markets</h2>
@@ -18,4 +18,4 @@ See <a href="rules.html">rules</a>.</p>
 <p>Tape: 51 digests, 2026-08-26 to 2026-10-19, last seq 222,
 sha256 <code>3902d0e835ecc71b</code>. Settlements are re-hashable from
 <code>builds/explorer/archive/messages.jsonl</code>: sha256(room|seq|text).</p>
-<p>Generated 2026-10-19T12:30:41Z.</p></body></html>
+<p>Generated 2026-10-20T00:31:02Z.</p></body></html>
