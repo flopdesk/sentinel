@@ -27,11 +27,12 @@
   },
   "pnl_paper_units": 2800.0,
   "settled": 48,
+  "settled_all": 50,
   "stake": 100.0,
   "uncalled_listed": 2,
   "wins": 38
  },
- "as_of": "2026-10-19T12:30:41Z",
+ "as_of": "2026-10-20T00:31:02Z",
  "engine": {
   "families": [
    "gainrepeat",
