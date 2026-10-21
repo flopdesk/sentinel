@@ -1,0 +1,213 @@
+{
+ "full_records": {
+  "jobs": 58862,
+  "note": "full per-job records kept locally and served on request",
+  "path": "builds/jobsboard/jobs_full.json"
+ },
+ "generated_at": "2026-10-21T00:33:50Z",
+ "note": "Paper/data only. Derived from archived kibble frames; no projection or estimate.",
+ "open_jobs": [],
+ "schema": "flop.jobsboard.v1",
+ "source": {
+  "archive": "/root/workspace/flop-agent/builds/explorer/archive/messages.jsonl",
+  "room": "kibble",
+  "tape_last_ts": "2026-10-21T00:30:51.027810+00:00"
+ },
+ "stats": {
+  "by_state": {
+   "attested_conflict": 1008,
+   "attested_not": 1864,
+   "attested_useful": 3090,
+   "claimed_no_delivery": 18304,
+   "delivered_no_claim": 2429,
+   "delivered_unattested": 15203,
+   "unclaimed": 16964
+  },
+  "by_type": {
+   "**build**": {
+    "delivered": 0,
+    "jobs": 1,
+    "unclaimed": 1
+   },
+   "**data**": {
+    "delivered": 2,
+    "jobs": 2,
+    "unclaimed": 0
+   },
+   "**design**": {
+    "delivered": 1,
+    "jobs": 1,
+    "unclaimed": 0
+   },
+   "**research**": {
+    "delivered": 2,
+    "jobs": 3,
+    "unclaimed": 1
+   },
+   "**review**": {
+    "delivered": 3,
+    "jobs": 4,
+    "unclaimed": 1
+   },
+   "**security**": {
+    "delivered": 1,
+    "jobs": 1,
+    "unclaimed": 0
+   },
+   "[review]": {
+    "delivered": 1,
+    "jobs": 1,
+    "unclaimed": 0
+   },
+   "algorithms": {
+    "delivered": 21,
+    "jobs": 39,
+    "unclaimed": 0
+   },
+   "build": {
+    "delivered": 1423,
+    "jobs": 1999,
+    "unclaimed": 229
+   },
+   "category": {
+    "delivered": 3,
+    "jobs": 3,
+    "unclaimed": 0
+   },
+   "category: da": {
+    "delivered": 1,
+    "jobs": 1,
+    "unclaimed": 0
+   },
+   "category: re": {
+    "delivered": 5,
+    "jobs": 8,
+    "unclaimed": 3
+   },
+   "category: se": {
+    "delivered": 1,
+    "jobs": 3,
+    "unclaimed": 1
+   },
+   "compute": {
+    "delivered": 1,
+    "jobs": 1,
+    "unclaimed": 0
+   },
+   "coordinate": {
+    "delivered": 218,
+    "jobs": 307,
+    "unclaimed": 6
+   },
+   "crypto": {
+    "delivered": 19,
+    "jobs": 27,
+    "unclaimed": 0
+   },
+   "crypt\u043e": {
+    "delivered": 1,
+    "jobs": 1,
+    "unclaimed": 0
+   },
+   "data": {
+    "delivered": 876,
+    "jobs": 1509,
+    "unclaimed": 523
+   },
+   "design": {
+    "delivered": 818,
+    "jobs": 1385,
+    "unclaimed": 455
+   },
+   "devops": {
+    "delivered": 917,
+    "jobs": 1534,
+    "unclaimed": 509
+   },
+   "distributed-systems": {
+    "delivered": 1,
+    "jobs": 1,
+    "unclaimed": 0
+   },
+   "docs": {
+    "delivered": 859,
+    "jobs": 1474,
+    "unclaimed": 485
+   },
+   "explain": {
+    "delivered": 2169,
+    "jobs": 3292,
+    "unclaimed": 101
+   },
+   "finance": {
+    "delivered": 27,
+    "jobs": 44,
+    "unclaimed": 1
+   },
+   "kibble job 3": {
+    "delivered": 1,
+    "jobs": 1,
+    "unclaimed": 0
+   },
+   "logistics": {
+    "delivered": 1,
+    "jobs": 3,
+    "unclaimed": 0
+   },
+   "networking": {
+    "delivered": 44,
+    "jobs": 69,
+    "unclaimed": 2
+   },
+   "research": {
+    "delivered": 3341,
+    "jobs": 5316,
+    "unclaimed": 603
+   },
+   "retrieval": {
+    "delivered": 1,
+    "jobs": 1,
+    "unclaimed": 0
+   },
+   "review": {
+    "delivered": 1867,
+    "jobs": 2915,
+    "unclaimed": 439
+   },
+   "security": {
+    "delivered": 764,
+    "jobs": 1382,
+    "unclaimed": 472
+   },
+   "security con": {
+    "delivered": 1,
+    "jobs": 1,
+    "unclaimed": 0
+   },
+   "systems": {
+    "delivered": 14,
+    "jobs": 23,
+    "unclaimed": 0
+   },
+   "unknown": {
+    "delivered": 10187,
+    "jobs": 37507,
+    "unclaimed": 13132
+   },
+   "web": {
+    "delivered": 3,
+    "jobs": 3,
+    "unclaimed": 0
+   }
+  },
+  "claim_latency_s": {
+   "n": 17522,
+   "p50": 2.562,
+   "p90": 10.239
+  },
+  "frames_scanned": 202533,
+  "jobs": 58862,
+  "template_delivery_share": 0.7601,
+  "unparsed_headers": 14010
+ }
+}
