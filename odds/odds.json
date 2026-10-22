@@ -1,19 +1,19 @@
 {
  "accounting": {
-  "base_rate_realised_yes": 0.16,
+  "base_rate_realised_yes": 0.156863,
   "entry_price": 0.5,
   "hits_yes": 8,
   "losses": 10,
   "note": "flat 0.50 entry, no invented edge; the ledger tests direction only",
   "per_family": {
    "gainrepeat": {
-    "called": 25,
+    "called": 26,
     "hits_yes": 5,
     "losses": 7,
-    "pnl_paper_units": 1100.0,
-    "realised_yes_rate": 0.2,
-    "settled": 26,
-    "wins": 18
+    "pnl_paper_units": 1200.0,
+    "realised_yes_rate": 0.192308,
+    "settled": 27,
+    "wins": 19
    },
    "lossmatch": {
     "called": 25,
@@ -25,14 +25,14 @@
     "wins": 22
    }
   },
-  "pnl_paper_units": 3000.0,
-  "settled": 50,
-  "settled_all": 52,
+  "pnl_paper_units": 3100.0,
+  "settled": 51,
+  "settled_all": 53,
   "stake": 100.0,
   "uncalled_listed": 2,
-  "wins": 40
+  "wins": 41
  },
- "as_of": "2026-10-21T12:30:33Z",
+ "as_of": "2026-10-22T12:30:48Z",
  "engine": {
   "families": [
    "gainrepeat",
@@ -48,33 +48,33 @@
   "called": true,
   "entry_price": 0.5,
   "evidence": {
-   "reference_seq": 228,
-   "reference_sha256": "9b91f7f4123c2d7b33082e3b83cb401ca591d90c429b9b0bd7163da0ca345ad8",
+   "reference_seq": 232,
+   "reference_sha256": "0999ea90a2e7ca800e767d7200a30cb1a6b0bf616b40c8d29f96873cb569147d",
    "resolving_seq": null,
    "resolving_sha256": null
   },
-  "family": "gainrepeat",
-  "id": "mkt-2026-10-21-gainrepeat",
+  "family": "lossmatch",
+  "id": "mkt-2026-10-22-lossmatch",
   "model_pairs": 26,
-  "model_price_yes": 0.230769,
-  "opened_from_date": "2026-10-21",
-  "opens_at": "2026-10-21 11:00 UTC",
-  "question": "Will at least one GAIN asset of the 2026-10-21 digest also appear in the GAIN list of the next digest?",
+  "model_price_yes": 0.115385,
+  "opened_from_date": "2026-10-22",
+  "opens_at": "2026-10-22 11:00 UTC",
+  "question": "Will the top LOSS asset of the 2026-10-22 digest (largest decline) also appear in the LOSS list of the next digest?",
   "reference_gain": [
-   "ZEC-USD",
-   "ENA-USD",
-   "PYTH-USD"
+   "LIT-USD",
+   "XMR-USD",
+   "DYM-USD"
   ],
   "reference_loss": [
-   "TIA-USD",
-   "XMR-USD",
-   "WTI-USD"
+   "OP-USD",
+   "PYTH-USD",
+   "TIA-USD"
   ],
   "resolution": {
    "status": "OPEN"
   },
-  "rotation_index": 0,
-  "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-21 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+  "rotation_index": 1,
+  "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-10-22 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
   "stake": 100.0
  },
  "markets": [
@@ -2568,8 +2568,8 @@
    "evidence": {
     "reference_seq": 228,
     "reference_sha256": "9b91f7f4123c2d7b33082e3b83cb401ca591d90c429b9b0bd7163da0ca345ad8",
-    "resolving_seq": null,
-    "resolving_sha256": null
+    "resolving_seq": 232,
+    "resolving_sha256": "0999ea90a2e7ca800e767d7200a30cb1a6b0bf616b40c8d29f96873cb569147d"
    },
    "family": "gainrepeat",
    "id": "mkt-2026-10-21-gainrepeat",
@@ -2589,10 +2589,55 @@
     "WTI-USD"
    ],
    "resolution": {
-    "status": "OPEN"
+    "detail": {
+     "overlap": [],
+     "reference_gain": [
+      "ZEC-USD",
+      "ENA-USD",
+      "PYTH-USD"
+     ]
+    },
+    "outcome": "NO",
+    "pnl": 100.0,
+    "resolving_date": "2026-10-22",
+    "status": "RESOLVED"
    },
    "rotation_index": 0,
    "rules": "YES if any asset in reference_gain appears in the GAIN list of the digest dated 2026-10-21 + 1 day; NO if that digest exists and shares no GAIN asset; VOID if no such digest is archived within 36 h of the reference frame.",
+   "stake": 100.0
+  },
+  {
+   "call": "NO",
+   "called": true,
+   "entry_price": 0.5,
+   "evidence": {
+    "reference_seq": 232,
+    "reference_sha256": "0999ea90a2e7ca800e767d7200a30cb1a6b0bf616b40c8d29f96873cb569147d",
+    "resolving_seq": null,
+    "resolving_sha256": null
+   },
+   "family": "lossmatch",
+   "id": "mkt-2026-10-22-lossmatch",
+   "model_pairs": 26,
+   "model_price_yes": 0.115385,
+   "opened_from_date": "2026-10-22",
+   "opens_at": "2026-10-22 11:00 UTC",
+   "question": "Will the top LOSS asset of the 2026-10-22 digest (largest decline) also appear in the LOSS list of the next digest?",
+   "reference_gain": [
+    "LIT-USD",
+    "XMR-USD",
+    "DYM-USD"
+   ],
+   "reference_loss": [
+    "OP-USD",
+    "PYTH-USD",
+    "TIA-USD"
+   ],
+   "resolution": {
+    "status": "OPEN"
+   },
+   "rotation_index": 1,
+   "rules": "YES if reference_loss[0] appears anywhere in the LOSS list of the digest dated 2026-10-22 + 1 day; NO if that digest exists and that asset is absent from its LOSS list; VOID if either LOSS list is empty or no such digest is archived within 36 h of the reference frame.",
    "stake": 100.0
   }
  ],
@@ -2601,10 +2646,10 @@
  "settlement_source": "our own hermes-desk digest tape as archived by explorer_collect.py",
  "tape": {
   "archive": "builds/explorer/archive/messages.jsonl",
-  "digests": 53,
+  "digests": 54,
   "first": "2026-08-26",
-  "last": "2026-10-21",
-  "last_seq": 228,
-  "last_sha256": "9b91f7f4123c2d7b33082e3b83cb401ca591d90c429b9b0bd7163da0ca345ad8"
+  "last": "2026-10-22",
+  "last_seq": 232,
+  "last_sha256": "0999ea90a2e7ca800e767d7200a30cb1a6b0bf616b40c8d29f96873cb569147d"
  }
 }
