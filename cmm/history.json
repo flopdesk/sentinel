@@ -1,23 +1,7 @@
 {
   "count": 48,
-  "generated_at": "2026-10-22T02:20:39Z",
+  "generated_at": "2026-10-22T08:20:16Z",
   "marks": [
-    {
-      "cheapest_class": "rtx3090",
-      "discount_pct": 40.5,
-      "known_h100e_now": 902.38,
-      "providers_available": 11,
-      "ts": "2026-10-16T11:20:39Z",
-      "usd_per_h100e_hr": 2.0221
-    },
-    {
-      "cheapest_class": "rtx3090",
-      "discount_pct": 51.0,
-      "known_h100e_now": 876.74,
-      "providers_available": 10,
-      "ts": "2026-10-16T14:20:37Z",
-      "usd_per_h100e_hr": 2.4519
-    },
     {
       "cheapest_class": "rtx3090",
       "discount_pct": 41.4,
@@ -385,6 +369,22 @@
       "providers_available": 9,
       "ts": "2026-10-22T02:20:39Z",
       "usd_per_h100e_hr": 2.2228
+    },
+    {
+      "cheapest_class": "rtx3090",
+      "discount_pct": 43.2,
+      "known_h100e_now": 653.77,
+      "providers_available": 9,
+      "ts": "2026-10-22T05:20:15Z",
+      "usd_per_h100e_hr": 2.1572
+    },
+    {
+      "cheapest_class": "rtx3090",
+      "discount_pct": 44.7,
+      "known_h100e_now": 551.05,
+      "providers_available": 9,
+      "ts": "2026-10-22T08:20:16Z",
+      "usd_per_h100e_hr": 2.1746
     }
   ],
   "schema": "cmm.history.v1"
