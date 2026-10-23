@@ -4,33 +4,9 @@
   "marks are observations at build time, not a tick or a price feed: the upstream monitor snapshot is the source, cadence is whenever cmm_build.py runs.",
   "the index is a capacity-weighted blend: per-class usd_per_h100e_hr legitimately spans several x, so quote the class you mean (see quotes.json), never the index."
  ],
- "generated_at": "2026-10-22T14:20:17Z",
+ "generated_at": "2026-10-22T23:20:18Z",
  "schema": "cmm.marks.v1",
  "series": [
-  {
-   "cheapest_class": "rtx4070ti",
-   "discount_pct_vs_index": 43.4,
-   "known_h100e_now": 998.59,
-   "providers_available": 10,
-   "ts": "2026-10-16T23:20:36Z",
-   "usd_per_h100e_hr": 2.163
-  },
-  {
-   "cheapest_class": "rtx3090",
-   "discount_pct_vs_index": 43.4,
-   "known_h100e_now": 1018.74,
-   "providers_available": 10,
-   "ts": "2026-10-17T02:20:56Z",
-   "usd_per_h100e_hr": 2.1622
-  },
-  {
-   "cheapest_class": "rtx4070ti",
-   "discount_pct_vs_index": 45.2,
-   "known_h100e_now": 1010.29,
-   "providers_available": 10,
-   "ts": "2026-10-17T05:20:57Z",
-   "usd_per_h100e_hr": 2.2102
-  },
   {
    "cheapest_class": "rtx4070ti",
    "discount_pct_vs_index": 45.1,
@@ -390,19 +366,43 @@
    "providers_available": 10,
    "ts": "2026-10-22T14:20:17Z",
    "usd_per_h100e_hr": 2.084
+  },
+  {
+   "cheapest_class": "rtx4070ti",
+   "discount_pct_vs_index": 42.5,
+   "known_h100e_now": 481.34,
+   "providers_available": 10,
+   "ts": "2026-10-22T17:20:17Z",
+   "usd_per_h100e_hr": 2.1599
+  },
+  {
+   "cheapest_class": "rtx3090",
+   "discount_pct_vs_index": 41.9,
+   "known_h100e_now": 470.56,
+   "providers_available": 10,
+   "ts": "2026-10-22T20:20:17Z",
+   "usd_per_h100e_hr": 2.1389
+  },
+  {
+   "cheapest_class": "rtx3090",
+   "discount_pct_vs_index": 40.7,
+   "known_h100e_now": 527.12,
+   "providers_available": 10,
+   "ts": "2026-10-22T23:20:18Z",
+   "usd_per_h100e_hr": 2.0642
   }
  ],
  "source": "history.jsonl (append-only observations written by cmm_build.py)",
  "stats": {
   "count": 48,
-  "first_mark": 2.163,
-  "first_ts": "2026-10-16T23:20:36Z",
-  "last_mark": 2.084,
-  "last_ts": "2026-10-22T14:20:17Z",
+  "first_mark": 2.226,
+  "first_ts": "2026-10-17T08:20:55Z",
+  "last_mark": 2.0642,
+  "last_ts": "2026-10-22T23:20:18Z",
   "max_mark": 2.6674,
-  "median_mark": 2.1945,
+  "median_mark": 2.18905,
   "min_mark": 1.7294,
-  "pct_change_first_to_last": -3.6523,
+  "pct_change_first_to_last": -7.2686,
   "providers_max": 11,
   "providers_min": 9,
   "range_pct_max_over_min": 54.2385
