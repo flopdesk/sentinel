@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T06:20:51+0400",
+  "generated_at": "2026-10-26T09:20:51+0400",
   "source": "https://flop.finance",
   "repo": "https://github.com/flop-labs/yellowpaper",
   "sources_watched": [
@@ -13,6 +13,27 @@
   ],
   "count": 50,
   "items": [
+    {
+      "ts": "2026-10-26T09:20:51+0400",
+      "kind": "issues",
+      "title": "New YP issue(s) up to #195",
+      "detail": "open 78 (was 80)",
+      "link": "https://github.com/flop-labs/yellowpaper/issues"
+    },
+    {
+      "ts": "2026-10-26T09:20:51+0400",
+      "kind": "commit",
+      "title": "YP commit 56410c67b112",
+      "detail": "docs(yellowpaper): sync 0.5.0 (draft) from flop-core@dfd98a59",
+      "link": "https://github.com/flop-labs/yellowpaper/commit/56410c67b11292e707d32ef32e9c4ff9c02e28c7"
+    },
+    {
+      "ts": "2026-10-26T09:20:51+0400",
+      "kind": "docs",
+      "title": "Rendered docs pages changed",
+      "detail": "226e59494398 -> 1d5345985d5a",
+      "link": "https://flop.finance"
+    },
     {
       "ts": "2026-10-26T06:20:51+0400",
       "kind": "issues",
@@ -341,27 +362,6 @@
       "title": "YP commit 70e691c758e5",
       "detail": "docs(yellowpaper): sync 0.5.0 (draft) from flop-core@5e6e2427",
       "link": "https://github.com/flop-labs/yellowpaper/commit/70e691c758e53eed17a016a02b0a2ae1200d3744"
-    },
-    {
-      "ts": "2026-10-13T10:00:21+0400",
-      "kind": "issues",
-      "title": "YP open-issue count changed",
-      "detail": "open 75 (was 87)",
-      "link": "https://github.com/flop-labs/yellowpaper/issues"
-    },
-    {
-      "ts": "2026-10-13T10:00:21+0400",
-      "kind": "commit",
-      "title": "YP commit b03378c0a6d5",
-      "detail": "docs(yellowpaper): sync 0.5.0 (draft) from flop-core@a1f3759e",
-      "link": "https://github.com/flop-labs/yellowpaper/commit/b03378c0a6d5194d69e5be90968f46e8e6813cb8"
-    },
-    {
-      "ts": "2026-10-13T06:00:26+0400",
-      "kind": "issues",
-      "title": "New YP issue(s) up to #143",
-      "detail": "open 87 (was 86)",
-      "link": "https://github.com/flop-labs/yellowpaper/issues"
     }
   ]
 }
