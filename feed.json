@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T18:20:49+0400",
+  "generated_at": "2026-10-26T21:20:49+0400",
   "source": "https://flop.finance",
   "repo": "https://github.com/flop-labs/yellowpaper",
   "sources_watched": [
@@ -13,6 +13,20 @@
   ],
   "count": 50,
   "items": [
+    {
+      "ts": "2026-10-26T21:20:49+0400",
+      "kind": "issues",
+      "title": "New YP issue(s) up to #198",
+      "detail": "open 81 (was 78)",
+      "link": "https://github.com/flop-labs/yellowpaper/issues"
+    },
+    {
+      "ts": "2026-10-26T21:20:49+0400",
+      "kind": "docs",
+      "title": "Rendered docs pages changed",
+      "detail": "1d5345985d5a -> 1b6a0f656211",
+      "link": "https://flop.finance"
+    },
     {
       "ts": "2026-10-26T09:20:51+0400",
       "kind": "issues",
@@ -348,20 +362,6 @@
       "title": "New YP issue(s) up to #149",
       "detail": "open 74 (was 74)",
       "link": "https://github.com/flop-labs/yellowpaper/issues"
-    },
-    {
-      "ts": "2026-10-13T11:00:22+0400",
-      "kind": "issues",
-      "title": "New YP issue(s) up to #147",
-      "detail": "open 74 (was 75)",
-      "link": "https://github.com/flop-labs/yellowpaper/issues"
-    },
-    {
-      "ts": "2026-10-13T11:00:22+0400",
-      "kind": "commit",
-      "title": "YP commit 70e691c758e5",
-      "detail": "docs(yellowpaper): sync 0.5.0 (draft) from flop-core@5e6e2427",
-      "link": "https://github.com/flop-labs/yellowpaper/commit/70e691c758e53eed17a016a02b0a2ae1200d3744"
     }
   ]
 }
