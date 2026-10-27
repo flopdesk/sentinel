@@ -3,7 +3,14 @@
 <title>FLOP Docs Sentinel</title>
 <link>https://flop.finance</link>
 <description>Change feed for flop.finance docs and the flop-labs/yellowpaper repo.</description>
-<lastBuildDate>2026-10-27T12:20:37+0400</lastBuildDate>
+<lastBuildDate>2026-10-27T18:20:26+0400</lastBuildDate>
+<item>
+<title>New YP issue(s) up to #206</title>
+<description>open 83 (was 81)</description>
+<link>https://github.com/flop-labs/yellowpaper/issues</link>
+<guid isPermaLink="false">2026-10-27T18:20:26+0400|issues|New YP issue(s) up to #206</guid>
+<pubDate>2026-10-27T18:20:26+0400</pubDate>
+</item>
 <item>
 <title>New YP issue(s) up to #204</title>
 <description>open 81 (was 81)</description>
@@ -346,12 +353,5 @@
 <link>https://github.com/flop-labs/yellowpaper/issues</link>
 <guid isPermaLink="false">2026-10-14T06:00:10+0400|issues|New YP issue(s) up to #153</guid>
 <pubDate>2026-10-14T06:00:10+0400</pubDate>
-</item>
-<item>
-<title>New YP issue(s) up to #152</title>
-<description>open 74 (was 74)</description>
-<link>https://github.com/flop-labs/yellowpaper/issues</link>
-<guid isPermaLink="false">2026-10-13T23:00:33+0400|issues|New YP issue(s) up to #152</guid>
-<pubDate>2026-10-13T23:00:33+0400</pubDate>
 </item>
 </channel></rss>
