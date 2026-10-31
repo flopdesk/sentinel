@@ -1,0 +1,138 @@
+{
+ "delivers": 51744,
+ "distinct_bodies": 28946,
+ "repeat_body_lines": 25054,
+ "repeat_body_share": 0.4842,
+ "distinct_body_share": 0.5594,
+ "template_lines": 31218,
+ "template_share": 0.6033,
+ "cites_job_id": 345,
+ "cites_job_id_share": 0.0067,
+ "top_bodies": [
+  {
+   "hash16": "ac1dc357d283d229",
+   "count": 11487,
+   "distinct_dids": 1
+  },
+  {
+   "hash16": "ec8bfd9120c8177a",
+   "count": 332,
+   "distinct_dids": 1
+  },
+  {
+   "hash16": "7764825f6d5e8c7b",
+   "count": 288,
+   "distinct_dids": 1
+  },
+  {
+   "hash16": "23fac4567db2bfd6",
+   "count": 275,
+   "distinct_dids": 1
+  },
+  {
+   "hash16": "a86e0c5a36c31d73",
+   "count": 261,
+   "distinct_dids": 1
+  },
+  {
+   "hash16": "9a6bc574e3c945f2",
+   "count": 259,
+   "distinct_dids": 1
+  },
+  {
+   "hash16": "b5a53d2603c98d4d",
+   "count": 249,
+   "distinct_dids": 1
+  },
+  {
+   "hash16": "4624876f231f8c4e",
+   "count": 244,
+   "distinct_dids": 1
+  },
+  {
+   "hash16": "48ecb23405b5ff01",
+   "count": 223,
+   "distinct_dids": 1
+  },
+  {
+   "hash16": "436726616055777d",
+   "count": 186,
+   "distinct_dids": 1
+  }
+ ],
+ "worst_offsets": [
+  {
+   "did": "did:key:z6MkvudSY2Ezd4suJDfD2DYE8GAVUBCGHgjHjPMowhojvBUG",
+   "repeat_lines": 11487,
+   "delivers": 11487,
+   "repeat_share": 1.0
+  },
+  {
+   "did": "did:key:z6MkrJKiCbbrNF7no7SkwFqmmVDSb7iw3Mv6ZhomfJuuj8zE",
+   "repeat_lines": 46,
+   "delivers": 46,
+   "repeat_share": 1.0
+  },
+  {
+   "did": "did:key:z6MktGCz7VDwYsgbWnVAhHEcC6cWuFBuzXPdQ8ngzAqHavtS",
+   "repeat_lines": 45,
+   "delivers": 45,
+   "repeat_share": 1.0
+  },
+  {
+   "did": "did:key:z6MkgeoWpXnjfoZCGxpA6ps5QhgDSsrsKicKboEkmzDBskek",
+   "repeat_lines": 44,
+   "delivers": 44,
+   "repeat_share": 1.0
+  },
+  {
+   "did": "did:key:z6Mkm6UH7yyNJgfXG1ZARt3r5cb4Ztay3CA6Fm6Cbcx9WyFQ",
+   "repeat_lines": 44,
+   "delivers": 44,
+   "repeat_share": 1.0
+  },
+  {
+   "did": "did:key:z6MkmMehCTb6iWLzUFbMdesDpnT7ejkzVHc1oGe8QvYWKR5Z",
+   "repeat_lines": 410,
+   "delivers": 455,
+   "repeat_share": 0.9011
+  },
+  {
+   "did": "did:key:z6MkuibbetgUnbcG3Ty3ScJaqKZnf6qciLUyQRSFi62aN9Ga",
+   "repeat_lines": 34,
+   "delivers": 43,
+   "repeat_share": 0.7907
+  },
+  {
+   "did": "did:key:z6Mkn1treeR3DkLUiCciWkP2FGvs7X8J9rERhcosudjvNRff",
+   "repeat_lines": 32,
+   "delivers": 45,
+   "repeat_share": 0.7111
+  },
+  {
+   "did": "did:key:z6MkfJ8HoBrM3ao3x1UD3NbRUxhsSYiQZzTYCzUaohHCDgDV",
+   "repeat_lines": 27,
+   "delivers": 40,
+   "repeat_share": 0.675
+  },
+  {
+   "did": "did:key:z6MksyXQnH1Rqij1JyAHTxFheYXcDijyK9Ve9eqbNC29BAuy",
+   "repeat_lines": 30,
+   "delivers": 46,
+   "repeat_share": 0.6522
+  }
+ ],
+ "flow": {
+  "window_days": 7,
+  "delivers": 4355,
+  "repeat_body_share": 0.3481,
+  "unique_body_share": 0.6519,
+  "cites_job_id_share": 0.0432
+ },
+ "source": {
+  "archive": "/root/workspace/flop-agent/builds/explorer/archive/messages.jsonl",
+  "frames_scanned": 51744,
+  "tape_last_ts": "2026-10-31T12:00:34.715294Z",
+  "generated_at": "2026-10-31T12:32:20+00:00"
+ }
+}
