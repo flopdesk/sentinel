@@ -4,25 +4,9 @@
   "marks are observations at build time, not a tick or a price feed: the upstream monitor snapshot is the source, cadence is whenever cmm_build.py runs.",
   "the index is a capacity-weighted blend: per-class usd_per_h100e_hr legitimately spans several x, so quote the class you mean (see quotes.json), never the index."
  ],
- "generated_at": "2026-10-31T20:20:30Z",
+ "generated_at": "2026-11-01T02:20:41Z",
  "schema": "cmm.marks.v1",
  "series": [
-  {
-   "cheapest_class": "rtx4070ti",
-   "discount_pct_vs_index": 46.0,
-   "known_h100e_now": 686.76,
-   "providers_available": 10,
-   "ts": "2026-10-25T23:20:44Z",
-   "usd_per_h100e_hr": 2.2899
-  },
-  {
-   "cheapest_class": "rtx4070ti",
-   "discount_pct_vs_index": 43.8,
-   "known_h100e_now": 687.79,
-   "providers_available": 10,
-   "ts": "2026-10-26T02:20:51Z",
-   "usd_per_h100e_hr": 2.2012
-  },
   {
    "cheapest_class": "rtx4070ti",
    "discount_pct_vs_index": 43.4,
@@ -390,21 +374,37 @@
    "providers_available": 10,
    "ts": "2026-10-31T20:20:30Z",
    "usd_per_h100e_hr": 1.8578
+  },
+  {
+   "cheapest_class": "rtx4070ti",
+   "discount_pct_vs_index": 38.6,
+   "known_h100e_now": 855.11,
+   "providers_available": 10,
+   "ts": "2026-10-31T23:20:29Z",
+   "usd_per_h100e_hr": 1.7892
+  },
+  {
+   "cheapest_class": "rtx4070ti",
+   "discount_pct_vs_index": 39.1,
+   "known_h100e_now": 846.37,
+   "providers_available": 10,
+   "ts": "2026-11-01T02:20:41Z",
+   "usd_per_h100e_hr": 1.8011
   }
  ],
  "source": "history.jsonl (append-only observations written by cmm_build.py)",
  "stats": {
   "count": 48,
-  "first_mark": 2.2899,
-  "first_ts": "2026-10-25T23:20:44Z",
-  "last_mark": 1.8578,
-  "last_ts": "2026-10-31T20:20:30Z",
-  "max_mark": 2.2899,
-  "median_mark": 2.0533,
+  "first_mark": 2.1824,
+  "first_ts": "2026-10-26T05:20:51Z",
+  "last_mark": 1.8011,
+  "last_ts": "2026-11-01T02:20:41Z",
+  "max_mark": 2.2458,
+  "median_mark": 2.01845,
   "min_mark": 1.6602,
-  "pct_change_first_to_last": -18.8698,
+  "pct_change_first_to_last": -17.4716,
   "providers_max": 10,
   "providers_min": 9,
-  "range_pct_max_over_min": 37.9292
+  "range_pct_max_over_min": 35.2729
  }
 }
