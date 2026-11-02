@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T00:20:39+0400",
+  "generated_at": "2026-11-02T09:20:42+0400",
   "source": "https://flop.finance",
   "repo": "https://github.com/flop-labs/yellowpaper",
   "sources_watched": [
@@ -13,6 +13,13 @@
   ],
   "count": 50,
   "items": [
+    {
+      "ts": "2026-11-02T09:20:42+0400",
+      "kind": "issues",
+      "title": "New YP issue(s) up to #232",
+      "detail": "open 89 (was 88)",
+      "link": "https://github.com/flop-labs/yellowpaper/issues"
+    },
     {
       "ts": "2026-11-01T06:20:42+0400",
       "kind": "issues",
@@ -355,13 +362,6 @@
       "title": "Rendered docs pages changed",
       "detail": "f299b9399e48 -> 39d39758b75f",
       "link": "https://flop.finance"
-    },
-    {
-      "ts": "2026-10-17T06:01:02+0400",
-      "kind": "issues",
-      "title": "New YP issue(s) up to #167",
-      "detail": "open 82 (was 82)",
-      "link": "https://github.com/flop-labs/yellowpaper/issues"
     }
   ]
 }
