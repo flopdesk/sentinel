@@ -4,17 +4,9 @@
   "marks are observations at build time, not a tick or a price feed: the upstream monitor snapshot is the source, cadence is whenever cmm_build.py runs.",
   "the index is a capacity-weighted blend: per-class usd_per_h100e_hr legitimately spans several x, so quote the class you mean (see quotes.json), never the index."
  ],
- "generated_at": "2026-11-02T11:20:42Z",
+ "generated_at": "2026-11-02T14:20:21Z",
  "schema": "cmm.marks.v1",
  "series": [
-  {
-   "cheapest_class": "rtx4070ti",
-   "discount_pct_vs_index": 41.7,
-   "known_h100e_now": 807.04,
-   "providers_available": 10,
-   "ts": "2026-10-27T14:20:26Z",
-   "usd_per_h100e_hr": 2.1055
-  },
   {
    "cheapest_class": "rtx4070ti",
    "discount_pct_vs_index": 40.1,
@@ -390,19 +382,27 @@
    "providers_available": 10,
    "ts": "2026-11-02T11:20:42Z",
    "usd_per_h100e_hr": 1.8058
+  },
+  {
+   "cheapest_class": "rtx4070ti",
+   "discount_pct_vs_index": 40.6,
+   "known_h100e_now": 701.24,
+   "providers_available": 10,
+   "ts": "2026-11-02T14:20:21Z",
+   "usd_per_h100e_hr": 1.7836
   }
  ],
  "source": "history.jsonl (append-only observations written by cmm_build.py)",
  "stats": {
   "count": 48,
-  "first_mark": 2.1055,
-  "first_ts": "2026-10-27T14:20:26Z",
-  "last_mark": 1.8058,
-  "last_ts": "2026-11-02T11:20:42Z",
+  "first_mark": 2.0485,
+  "first_ts": "2026-10-27T17:20:26Z",
+  "last_mark": 1.7836,
+  "last_ts": "2026-11-02T14:20:21Z",
   "max_mark": 2.2286,
-  "median_mark": 1.8406,
+  "median_mark": 1.8232,
   "min_mark": 1.6602,
-  "pct_change_first_to_last": -14.2341,
+  "pct_change_first_to_last": -12.9314,
   "providers_max": 10,
   "providers_min": 9,
   "range_pct_max_over_min": 34.2368
