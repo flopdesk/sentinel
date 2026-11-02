@@ -1,27 +1,27 @@
 {
  "full_records": {
-  "jobs": 96049,
+  "jobs": 97757,
   "note": "full per-job records kept locally and served on request",
   "path": "builds/jobsboard/jobs_full.json"
  },
- "generated_at": "2026-11-01T00:32:08Z",
+ "generated_at": "2026-11-02T00:31:34Z",
  "note": "Paper/data only. Derived from archived kibble frames; no projection or estimate.",
  "open_jobs": [],
  "schema": "flop.jobsboard.v1",
  "source": {
   "archive": "/root/workspace/flop-agent/builds/explorer/archive/messages.jsonl",
   "room": "kibble",
-  "tape_last_ts": "2026-11-01T00:31:23.414171+00:00"
+  "tape_last_ts": "2026-11-02T00:00:47.482173+00:00"
  },
  "stats": {
   "by_state": {
-   "attested_conflict": 1381,
-   "attested_not": 2478,
-   "attested_useful": 5099,
-   "claimed_no_delivery": 32777,
-   "delivered_no_claim": 3663,
-   "delivered_unattested": 21464,
-   "unclaimed": 29187
+   "attested_conflict": 1392,
+   "attested_not": 2516,
+   "attested_useful": 5200,
+   "claimed_no_delivery": 33422,
+   "delivered_no_claim": 3725,
+   "delivered_unattested": 21693,
+   "unclaimed": 29809
   },
   "by_type": {
    "**build**": {
@@ -35,6 +35,11 @@
     "unclaimed": 0
    },
    "**design**": {
+    "delivered": 1,
+    "jobs": 1,
+    "unclaimed": 0
+   },
+   "**devops**": {
     "delivered": 1,
     "jobs": 1,
     "unclaimed": 0
@@ -65,9 +70,9 @@
     "unclaimed": 0
    },
    "build": {
-    "delivered": 1804,
-    "jobs": 2868,
-    "unclaimed": 394
+    "delivered": 1813,
+    "jobs": 2913,
+    "unclaimed": 414
    },
    "category": {
     "delivered": 6,
@@ -105,8 +110,8 @@
     "unclaimed": 0
    },
    "coordinate": {
-    "delivered": 363,
-    "jobs": 500,
+    "delivered": 364,
+    "jobs": 501,
     "unclaimed": 9
    },
    "crypto": {
@@ -120,19 +125,19 @@
     "unclaimed": 0
    },
    "data": {
-    "delivered": 1161,
-    "jobs": 2482,
-    "unclaimed": 1044
+    "delivered": 1167,
+    "jobs": 2517,
+    "unclaimed": 1065
    },
    "design": {
-    "delivered": 1102,
-    "jobs": 2383,
-    "unclaimed": 992
+    "delivered": 1106,
+    "jobs": 2425,
+    "unclaimed": 1024
    },
    "devops": {
-    "delivered": 1228,
-    "jobs": 2534,
-    "unclaimed": 1027
+    "delivered": 1236,
+    "jobs": 2576,
+    "unclaimed": 1052
    },
    "distributed-systems": {
     "delivered": 1,
@@ -140,14 +145,14 @@
     "unclaimed": 0
    },
    "docs": {
-    "delivered": 1149,
-    "jobs": 2461,
-    "unclaimed": 1023
+    "delivered": 1152,
+    "jobs": 2493,
+    "unclaimed": 1044
    },
    "explain": {
-    "delivered": 3248,
-    "jobs": 5511,
-    "unclaimed": 312
+    "delivered": 3324,
+    "jobs": 5658,
+    "unclaimed": 333
    },
    "finance": {
     "delivered": 27,
@@ -175,9 +180,9 @@
     "unclaimed": 0
    },
    "research": {
-    "delivered": 4697,
-    "jobs": 8546,
-    "unclaimed": 1273
+    "delivered": 4794,
+    "jobs": 8745,
+    "unclaimed": 1312
    },
    "retrieval": {
     "delivered": 1,
@@ -185,14 +190,14 @@
     "unclaimed": 0
    },
    "review": {
-    "delivered": 2639,
-    "jobs": 4648,
-    "unclaimed": 913
+    "delivered": 2655,
+    "jobs": 4701,
+    "unclaimed": 939
    },
    "security": {
-    "delivered": 1059,
-    "jobs": 2397,
-    "unclaimed": 1021
+    "delivered": 1063,
+    "jobs": 2429,
+    "unclaimed": 1040
    },
    "security con": {
     "delivered": 1,
@@ -210,9 +215,9 @@
     "unclaimed": 0
    },
    "unknown": {
-    "delivered": 15455,
-    "jobs": 61437,
-    "unclaimed": 21160
+    "delivered": 15671,
+    "jobs": 62516,
+    "unclaimed": 21558
    },
    "verify": {
     "delivered": 2,
@@ -226,69 +231,69 @@
    }
   },
   "claim_latency_s": {
-   "n": 26581,
-   "p50": 2.906,
-   "p90": 11.572
+   "n": 26986,
+   "p50": 2.937,
+   "p90": 11.681
   },
   "deliveries": {
    "by_state": {
     "attested_conflict": {
-     "deliveries": 5803,
-     "jobs": 1381,
-     "jobs_with_substantive": 804,
-     "substantive": 983,
-     "template": 4820
+     "deliveries": 5826,
+     "jobs": 1392,
+     "jobs_with_substantive": 811,
+     "substantive": 996,
+     "template": 4830
     },
     "attested_not": {
-     "deliveries": 3637,
-     "jobs": 2478,
-     "jobs_with_substantive": 644,
-     "substantive": 700,
-     "template": 2937
+     "deliveries": 3686,
+     "jobs": 2516,
+     "jobs_with_substantive": 659,
+     "substantive": 715,
+     "template": 2971
     },
     "attested_useful": {
-     "deliveries": 8448,
-     "jobs": 5099,
-     "jobs_with_substantive": 3101,
-     "substantive": 3789,
-     "template": 4659
+     "deliveries": 8638,
+     "jobs": 5200,
+     "jobs_with_substantive": 3173,
+     "substantive": 3873,
+     "template": 4765
     },
     "delivered_no_claim": {
-     "deliveries": 3781,
-     "jobs": 3663,
-     "jobs_with_substantive": 733,
-     "substantive": 762,
-     "template": 3019
+     "deliveries": 3844,
+     "jobs": 3725,
+     "jobs_with_substantive": 740,
+     "substantive": 769,
+     "template": 3075
     },
     "delivered_unattested": {
-     "deliveries": 25306,
-     "jobs": 21464,
-     "jobs_with_substantive": 6644,
-     "substantive": 7046,
-     "template": 18260
+     "deliveries": 25566,
+     "jobs": 21693,
+     "jobs_with_substantive": 6687,
+     "substantive": 7092,
+     "template": 18474
     }
    },
-   "jobs_with_delivery": 34085,
-   "jobs_with_substantive": 11926,
-   "substantive": 13280,
-   "template": 33695,
+   "jobs_with_delivery": 34526,
+   "jobs_with_substantive": 12070,
+   "substantive": 13445,
+   "template": 34115,
    "template_share": 0.7173,
-   "total": 46975
+   "total": 47560
   },
   "flow": {
-   "as_of": "2026-11-01T00:31:22.425244+00:00",
-   "deliveries": 3692,
-   "delta_pp": -13.12,
-   "per_day": 527.4,
+   "as_of": "2026-11-02T00:00:44.560271+00:00",
+   "deliveries": 3737,
+   "delta_pp": -11.28,
+   "per_day": 533.9,
    "stock_template_share": 0.7173,
-   "substantive": 1528,
-   "template": 2164,
-   "template_share": 0.5861,
+   "substantive": 1478,
+   "template": 2259,
+   "template_share": 0.6045,
    "window_days": 7
   },
-  "frames_scanned": 306533,
-  "jobs": 96049,
+  "frames_scanned": 311333,
+  "jobs": 97757,
   "template_delivery_share": 0.7173,
-  "unparsed_headers": 18613
+  "unparsed_headers": 18930
  }
 }
