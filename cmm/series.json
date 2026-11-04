@@ -1,22 +1,22 @@
 {
  "generated_from": "/root/workspace/flop-agent/builds/cmm/history.jsonl",
  "first_mark": "2026-10-01T12:32:23Z",
- "last_mark": "2026-11-03T11:20:52Z",
- "marks": 208,
- "days": 33,
- "last_close_usd_per_h100e_hr": 1.6768,
+ "last_mark": "2026-11-04T11:20:36Z",
+ "marks": 216,
+ "days": 34,
+ "last_close_usd_per_h100e_hr": 1.661,
  "last_cheapest_class": "rtx4070ti",
- "raw_change_pct": 34.59,
- "chain_linked_change_pct": -36.53,
- "artefact_pct": 71.12,
+ "raw_change_pct": 33.32,
+ "chain_linked_change_pct": -37.13,
+ "artefact_pct": 70.45,
  "current_regime": {
   "cheapest_class": "rtx4070ti",
   "start": "2026-10-23",
-  "days": 12,
+  "days": 13,
   "open": 2.1473,
-  "close": 1.6768,
-  "change_pct": -21.91,
-  "drawdown_from_high_pct": -27.06
+  "close": 1.661,
+  "change_pct": -22.65,
+  "drawdown_from_high_pct": -27.75
  },
  "regimes": [
   {
@@ -87,15 +87,15 @@
   {
    "cheapest_class": "rtx4070ti",
    "start": "2026-10-23",
-   "end": "2026-11-03",
+   "end": "2026-11-04",
    "open": 2.1473,
-   "close": 1.6768,
+   "close": 1.661,
    "min": 1.6602,
    "max": 2.2989,
-   "marks": 93,
-   "days": 12,
-   "change_pct": -21.91,
-   "drawdown_from_high_pct": -27.06
+   "marks": 101,
+   "days": 13,
+   "change_pct": -22.65,
+   "drawdown_from_high_pct": -27.75
   }
  ],
  "class_switch_artefacts": [
@@ -496,12 +496,23 @@
   {
    "day": "2026-11-03",
    "open": 1.7923,
-   "close": 1.6768,
+   "close": 1.7643,
    "min": 1.6768,
-   "max": 1.8139,
+   "max": 1.8206,
+   "n": 8,
+   "cheapest_class": "rtx4070ti",
+   "index": 66.782,
+   "class_switch": false
+  },
+  {
+   "day": "2026-11-04",
+   "open": 1.8268,
+   "close": 1.661,
+   "min": 1.661,
+   "max": 1.8268,
    "n": 4,
    "cheapest_class": "rtx4070ti",
-   "index": 63.47,
+   "index": 62.872,
    "class_switch": false
   }
  ]
