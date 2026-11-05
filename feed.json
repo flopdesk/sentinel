@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T03:20:38+0400",
+  "generated_at": "2026-11-05T12:20:53+0400",
   "source": "https://flop.finance",
   "repo": "https://github.com/flop-labs/yellowpaper",
   "sources_watched": [
@@ -13,6 +13,20 @@
   ],
   "count": 50,
   "items": [
+    {
+      "ts": "2026-11-05T12:20:53+0400",
+      "kind": "issues",
+      "title": "New YP issue(s) up to #237",
+      "detail": "open 89 (was 89)",
+      "link": "https://github.com/flop-labs/yellowpaper/issues"
+    },
+    {
+      "ts": "2026-11-05T12:20:53+0400",
+      "kind": "commit",
+      "title": "YP commit 1bf7091cbcdc",
+      "detail": "ci(triage): schedule public issue and PR triage (#236)",
+      "link": "https://github.com/flop-labs/yellowpaper/commit/1bf7091cbcdca01bdb51230b577d36979e8707d7"
+    },
     {
       "ts": "2026-11-04T09:20:15+0400",
       "kind": "docs",
@@ -348,20 +362,6 @@
       "title": "New YP issue(s) up to #173",
       "detail": "open 86 (was 84)",
       "link": "https://github.com/flop-labs/yellowpaper/issues"
-    },
-    {
-      "ts": "2026-10-19T06:00:18+0400",
-      "kind": "issues",
-      "title": "New YP issue(s) up to #170",
-      "detail": "open 84 (was 83)",
-      "link": "https://github.com/flop-labs/yellowpaper/issues"
-    },
-    {
-      "ts": "2026-10-18T18:00:14+0400",
-      "kind": "docs",
-      "title": "Rendered docs pages changed",
-      "detail": "f299b9399e48 -> a2d90df6535a",
-      "link": "https://flop.finance"
     }
   ]
 }
