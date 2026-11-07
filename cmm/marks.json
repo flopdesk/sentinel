@@ -4,25 +4,9 @@
   "marks are observations at build time, not a tick or a price feed: the upstream monitor snapshot is the source, cadence is whenever cmm_build.py runs.",
   "the index is a capacity-weighted blend: per-class usd_per_h100e_hr legitimately spans several x, so quote the class you mean (see quotes.json), never the index."
  ],
- "generated_at": "2026-11-07T08:20:10Z",
+ "generated_at": "2026-11-07T14:21:03Z",
  "schema": "cmm.marks.v1",
  "series": [
-  {
-   "cheapest_class": "rtx4070ti",
-   "discount_pct_vs_index": 38.6,
-   "known_h100e_now": 873.91,
-   "providers_available": 10,
-   "ts": "2026-11-01T11:20:42Z",
-   "usd_per_h100e_hr": 1.7783
-  },
-  {
-   "cheapest_class": "rtx4070ti",
-   "discount_pct_vs_index": 40.1,
-   "known_h100e_now": 836.36,
-   "providers_available": 10,
-   "ts": "2026-11-01T14:20:38Z",
-   "usd_per_h100e_hr": 1.814
-  },
   {
    "cheapest_class": "rtx4070ti",
    "discount_pct_vs_index": 42.0,
@@ -390,19 +374,35 @@
    "providers_available": 10,
    "ts": "2026-11-07T08:20:10Z",
    "usd_per_h100e_hr": 1.9195
+  },
+  {
+   "cheapest_class": "rtx4070ti",
+   "discount_pct_vs_index": 45.9,
+   "known_h100e_now": 843.48,
+   "providers_available": 10,
+   "ts": "2026-11-07T11:21:03Z",
+   "usd_per_h100e_hr": 1.8471
+  },
+  {
+   "cheapest_class": "rtx4070ti",
+   "discount_pct_vs_index": 45.1,
+   "known_h100e_now": 899.75,
+   "providers_available": 9,
+   "ts": "2026-11-07T14:21:03Z",
+   "usd_per_h100e_hr": 1.8212
   }
  ],
  "source": "history.jsonl (append-only observations written by cmm_build.py)",
  "stats": {
   "count": 48,
-  "first_mark": 1.7783,
-  "first_ts": "2026-11-01T11:20:42Z",
-  "last_mark": 1.9195,
-  "last_ts": "2026-11-07T08:20:10Z",
+  "first_mark": 1.7969,
+  "first_ts": "2026-11-01T17:20:39Z",
+  "last_mark": 1.8212,
+  "last_ts": "2026-11-07T14:21:03Z",
   "max_mark": 1.9195,
   "median_mark": 1.7669,
   "min_mark": 1.5605,
-  "pct_change_first_to_last": 7.9402,
+  "pct_change_first_to_last": 1.3523,
   "providers_max": 10,
   "providers_min": 9,
   "range_pct_max_over_min": 23.0054
