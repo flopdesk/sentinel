@@ -4,33 +4,9 @@
   "marks are observations at build time, not a tick or a price feed: the upstream monitor snapshot is the source, cadence is whenever cmm_build.py runs.",
   "the index is a capacity-weighted blend: per-class usd_per_h100e_hr legitimately spans several x, so quote the class you mean (see quotes.json), never the index."
  ],
- "generated_at": "2026-11-07T23:21:03Z",
+ "generated_at": "2026-11-08T08:20:35Z",
  "schema": "cmm.marks.v1",
  "series": [
-  {
-   "cheapest_class": "rtx4070ti",
-   "discount_pct_vs_index": 38.4,
-   "known_h100e_now": 551.18,
-   "providers_available": 10,
-   "ts": "2026-11-02T02:20:39Z",
-   "usd_per_h100e_hr": 1.7514
-  },
-  {
-   "cheapest_class": "rtx4070ti",
-   "discount_pct_vs_index": 40.1,
-   "known_h100e_now": 633.77,
-   "providers_available": 10,
-   "ts": "2026-11-02T05:20:42Z",
-   "usd_per_h100e_hr": 1.8078
-  },
-  {
-   "cheapest_class": "rtx4070ti",
-   "discount_pct_vs_index": 38.9,
-   "known_h100e_now": 608.26,
-   "providers_available": 10,
-   "ts": "2026-11-02T08:20:41Z",
-   "usd_per_h100e_hr": 1.7737
-  },
   {
    "cheapest_class": "rtx4070ti",
    "discount_pct_vs_index": 41.1,
@@ -390,21 +366,45 @@
    "providers_available": 10,
    "ts": "2026-11-07T23:21:03Z",
    "usd_per_h100e_hr": 1.8239
+  },
+  {
+   "cheapest_class": "rtx4070ti",
+   "discount_pct_vs_index": 50.8,
+   "known_h100e_now": 794.11,
+   "providers_available": 10,
+   "ts": "2026-11-08T02:20:35Z",
+   "usd_per_h100e_hr": 2.0876
+  },
+  {
+   "cheapest_class": "rtx4070ti",
+   "discount_pct_vs_index": 49.5,
+   "known_h100e_now": 767.43,
+   "providers_available": 10,
+   "ts": "2026-11-08T05:20:35Z",
+   "usd_per_h100e_hr": 2.0332
+  },
+  {
+   "cheapest_class": "rtx4070ti",
+   "discount_pct_vs_index": 39.5,
+   "known_h100e_now": 747.16,
+   "providers_available": 10,
+   "ts": "2026-11-08T08:20:35Z",
+   "usd_per_h100e_hr": 1.715
   }
  ],
  "source": "history.jsonl (append-only observations written by cmm_build.py)",
  "stats": {
   "count": 48,
-  "first_mark": 1.7514,
-  "first_ts": "2026-11-02T02:20:39Z",
-  "last_mark": 1.8239,
-  "last_ts": "2026-11-07T23:21:03Z",
-  "max_mark": 1.9275,
+  "first_mark": 1.8058,
+  "first_ts": "2026-11-02T11:20:42Z",
+  "last_mark": 1.715,
+  "last_ts": "2026-11-08T08:20:35Z",
+  "max_mark": 2.0876,
   "median_mark": 1.7669,
   "min_mark": 1.5605,
-  "pct_change_first_to_last": 4.1395,
+  "pct_change_first_to_last": -5.0282,
   "providers_max": 10,
   "providers_min": 9,
-  "range_pct_max_over_min": 23.5181
+  "range_pct_max_over_min": 33.7776
  }
 }
