@@ -1,31 +1,7 @@
 {
   "count": 48,
-  "generated_at": "2026-11-11T08:20:29Z",
+  "generated_at": "2026-11-11T17:20:33Z",
   "marks": [
-    {
-      "cheapest_class": "rtx4070ti",
-      "discount_pct": 38.7,
-      "known_h100e_now": 686.93,
-      "providers_available": 10,
-      "ts": "2026-11-05T11:20:53Z",
-      "usd_per_h100e_hr": 1.7314
-    },
-    {
-      "cheapest_class": "rtx4070ti",
-      "discount_pct": 38.4,
-      "known_h100e_now": 602.99,
-      "providers_available": 10,
-      "ts": "2026-11-05T14:20:40Z",
-      "usd_per_h100e_hr": 1.6449
-    },
-    {
-      "cheapest_class": "rtx4070ti",
-      "discount_pct": 40.9,
-      "known_h100e_now": 826.08,
-      "providers_available": 9,
-      "ts": "2026-11-05T17:20:40Z",
-      "usd_per_h100e_hr": 1.7617
-    },
     {
       "cheapest_class": "rtx4070ti",
       "discount_pct": 39.5,
@@ -385,6 +361,30 @@
       "providers_available": 10,
       "ts": "2026-11-11T08:20:29Z",
       "usd_per_h100e_hr": 1.7168
+    },
+    {
+      "cheapest_class": "rtx4070ti",
+      "discount_pct": 39.9,
+      "known_h100e_now": 750.75,
+      "providers_available": 10,
+      "ts": "2026-11-11T11:20:24Z",
+      "usd_per_h100e_hr": 1.6884
+    },
+    {
+      "cheapest_class": "rtx4070ti",
+      "discount_pct": 36.4,
+      "known_h100e_now": 614.42,
+      "providers_available": 9,
+      "ts": "2026-11-11T14:20:33Z",
+      "usd_per_h100e_hr": 1.5868
+    },
+    {
+      "cheapest_class": "rtx4070ti",
+      "discount_pct": 41.0,
+      "known_h100e_now": 646.68,
+      "providers_available": 10,
+      "ts": "2026-11-11T17:20:33Z",
+      "usd_per_h100e_hr": 1.7079
     }
   ],
   "schema": "cmm.history.v1"
