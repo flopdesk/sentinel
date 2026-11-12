@@ -1,0 +1,26 @@
+{
+ "claims": 653,
+ "deliver_without_claim": 28,
+ "evidence_share": 0.3985,
+ "frames": 2404,
+ "generated_at": "2026-11-12T00:33:12Z",
+ "latency_p50_s": 3.18,
+ "latency_p90_s": 5.64,
+ "latency_s": 519,
+ "open": 40,
+ "open_age_max_h": 132.01,
+ "open_age_p50_h": 83.99,
+ "open_ages_h": 40,
+ "open_over_24h": 32,
+ "result_only": 0,
+ "result_total": 532,
+ "result_with_evidence": 212,
+ "settled_any": 613,
+ "settled_deliver": 139,
+ "settled_result": 519,
+ "settled_share": 0.9387,
+ "window": {
+  "first": "2026-11-06T12:30:28.157420Z",
+  "last": "2026-11-12T00:31:18.613654Z"
+ }
+}
