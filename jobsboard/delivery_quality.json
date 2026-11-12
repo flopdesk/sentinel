@@ -3,7 +3,7 @@
  "deliver_without_claim": 28,
  "evidence_share": 0.3985,
  "frames": 2404,
- "generated_at": "2026-11-12T00:33:12Z",
+ "generated_at": "2026-11-12T12:32:47Z",
  "latency_p50_s": 3.18,
  "latency_p90_s": 5.64,
  "latency_s": 519,
