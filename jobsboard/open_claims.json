@@ -1,105 +1,105 @@
 {
  "lanes": [
   {
-   "age_max_h": 132.01,
+   "age_max_h": 156.03,
    "claims": 29,
    "did": "z6MksMhpuiZC",
    "open": 18,
    "open_share": 0.6207
   },
   {
-   "age_max_h": 71.98,
-   "claims": 50,
+   "age_max_h": 96.0,
+   "claims": 62,
    "did": "z6MkjnoCBXDL",
-   "open": 5,
-   "open_share": 0.1
+   "open": 7,
+   "open_share": 0.1129
   },
   {
-   "age_max_h": 60.02,
+   "age_max_h": 84.04,
    "claims": 6,
    "did": "z6Mkk5VyfvyY",
    "open": 4,
    "open_share": 0.6667
   },
   {
-   "age_max_h": 108.01,
+   "age_max_h": 132.03,
    "claims": 2,
    "did": "z6MkgoiWuGuy",
    "open": 2,
    "open_share": 1.0
   },
   {
-   "age_max_h": 131.99,
+   "age_max_h": 156.01,
    "claims": 1,
    "did": "z6MksftG3i1P",
    "open": 1,
    "open_share": 1.0
   },
   {
-   "age_max_h": 131.99,
+   "age_max_h": 156.01,
    "claims": 1,
    "did": "z6MkspZFg89c",
    "open": 1,
    "open_share": 1.0
   },
   {
-   "age_max_h": 131.99,
+   "age_max_h": 156.01,
    "claims": 1,
    "did": "z6MkfLY1Dwfk",
    "open": 1,
    "open_share": 1.0
   },
   {
-   "age_max_h": 107.97,
+   "age_max_h": 131.99,
    "claims": 1,
    "did": "z6MktECkn3D7",
    "open": 1,
    "open_share": 1.0
   },
   {
-   "age_max_h": 107.97,
+   "age_max_h": 131.99,
    "claims": 1,
    "did": "z6Mko5TNsQpM",
    "open": 1,
    "open_share": 1.0
   },
   {
-   "age_max_h": 107.97,
+   "age_max_h": 131.99,
    "claims": 1,
    "did": "z6MksaALnGuP",
    "open": 1,
    "open_share": 1.0
   },
   {
-   "age_max_h": 83.99,
+   "age_max_h": 108.01,
    "claims": 1,
    "did": "z6MkoLjNEyRG",
    "open": 1,
    "open_share": 1.0
   },
   {
-   "age_max_h": 83.99,
+   "age_max_h": 108.01,
    "claims": 1,
    "did": "z6MkqJ33HxLP",
    "open": 1,
    "open_share": 1.0
   },
   {
-   "age_max_h": 59.99,
+   "age_max_h": 84.01,
    "claims": 1,
    "did": "z6Mkmsq8XG8s",
    "open": 1,
    "open_share": 1.0
   },
   {
-   "age_max_h": 59.99,
+   "age_max_h": 84.01,
    "claims": 1,
    "did": "z6MkokoXEtBz",
    "open": 1,
    "open_share": 1.0
   },
   {
-   "age_max_h": 23.98,
+   "age_max_h": 48.0,
    "claims": 1,
    "did": "z6Mkqxhys8k9",
    "open": 1,
@@ -107,14 +107,14 @@
   },
   {
    "age_max_h": null,
-   "claims": 179,
+   "claims": 208,
    "did": "z6Mkw6dSgczP",
    "open": 0,
    "open_share": 0.0
   },
   {
    "age_max_h": null,
-   "claims": 63,
+   "claims": 86,
    "did": "z6MkoFUurt3A",
    "open": 0,
    "open_share": 0.0
@@ -128,7 +128,7 @@
   },
   {
    "age_max_h": null,
-   "claims": 9,
+   "claims": 10,
    "did": "z6Mks3GkYHmX",
    "open": 0,
    "open_share": 0.0
@@ -178,305 +178,319 @@
  ],
  "open_jobs": [
   {
-   "age_h": 132.01,
+   "age_h": 156.03,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "kc6c10689e6"
   },
   {
-   "age_h": 131.99,
+   "age_h": 156.01,
    "did": "z6MksftG3i1P",
    "has_deliver": false,
    "has_result": false,
    "job": "k5d84bc332f"
   },
   {
-   "age_h": 131.99,
+   "age_h": 156.01,
    "did": "z6MkspZFg89c",
    "has_deliver": false,
    "has_result": false,
    "job": "k4b663c6768"
   },
   {
-   "age_h": 131.99,
+   "age_h": 156.01,
    "did": "z6MkfLY1Dwfk",
    "has_deliver": false,
    "has_result": false,
    "job": "k9c45cb27cd"
   },
   {
-   "age_h": 131.99,
+   "age_h": 156.01,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "k68a1d93726"
   },
   {
-   "age_h": 131.99,
+   "age_h": 156.01,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "kd4bdd3fd41"
   },
   {
-   "age_h": 131.99,
+   "age_h": 156.01,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "k713bbf5ab1"
   },
   {
-   "age_h": 131.99,
+   "age_h": 156.01,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "k4cae45c533"
   },
   {
-   "age_h": 108.01,
+   "age_h": 132.03,
    "did": "z6MkgoiWuGuy",
    "has_deliver": false,
    "has_result": false,
    "job": "k86064dd774"
   },
   {
-   "age_h": 107.99,
+   "age_h": 132.01,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "k0dacd120f6"
   },
   {
-   "age_h": 107.98,
+   "age_h": 132.0,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "kaa306dd014"
   },
   {
-   "age_h": 107.97,
+   "age_h": 131.99,
    "did": "z6MktECkn3D7",
    "has_deliver": false,
    "has_result": false,
    "job": "k61fcfc4c8a"
   },
   {
-   "age_h": 107.97,
+   "age_h": 131.99,
    "did": "z6Mko5TNsQpM",
    "has_deliver": false,
    "has_result": false,
    "job": "kbd2ce54b29"
   },
   {
-   "age_h": 107.97,
+   "age_h": 131.99,
    "did": "z6MksaALnGuP",
    "has_deliver": false,
    "has_result": false,
    "job": "k729a323df4"
   },
   {
-   "age_h": 84.03,
+   "age_h": 108.05,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "k4a8b1ec114"
   },
   {
-   "age_h": 84.02,
+   "age_h": 108.04,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "kd51bd9051b"
   },
   {
-   "age_h": 84.02,
+   "age_h": 108.04,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "k0936add8fa"
   },
   {
-   "age_h": 84.02,
+   "age_h": 108.04,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "k8c4c6c12a5"
   },
   {
-   "age_h": 83.99,
+   "age_h": 108.01,
    "did": "z6MkoLjNEyRG",
    "has_deliver": false,
    "has_result": false,
    "job": "k42d98f2b5e"
   },
   {
-   "age_h": 83.99,
+   "age_h": 108.01,
    "did": "z6MkqJ33HxLP",
    "has_deliver": false,
    "has_result": false,
    "job": "k6244adf38e"
   },
   {
-   "age_h": 71.99,
+   "age_h": 96.0,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "k1967173197"
   },
   {
-   "age_h": 71.98,
+   "age_h": 96.0,
    "did": "z6MkjnoCBXDL",
    "has_deliver": false,
    "has_result": false,
    "job": "kf4237b13e2"
   },
   {
-   "age_h": 60.02,
+   "age_h": 84.04,
    "did": "z6Mkk5VyfvyY",
    "has_deliver": true,
    "has_result": false,
    "job": "k7b11523ad8"
   },
   {
-   "age_h": 59.99,
+   "age_h": 84.01,
    "did": "z6Mkmsq8XG8s",
    "has_deliver": false,
    "has_result": false,
    "job": "kdb04d47dfa"
   },
   {
-   "age_h": 59.99,
+   "age_h": 84.01,
    "did": "z6MkokoXEtBz",
    "has_deliver": false,
    "has_result": false,
    "job": "kf2e7c7a7c8"
   },
   {
-   "age_h": 59.99,
+   "age_h": 84.01,
    "did": "z6MkjnoCBXDL",
    "has_deliver": false,
    "has_result": false,
    "job": "k0de088c96f"
   },
   {
-   "age_h": 48.01,
+   "age_h": 72.03,
    "did": "z6MkjnoCBXDL",
    "has_deliver": true,
    "has_result": false,
    "job": "k811de7f587"
   },
   {
-   "age_h": 48.01,
+   "age_h": 72.03,
    "did": "z6MkgoiWuGuy",
    "has_deliver": false,
    "has_result": false,
    "job": "k4740325409"
   },
   {
-   "age_h": 47.99,
+   "age_h": 72.01,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "k2cdb067a1c"
   },
   {
-   "age_h": 24.02,
+   "age_h": 48.04,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "k0f33c4db46"
   },
   {
-   "age_h": 24.02,
+   "age_h": 48.04,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "k3417d1987a"
   },
   {
-   "age_h": 24.0,
+   "age_h": 48.02,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "k163db6731e"
   },
   {
-   "age_h": 24.0,
+   "age_h": 48.02,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "k8a771ee9fb"
   },
   {
-   "age_h": 23.98,
+   "age_h": 48.0,
    "did": "z6Mkqxhys8k9",
    "has_deliver": false,
    "has_result": false,
    "job": "k3c5f527ab1"
   },
   {
-   "age_h": 23.98,
+   "age_h": 48.0,
    "did": "z6MksMhpuiZC",
    "has_deliver": false,
    "has_result": false,
    "job": "kd984fb2086"
   },
   {
-   "age_h": 0.01,
+   "age_h": 24.03,
    "did": "z6MkjnoCBXDL",
    "has_deliver": true,
    "has_result": false,
    "job": "kbddf7c8edf"
   },
   {
-   "age_h": 0.02,
+   "age_h": 24.04,
    "did": "z6Mkk5VyfvyY",
    "has_deliver": false,
    "has_result": false,
    "job": "kd2134047d7"
   },
   {
-   "age_h": 0.02,
+   "age_h": 24.04,
    "did": "z6Mkk5VyfvyY",
    "has_deliver": false,
    "has_result": false,
    "job": "kd9acb2986e"
   },
   {
-   "age_h": 0.01,
+   "age_h": 24.02,
    "did": "z6Mkk5VyfvyY",
    "has_deliver": false,
    "has_result": false,
    "job": "k1925f4d39d"
   },
   {
-   "age_h": 0.0,
+   "age_h": 24.02,
    "did": "z6MkjnoCBXDL",
    "has_deliver": false,
    "has_result": false,
    "job": "k1aafe73cfb"
+  },
+  {
+   "age_h": 0.0,
+   "did": "z6MkjnoCBXDL",
+   "has_deliver": false,
+   "has_result": false,
+   "job": "kf48eef7bb7"
+  },
+  {
+   "age_h": 0.0,
+   "did": "z6MkjnoCBXDL",
+   "has_deliver": false,
+   "has_result": false,
+   "job": "ke9f675a6ca"
   }
  ],
  "tape": {
-  "frames": 2404,
+  "frames": 2679,
   "path": "kibble.ndjson.gz"
  },
  "totals": {
-  "claims": 653,
-  "lanes_total": 287,
+  "claims": 728,
+  "lanes_total": 297,
   "lanes_with_open": 15,
-  "open": 40,
-  "open_age_max_h": 132.01,
-  "open_age_p50_h": 83.99,
-  "open_over_24h": 32,
-  "settled": 613,
-  "settled_both": 45,
-  "settled_deliver": 94,
-  "settled_result": 474,
-  "settled_share": 0.9387,
+  "open": 42,
+  "open_age_max_h": 156.03,
+  "open_age_p50_h": 96.0,
+  "open_over_24h": 40,
+  "settled": 686,
+  "settled_both": 59,
+  "settled_deliver": 115,
+  "settled_result": 512,
+  "settled_share": 0.9423,
   "top_open_count": 18,
   "top_open_lane": "z6MksMhpuiZC",
-  "top_open_share": 0.45
+  "top_open_share": 0.4286
  }
 }
